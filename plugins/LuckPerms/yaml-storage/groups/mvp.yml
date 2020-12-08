@@ -1,0 +1,14 @@
+name: mvp
+permissions:
+- auctionmaster.limit.auctions.11
+- rank.MVP
+- tab.sort.MVP
+- weight.5
+parents:
+- vip+
+prefixes:
+- '&b[MVP] ':
+    priority: 5
+suffixes:
+- '&bMVP':
+    priority: 5

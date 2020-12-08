@@ -1,0 +1,9 @@
+messages:
+  noPermission: "&cYou dont have permission to use this command!"
+  disablePlace: "&cYou cannot place store this item inside the backpack!"
+  disableCraft: "&cYou cannot craft the backpack this way!"
+  giveMessage: "&6{player} &agave you &6{backpack}"
+showContents: true
+
+displayItemInLore: '&f{item_name} &7x{number}'
+otherItemsInLore: '&7and &f{amount} &7other items!' 

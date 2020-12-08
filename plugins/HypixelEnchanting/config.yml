@@ -1,0 +1,220 @@
+exit: "&cExit"
+noenchant: "&cNo Enchantable Item Found"
+not-enough-levels: "&cNot enough levels!"
+click-to-enchant: "&eClick to enchant!"
+at-least: "&7Guarantees at least:"
+levels: " Levels"
+enchxpcolor: "&6"
+enchant-item: "&aEnchant Item §8- "
+inventory-name: "Enchant Item"
+onlyplayers: "&cOnly players can use this command."
+nopermission: "&cYou don't have permission to do this!"
+reloadedconfig: "&aReloaded config for HypixelEnchanting"
+
+not-enough-levels-sound: "VILLAGER_NO"
+enchanted-sound: "ORB_PICKUP"
+
+
+PROTECTION_ENVIRONMENTAL:
+  name: "&9Protection"
+
+  description:
+    -  "&7Grants general protection against"
+    -  "&7attacks, fire, lava, and falling."
+
+PROTECTION_FIRE:
+  name: "&9Fire Protection"
+
+  description:
+    -  "&7Reduces damage caused by"
+    -  "&7fire and lava."
+
+
+PROTECTION_FALL:
+  name: "&9Feather Falling"
+
+  description:
+    -  "&7Reduces fall and teleportation"
+    -  "&7damage."
+
+PROTECTION_EXPLOSIONS:
+  name: "&9Blast Protection"
+
+  description:
+    -  "&7Reduces blast and explosion damage."
+    
+
+
+PROTECTION_PROJECTILE:
+  name: "&9Projectile Protection"
+
+  description:
+    -  "&7Reduces projectile damage."
+    
+
+
+OXYGEN:
+  name: "&9Respiration"
+
+  description:
+    -  "&7Extends underwater breathing time."
+    
+
+
+WATER_WORKER:
+  name: "&9Aqua Affinity"
+
+  description:
+    -  "&7Speeds up how fast you can mine"
+    -  "&7blocks underwater."
+    
+
+
+THORNS:
+  name: "&9Thorns"
+
+  description:
+    -  "&7Reflects some of the damage"
+    -  "&7taken against the attacker."
+    
+
+
+DEPTH_STRIDER:
+  name: "&9Depth Strider"
+
+  description:
+    -  "&7Increases underwater movement speed."
+    
+
+
+DAMAGE_ALL:
+  name: "&9Sharpness"
+
+  description:
+    -  "&7Increases attack damage dealt"
+    -  "&7to mobs, animals or other players."
+    
+
+
+DAMAGE_UNDEAD:
+  name: "&9Smite"
+
+  description:
+    -  "&7Increases attack damage"
+    -  "&7against undead mobs."
+    
+
+
+DAMAGE_ARTHROPODS:
+  name: "&9Bane of Arthropods"
+
+  description:
+    -  "&7Increases attack damage"
+    -  "&7against arthropods."
+    
+
+
+KNOCKBACK:
+  name: "&9Knockback"
+
+  description:
+    -  "&7Increases knockback dealt."
+    
+
+
+FIRE_ASPECT:
+  name: "&9Fire Aspect"
+
+  description:
+    -  "&7Sets target on fire."
+    
+
+
+LOOT_BONUS_MOBS:
+  name: "&9Looting"
+
+  description:
+    -  "&7Increases amount of loot dropped"
+    -  "&7when the mob is killed."
+    
+
+
+DIG_SPEED:
+  name: "&9Efficiency"
+
+  description:
+    -  "&7Increases the speed of which"
+    -  "&7the tool breaks blocks."
+    
+
+
+SILK_TOUCH:
+  name: "&9Silk Touch"
+
+  description:
+    -  "&7Mined blocks drop themselves."
+    
+
+
+DURABILITY:
+  name: "&9Unbreaking"
+
+  description:
+    -  "&7Increases item durability."
+    
+
+
+LOOT_BONUS_BLOCKS:
+  name: "&9Fortune"
+
+  description:
+    -  "&7Increases block drops from mining."
+    
+
+
+ARROW_DAMAGE:
+  name: "&9Power"
+
+  description:
+    -  "&7Increases damage dealt by arrows."
+    
+
+
+ARROW_KNOCKBACK:
+  name: "&9Punch"
+
+  description:
+    -  "&7Increases knockback dealt."
+   
+
+
+ARROW_FIRE:
+  name: "&9Flame"
+
+  description:
+    -  "&7Arrows set target on fire."
+    
+
+
+ARROW_INFINITE:
+  name: "&9Infinity"
+
+  description:
+    -  "&7Shooting consumes no regular arrows."
+    
+
+
+LUCK:
+  name: "&9Luck of the Sea"
+
+  description:
+    -  "&7Increases chances of catching valuable items."
+    
+
+
+LURE:
+  name: "&9Lure"
+
+  description:
+    -  "&7Increases the rate of fish biting your hook."
+    

@@ -1,0 +1,142 @@
+menu_title: '&8Profile Management'
+open_command:
+- profile-management
+size: 36
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 16
+        - 17
+        - 18 
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      used-slot:
+        material: EMERALD_BLOCK
+        slot: 11
+        display_name: '&eProfile: &aDefault'
+        lore:
+        - '&8Default Slot'
+        - ''
+        - '&7Mining: &eLvl %skills_skillLevelMining%'
+        - '&7Farming: &eLvl %skills_skillLevelFarming%'
+        - '&7Combat: &eLvl %skills_skillLevelCombat%'
+        - '&7Foraging: &eLvl %skills_skillLevelForaging%'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_collections}_m:45%%'
+        - '%progress_bar_{customplaceholders_collections}_c:&2-_p:&2-_r:&f-_l:20_m:45_fullbar:&2--------------------% &e%customplaceholders_collections%&6/&e45'
+        - '&7Unlocked Recipes: &e%progress_percentage_{customplaceholders_recipes}_m:86%%'
+        - '%progress_bar_{customplaceholders_recipes}_c:&2-_p:&2-_r:&f-_l:20_m:86_fullbar:&2--------------------% &e%customplaceholders_recipes%&6/&e86'
+        - '&7Unlocked Trades: &e%progress_percentage_{customplaceholders_trades}_m:20%%'
+        - '%progress_bar_{customplaceholders_trades}_c:&2-_p:&2-_r:&f-_l:20_m:20_fullbar:&2--------------------% &e%customplaceholders_trades%&6/&e20'
+        - ''
+        - '&7Purse Coins: &6%vault_eco_balance_commas%'
+        - '&7Bank Coins: &6%royaleeconomy_balance_bank%'
+        - '&7Created: &9%player_first_join_date%'
+        - ''
+        - '&bThis slot cannot be modified.'
+        - '&aYou are playing on this profile!'
+        left_click_commands: []
+        right_click_commands: []
+      empty-slot:
+        material: 143
+        slot: 12
+        display_name: '&eEmpty profile slot'
+        lore:
+        - '&8Available'
+        - ''
+        - '&7Use this slot if you want'
+        - '&7to stat a new Skyblock adventure.'
+        - ''
+        - '&7Each profile has its own:'
+        - '&8● &7Personal Island'
+        - '&8● &7Inventory'
+        - '&8● &7Ender Chest'
+        - '&8● &7Bank & Purse'
+        - '&8● &7Quests'
+        - '&8● &7Collections'
+        - '&8● &7Recipe Book'
+        - '&8● &7Trades'
+        - ''
+        - '&bRight-Click to /coop!'
+        - '&eClick to create solo profile!'
+        left_click_commands:
+        - '[message] &cThis is a experimental feature that is not available for everyone yet.'
+        right_click_commands:
+        - '[message] &cThis is a experimental feature that is not available for everyone yet.'
+      other-slot-2:
+        material: BEDROCK
+        slot: 13
+        display_name: '&cLocked profile slot'
+        lore:
+        - '&8Unavailable'
+        - ''
+        - '&7This slot is locked to you'
+        - '&7at this time but might be'
+        - '&7available in the future.'
+        left_click_commands: []
+        right_click_commands: []
+      other-slot-3:
+        material: BEDROCK
+        slot: 14
+        display_name: '&cLocked profile slot'
+        lore:
+        - '&8Unavailable'
+        - ''
+        - '&7This slot is locked to you'
+        - '&7at this time but might be'
+        - '&7available in the future.'
+        left_click_commands: []
+        right_click_commands: []
+      other-slot-4:
+        material: BEDROCK
+        slot: 15
+        display_name: '&cLocked profile slot'
+        lore:
+        - '&8Unavailable'
+        - ''
+        - '&7This slot is locked to you'
+        - '&7at this time but might be'
+        - '&7available in the future.'
+        left_click_commands: []
+        right_click_commands: []
+      go-back:
+        material: arrow
+        slot: 31
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

@@ -1,0 +1,18 @@
+{
+  "schematics": [
+    {
+      "name": "island.schematic",
+      "x": 35.5,
+      "y": 116.0,
+      "z": 14.5,
+      "netherisland": "nether.schematic",
+      "permission": "",
+      "item": "GRASS_BLOCK",
+      "displayname": "&b&lDefault Island",
+      "lore": [
+        "&7The default island"
+      ],
+      "slot": 0
+    }
+  ]
+}

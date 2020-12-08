@@ -1,0 +1,1731 @@
+menu_title: 'Skyblock Experience'
+open_command: 'experience'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 2
+        - 6
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 31
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      XP:
+        material: 379
+        priority: 1
+        slot: 0
+        amount: 1
+        display_name: '&aSkyBlock Level'
+        lore:
+        - '&7Levelup your Skyblock Level'
+        - '&7to gain access to new recipes'
+        - '&7trades, zones and more!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1:
+        material: 160
+        priority: 1
+        slot: 1
+        data: 5
+        amount: 1
+        display_name: '&aSkyblock Level I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fClay &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &aEnchanted Paper &7Recipe'
+        - '  &aEnchanted Book &7(&9Protection I&7) &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-1-progress:
+        material: 160
+        priority: 2
+        slot: 1
+        data: 4
+        amount: 1
+        display_name: '&eSkyblock Level I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 0
+        lore:
+        - '&7Rewards:'
+        - '  &fClay &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &aEnchanted Paper &7Recipe'
+        - '  &aEnchanted Book &7(&9Protection I&7) &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1-locked:
+        material: 160
+        priority: 3
+        slot: 1
+        data: 14
+        amount: 1
+        display_name: '&cSkyblock Level I'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fClay &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &aEnchanted Paper &7Recipe'
+        - '  &aEnchanted Book &7(&9Protection I&7) &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      level-2:
+        material: 160
+        priority: 1
+        slot: 10
+        data: 5
+        amount: 2
+        display_name: '&aSkyblock Level II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '&7  &fLeaves &7Trade'
+        - '&7  &aCobblestone Armor Helmet &7Recipe'
+        - '&7  &aCobblestone Armor Chestplate &7Recipe'
+        - '&7  &aCobblestone Armor Leggings &7Recipe'
+        - '&7  &aCobblestone Armor Boots &7Recipe'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &aEnchanted Acacia Log &7Recipe'
+        - '&7  &aEnchanted Redstone &7Recipe'
+        - '&7  &aEnchanted Book &7(&9Efficiency I&7) &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-2-progress:
+        material: 160
+        priority: 2
+        slot: 10
+        data: 4
+        amount: 2
+        display_name: '&eSkyblock Level II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '&7  &fLeaves &7Trade'
+        - '&7  &aCobblestone Armor Helmet &7Recipe'
+        - '&7  &aCobblestone Armor Chestplate &7Recipe'
+        - '&7  &aCobblestone Armor Leggings &7Recipe'
+        - '&7  &aCobblestone Armor Boots &7Recipe'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &aEnchanted Acacia Log &7Recipe'
+        - '&7  &aEnchanted Redstone &7Recipe'
+        - '&7  &aEnchanted Book &7(&9Efficiency I&7) &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-2-locked:
+        material: 160
+        priority: 3
+        slot: 10
+        data: 14
+        amount: 2
+        display_name: '&cSkyblock Level II'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '&7  &fLeaves &7Trade'
+        - '&7  &aCobblestone Armor Helmet &7Recipe'
+        - '&7  &aCobblestone Armor Chestplate &7Recipe'
+        - '&7  &aCobblestone Armor Leggings &7Recipe'
+        - '&7  &aCobblestone Armor Boots &7Recipe'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &aEnchanted Acacia Log &7Recipe'
+        - '&7  &aEnchanted Redstone &7Recipe'
+        - '&7  &aEnchanted Book &7(&9Efficiency I&7) &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-3:
+        material: 160
+        priority: 1
+        slot: 19
+        data: 5
+        amount: 3
+        display_name: '&aSkyblock Level III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &aEnchanted String &7Recipe'
+        - '  &aEnchanted Red Mushroom &7Recipe'
+        - '  &aEnchanted Brown Mushroom &7Recipe'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &aEnchanted Iron Ingot &7Recipe'
+        - '  &aEnchanted Gold Ingot &7Recipe'
+        - '  &aEnchanted Book &7(&9Fortune I&7) &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-3-progress:
+        material: 160
+        priority: 2
+        slot: 19
+        data: 4
+        amount: 3
+        display_name: '&eSkyblock Level III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &aEnchanted String &7Recipe'
+        - '  &aEnchanted Red Mushroom &7Recipe'
+        - '  &aEnchanted Brown Mushroom &7Recipe'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &aEnchanted Iron Ingot &7Recipe'
+        - '  &aEnchanted Gold Ingot &7Recipe'
+        - '  &aEnchanted Book &7(&9Fortune I&7) &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-3-locked:
+        material: 160
+        priority: 3
+        slot: 19
+        data: 14
+        amount: 3
+        display_name: '&cSkyblock Level III'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &aEnchanted String &7Recipe'
+        - '  &aEnchanted Red Mushroom &7Recipe'
+        - '  &aEnchanted Brown Mushroom &7Recipe'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &aEnchanted Iron Ingot &7Recipe'
+        - '  &aEnchanted Gold Ingot &7Recipe'
+        - '  &aEnchanted Book &7(&9Fortune I&7) &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-4:
+        material: 160
+        priority: 1
+        slot: 28
+        data: 5
+        amount: 4
+        display_name: '&aSkyblock Level IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fLeaves &7Trade'
+        - '  &fMushroom Armor Helmet &7Recipe'
+        - '  &fMushroom Armor Chestplate &7Recipe'
+        - '  &fMushroom Armor Leggings &7Recipe'
+        - '  &fMushroom Armor Boots &7Recipe'
+        - '  &aEnchanted Iron Block &7Recipe'
+        - '  &aEnchanted Flint &7Recipe'
+        - '  &aEnchanted Book &7(&9Sharpness I&7) &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-progress:
+        material: 160
+        priority: 2
+        slot: 28
+        data: 4
+        amount: 4
+        display_name: '&eSkyblock Level IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fLeaves &7Trade'
+        - '  &fMushroom Armor Helmet &7Recipe'
+        - '  &fMushroom Armor Chestplate &7Recipe'
+        - '  &fMushroom Armor Leggings &7Recipe'
+        - '  &fMushroom Armor Boots &7Recipe'
+        - '  &aEnchanted Iron Block &7Recipe'
+        - '  &aEnchanted Flint &7Recipe'
+        - '  &aEnchanted Book &7(&9Sharpness I&7) &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-locked:
+        material: 160
+        priority: 3
+        slot: 28
+        data: 14
+        amount: 4
+        display_name: '&cSkyblock Level IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fLeaves &7Trade'
+        - '  &fMushroom Armor Helmet &7Recipe'
+        - '  &fMushroom Armor Chestplate &7Recipe'
+        - '  &fMushroom Armor Leggings &7Recipe'
+        - '  &fMushroom Armor Boots &7Recipe'
+        - '  &aEnchanted Iron Block &7Recipe'
+        - '  &aEnchanted Flint &7Recipe'
+        - '  &aEnchanted Book &7(&9Sharpness I&7) &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-5:
+        material: 160
+        priority: 1
+        slot: 29
+        data: 5
+        amount: 5
+        display_name: '&aSkyblock Level V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &fOak Armor Helmet &7Recipe'
+        - '  &fOak Armor Chestplate &7Recipe'
+        - '  &fOak Armor Leggings &7Recipe'
+        - '  &fOak Armor Boots &7Recipe'
+        - '  &aAccess to the &fBarn'
+        - '  &aAccess to the &bDeep Caverns'
+        - '  &aAccess to the &cSpider''s Den'
+        - '  &aEnchanted Hay Bale &7Recipe'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &aEnchanted Spider Eye &7Recipe'
+        - '  &aEnchanted Book &7(&9Bane Of Arthropods I&7) &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-progress:
+        material: 160
+        priority: 2
+        slot: 29
+        data: 4
+        amount: 5
+        display_name: '&eSkyblock Level V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &fOak Armor Helmet &7Recipe'
+        - '  &fOak Armor Chestplate &7Recipe'
+        - '  &fOak Armor Leggings &7Recipe'
+        - '  &fOak Armor Boots &7Recipe'
+        - '  &aAccess to the &fBarn'
+        - '  &aAccess to the &bDeep Caverns'
+        - '  &aAccess to the &cSpider''s Den'
+        - '  &aEnchanted Hay Bale &7Recipe'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &aEnchanted Spider Eye &7Recipe'
+        - '  &aEnchanted Book &7(&9Bane Of Arthropods I&7) &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-locked:
+        material: 160
+        priority: 3
+        slot: 29
+        data: 14
+        amount: 5
+        display_name: '&cSkyblock Level V'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &fOak Armor Helmet &7Recipe'
+        - '  &fOak Armor Chestplate &7Recipe'
+        - '  &fOak Armor Leggings &7Recipe'
+        - '  &fOak Armor Boots &7Recipe'
+        - '  &aAccess to the &fBarn'
+        - '  &aAccess to the &bDeep Caverns'
+        - '  &aAccess to the &cSpider''s Den'
+        - '  &aEnchanted Hay Bale &7Recipe'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &aEnchanted Spider Eye &7Recipe'
+        - '  &aEnchanted Book &7(&9Bane Of Arthropods I&7) &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-6:
+        material: 160
+        priority: 1
+        slot: 30
+        data: 5
+        amount: 6
+        display_name: '&aSkyblock Level VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &fRed Sand &7Trade'
+        - '  &aEnchanted Diamond &7Recipe'
+        - '  &aEnchanted Book &7(&9Smite I&7) &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-progress:
+        material: 160
+        priority: 2
+        slot: 30
+        data: 4
+        amount: 6
+        display_name: '&eSkyblock Level VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &fRed Sand &7Trade'
+        - '  &aEnchanted Diamond &7Recipe'
+        - '  &aEnchanted Book &7(&9Smite I&7) &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-locked:
+        material: 160
+        priority: 3
+        slot: 30
+        data: 14
+        amount: 6
+        display_name: '&cSkyblock Level VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &fRed Sand &7Trade'
+        - '  &aEnchanted Diamond &7Recipe'
+        - '  &aEnchanted Book &7(&9Smite I&7) &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+      level-7:
+        material: 160
+        priority: 1
+        slot: 21
+        data: 5
+        amount: 7
+        display_name: '&aSkyblock Level VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &9Farmer Diamond Helmet &7Recipe'
+        - '  &9Farmer Diamond Chestplate &7Recipe'
+        - '  &9Farmer Diamond Leggings &7Recipe'
+        - '  &9Farmer Diamond Boots &7Recipe'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Aspect I&7) &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-progress:
+        material: 160
+        priority: 2
+        slot: 21
+        data: 4
+        amount: 7
+        display_name: '&eSkyblock Level VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &9Farmer Diamond Helmet &7Recipe'
+        - '  &9Farmer Diamond Chestplate &7Recipe'
+        - '  &9Farmer Diamond Leggings &7Recipe'
+        - '  &9Farmer Diamond Boots &7Recipe'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Aspect I&7) &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-locked:
+        material: 160
+        priority: 3
+        slot: 21
+        data: 14
+        amount: 7
+        display_name: '&cSkyblock Level VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &9Farmer Diamond Helmet &7Recipe'
+        - '  &9Farmer Diamond Chestplate &7Recipe'
+        - '  &9Farmer Diamond Leggings &7Recipe'
+        - '  &9Farmer Diamond Boots &7Recipe'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Aspect I&7) &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      level-8:
+        material: 160
+        priority: 1
+        slot: 12
+        data: 5
+        amount: 8
+        display_name: '&aSkyblock Level VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &9Hardened Diamond Helmet &7Recipe'
+        - '  &9Hardened Diamond Chestplate &7Recipe'
+        - '  &9Hardened Diamond Leggings &7Recipe'
+        - '  &9Hardened Diamond Boots &7Recipe'
+        - '  &aEnchanted Gold Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Looting I&7) &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-progress:
+        material: 160
+        priority: 2
+        slot: 12
+        data: 4
+        amount: 8
+        display_name: '&eSkyblock Level VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &9Hardened Diamond Helmet &7Recipe'
+        - '  &9Hardened Diamond Chestplate &7Recipe'
+        - '  &9Hardened Diamond Leggings &7Recipe'
+        - '  &9Hardened Diamond Boots &7Recipe'
+        - '  &aEnchanted Gold Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Looting I&7) &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-locked:
+        material: 160
+        priority: 3
+        slot: 12
+        data: 14
+        amount: 8
+        display_name: '&cSkyblock Level VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &9Hardened Diamond Helmet &7Recipe'
+        - '  &9Hardened Diamond Chestplate &7Recipe'
+        - '  &9Hardened Diamond Leggings &7Recipe'
+        - '  &9Hardened Diamond Boots &7Recipe'
+        - '  &aEnchanted Gold Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Looting I&7) &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-9:
+        material: 160
+        priority: 1
+        slot: 3
+        data: 5
+        amount: 9
+        display_name: '&aSkyblock Level IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &aEnchanted Emerald &7Recipe'
+        - '  &aEnchanted Book &7(&9Knockback I&7) &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-progress:
+        material: 160
+        priority: 2
+        slot: 3
+        data: 4
+        amount: 9
+        display_name: '&eSkyblock Level IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &aEnchanted Emerald &7Recipe'
+        - '  &aEnchanted Book &7(&9Knockback I&7) &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-locked:
+        material: 160
+        priority: 3
+        slot: 3
+        data: 14
+        amount: 9
+        display_name: '&cSkyblock Level IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &aEnchanted Emerald &7Recipe'
+        - '  &aEnchanted Book &7(&9Knockback I&7) &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-10:
+        material: 160
+        priority: 1
+        slot: 4
+        data: 5
+        amount: 10
+        display_name: '&aSkyblock Level X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &aEnchanted Feather &7Recipe'
+        - '  &aEnchanted Book &7(&9Feather Falling I&7) &7Recipe'
+        - '  &aAccess to the &cNether'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-progress:
+        material: 160
+        priority: 2
+        slot: 4
+        data: 4
+        amount: 10
+        display_name: '&eSkyblock Level X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &aEnchanted Feather &7Recipe'
+        - '  &aEnchanted Book &7(&9Feather Falling I&7) &7Recipe'
+        - '  &aAccess to the &cNether'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-locked:
+        material: 160
+        priority: 3
+        slot: 4
+        data: 14
+        amount: 10
+        display_name: '&cSkyblock Level X'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &aEnchanted Feather &7Recipe'
+        - '  &aEnchanted Book &7(&9Feather Falling I&7) &7Recipe'
+        - '  &aAccess to the &cNether'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-11:
+        material: 160
+        priority: 1
+        slot: 5
+        data: 5
+        amount: 11
+        display_name: '&aSkyblock Level XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &aFeather Armor Helmet &7Recipe'
+        - '  &aFeather Armor Chestplate &7Recipe'
+        - '  &aFeather Armor Leggings &7Recipe'
+        - '  &aFeather Armor Boots &7Recipe'
+        - '  &aEnchanted Emerald Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Respiration I&7) &7Recipe'
+        - '  &8+&61000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-progress:
+        material: 160
+        priority: 2
+        slot: 5
+        data: 4
+        amount: 11
+        display_name: '&eSkyblock Level XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &aFeather Armor Helmet &7Recipe'
+        - '  &aFeather Armor Chestplate &7Recipe'
+        - '  &aFeather Armor Leggings &7Recipe'
+        - '  &aFeather Armor Boots &7Recipe'
+        - '  &aEnchanted Emerald Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Respiration I&7) &7Recipe'
+        - '  &8+&61000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-locked:
+        material: 160
+        priority: 3
+        slot: 5
+        data: 14
+        amount: 11
+        display_name: '&cSkyblock Level XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &aFeather Armor Helmet &7Recipe'
+        - '  &aFeather Armor Chestplate &7Recipe'
+        - '  &aFeather Armor Leggings &7Recipe'
+        - '  &aFeather Armor Boots &7Recipe'
+        - '  &aEnchanted Emerald Block &7Recipe'
+        - '  &aEnchanted Book &7(&9Respiration I&7) &7Recipe'
+        - '  &8+&61000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-12:
+        material: 160
+        priority: 1
+        slot: 14
+        data: 5
+        amount: 12
+        display_name: '&aSkyblock Level XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &9Emerald Armor Helmet &7Recipe'
+        - '  &9Emerald Armor Chestplate &7Recipe'
+        - '  &9Emerald Armor Leggings &7Recipe'
+        - '  &9Emerald Armor Boots &7Recipe'
+        - '  &aEnchanted Prismarine Crystal &7Recipe'
+        - '  &aEnchanted Book &7(&9Aqua Affinity I&7) &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-progress:
+        material: 160
+        priority: 2
+        slot: 14
+        data: 4
+        amount: 12
+        display_name: '&eSkyblock Level XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &9Emerald Armor Helmet &7Recipe'
+        - '  &9Emerald Armor Chestplate &7Recipe'
+        - '  &9Emerald Armor Leggings &7Recipe'
+        - '  &9Emerald Armor Boots &7Recipe'
+        - '  &aEnchanted Prismarine Crystal &7Recipe'
+        - '  &aEnchanted Book &7(&9Aqua Affinity I&7) &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-locked:
+        material: 160
+        priority: 3
+        slot: 14
+        data: 14
+        amount: 12
+        display_name: '&cSkyblock Level XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &9Emerald Armor Helmet &7Recipe'
+        - '  &9Emerald Armor Chestplate &7Recipe'
+        - '  &9Emerald Armor Leggings &7Recipe'
+        - '  &9Emerald Armor Boots &7Recipe'
+        - '  &aEnchanted Prismarine Crystal &7Recipe'
+        - '  &aEnchanted Book &7(&9Aqua Affinity I&7) &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-13:
+        material: 160
+        priority: 1
+        slot: 23
+        data: 5
+        amount: 13
+        display_name: '&aSkyblock Level XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &aEnchanted Book &7(&9Power I&7) &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-progress:
+        material: 160
+        priority: 2
+        slot: 23
+        data: 4
+        amount: 13
+        display_name: '&eSkyblock Level XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &aEnchanted Book &7(&9Power I&7) &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-locked:
+        material: 160
+        priority: 3
+        slot: 23
+        data: 14
+        amount: 13
+        display_name: '&cSkyblock Level XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &aEnchanted Book &7(&9Power I&7) &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-14:
+        material: 160
+        priority: 1
+        slot: 32
+        data: 5
+        amount: 14
+        display_name: '&aSkyblock Level XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Silk Touch I&7) &7Recipe'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-progress:
+        material: 160
+        priority: 2
+        slot: 32
+        data: 4
+        amount: 14
+        display_name: '&eSkyblock Level XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Silk Touch I&7) &7Recipe'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-locked:
+        material: 160
+        priority: 3
+        slot: 32
+        data: 14
+        amount: 14
+        display_name: '&cSkyblock Level XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Silk Touch I&7) &7Recipe'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-15:
+        material: 160
+        priority: 1
+        slot: 33
+        data: 5
+        amount: 15
+        display_name: '&aSkyblock Level XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Cactus &7Recipe'
+        - '  &aEnchanted Book &7(&9Thorns I&7) &7Recipe'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-progress:
+        material: 160
+        priority: 2
+        slot: 33
+        data: 4
+        amount: 15
+        display_name: '&eSkyblock Level XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Cactus &7Recipe'
+        - '  &aEnchanted Book &7(&9Thorns I&7) &7Recipe'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-locked:
+        material: 160
+        priority: 3
+        slot: 33
+        data: 14
+        amount: 15
+        display_name: '&cSkyblock Level XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Cactus &7Recipe'
+        - '  &aEnchanted Book &7(&9Thorns I&7) &7Recipe'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-16:
+        material: 160
+        priority: 1
+        slot: 34
+        data: 5
+        amount: 16
+        display_name: '&aSkyblock Level XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Powder &7Recipe'
+        - '  &aEnchanted Book &7(&9Flame I&7) &7Recipe'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-progress:
+        material: 160
+        priority: 2
+        slot: 34
+        data: 4
+        amount: 16
+        display_name: '&eSkyblock Level XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Powder &7Recipe'
+        - '  &aEnchanted Book &7(&9Flame I&7) &7Recipe'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-locked:
+        material: 160
+        priority: 3
+        slot: 34
+        data: 14
+        amount: 16
+        display_name: '&cSkyblock Level XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Powder &7Recipe'
+        - '  &aEnchanted Book &7(&9Flame I&7) &7Recipe'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-17:
+        material: 160
+        priority: 1
+        slot: 25
+        data: 5
+        amount: 17
+        display_name: '&aSkyblock Level XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Punch I&7) &7Recipe'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-progress:
+        material: 160
+        priority: 2
+        slot: 25
+        data: 4
+        amount: 17
+        display_name: '&eSkyblock Level XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Punch I&7) &7Recipe'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-locked:
+        material: 160
+        priority: 3
+        slot: 25
+        data: 14
+        amount: 17
+        display_name: '&cSkyblock Level XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Punch I&7) &7Recipe'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-18:
+        material: 160
+        priority: 1
+        slot: 16
+        data: 5
+        amount: 18
+        display_name: '&aSkyblock Level XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Infinity I&7) &7Recipe'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-progress:
+        material: 160
+        priority: 2
+        slot: 16
+        data: 4
+        amount: 18
+        display_name: '&eSkyblock Level XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Infinity I&7) &7Recipe'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-locked:
+        material: 160
+        priority: 3
+        slot: 16
+        data: 14
+        amount: 18
+        display_name: '&cSkyblock Level XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &aEnchanted Book &7(&9Infinity I&7) &7Recipe'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-19:
+        material: 160
+        priority: 1
+        slot: 7
+        data: 5
+        amount: 19
+        display_name: '&aSkyblock Level XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Depth Strider I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Projectile Protection I&7) &7Recipe'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-progress:
+        material: 160
+        priority: 2
+        slot: 7
+        data: 4
+        amount: 19
+        display_name: '&eSkyblock Level XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Depth Strider I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Projectile Protection I&7) &7Recipe'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-locked:
+        material: 160
+        priority: 3
+        slot: 7
+        data: 14
+        amount: 19
+        display_name: '&cSkyblock Level XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Book &7(&9Depth Strider I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Projectile Protection I&7) &7Recipe'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-20:
+        material: 160
+        priority: 1
+        slot: 8
+        data: 5
+        amount: 20
+        display_name: '&aSkyblock Level XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Armor Helmet &7Recipe'
+        - '  &5Magma Armor Chestplate &7Recipe'
+        - '  &5Magma Armor Leggings &7Recipe'
+        - '  &5Magma Armor Boots &7Recipe'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Protection I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Blast Protection I&7) &7Recipe'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-progress:
+        material: 160
+        priority: 2
+        slot: 8
+        data: 4
+        amount: 20
+        display_name: '&eSkyblock Level XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%LevelPoints_player_level%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Armor Helmet &7Recipe'
+        - '  &5Magma Armor Chestplate &7Recipe'
+        - '  &5Magma Armor Leggings &7Recipe'
+        - '  &5Magma Armor Boots &7Recipe'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Protection I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Blast Protection I&7) &7Recipe'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-locked:
+        material: 160
+        priority: 3
+        slot: 8
+        data: 14
+        amount: 20
+        display_name: '&cSkyblock Level XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%LevelPoints_player_level%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Armor Helmet &7Recipe'
+        - '  &5Magma Armor Chestplate &7Recipe'
+        - '  &5Magma Armor Leggings &7Recipe'
+        - '  &5Magma Armor Boots &7Recipe'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &aEnchanted Book &7(&9Fire Protection I&7) &7Recipe'
+        - '  &aEnchanted Book &7(&9Blast Protection I&7) &7Recipe'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

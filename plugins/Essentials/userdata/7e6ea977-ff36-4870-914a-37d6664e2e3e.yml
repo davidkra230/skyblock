@@ -1,0 +1,23 @@
+nickname: §cworldwar_3z
+lastAccountName: worldwar_3z
+timestamps:
+  login: 1603337363834
+  lastteleport: 1603337548251
+  logout: 1603338653600
+ipAddress: 127.0.0.1
+godmode: false
+money: '0'
+lastlocation:
+  world: Server
+  x: 0.0
+  y: 88.0
+  z: 0.0
+  yaw: 0.54757875
+  pitch: -0.73010415
+logoutlocation:
+  world: Server
+  x: 0.05312713448746734
+  y: 88.0625
+  z: -0.8646401334849714
+  yaw: -25.702414
+  pitch: 12.769892

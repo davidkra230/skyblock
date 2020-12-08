@@ -1,0 +1,384 @@
+menu_title: 'Farming Collection'
+open_command: 'farming-collection'
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 41
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      farming:
+        material: GOLD_HOE
+        slot: 4
+        display_name: '&aFarming Collection'
+        hide_attributes: true
+        lore:
+        - '&7View your Farming Collection!'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_farmingcollection}_m:10%%'
+        - '%progress_bar_{customplaceholders_farmingcollection}_c:&2-_p:&2-_r:&f-_l:20_m:10_fullbar:&2--------------------% &e%customplaceholders_farmingcollection%&6/&e10'
+        left_click_commands: []
+        right_click_commands: []
+
+      wheat:
+        display_name: '&aWheat'
+        material: WHEAT
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.wheat'
+        priority: 1
+        data: 0
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+      wheat-locked:
+        display_name: '&cWheat'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      carrot:
+        display_name: '&aCarrot'
+        material: 391
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.carrot'
+        priority: 1
+        data: 0
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+      carrot-locked:
+        display_name: '&cCarrot'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      potato:
+        display_name: '&aPotato'
+        material: 392
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.potato'
+        priority: 1
+        data: 0
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+      potato-locked:
+        display_name: '&cPotato'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      pumpkin:
+        display_name: '&aPumpkin'
+        material: PUMPKIN
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.pumpkin'
+        priority: 1
+        data: 0
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+      pumpkin-locked:
+        display_name: '&cPumpkin'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      melon:
+        display_name: '&aMelon'
+        material: 360
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.melon'
+        priority: 1
+        data: 0
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+      melon-locked:
+        display_name: '&cMelon'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      red-mushroom:
+        display_name: '&aRed Mushroom'
+        material: 40
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.red-mushroom'
+        priority: 1
+        data: 0
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+      red-mushroom-locked:
+        display_name: '&cRed Mushroom'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      brown-mushroom:
+        display_name: '&aBrown Mushroom'
+        material: 39
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.brown-mushroom'
+        priority: 1
+        data: 0
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+      brown-mushroom-locked:
+        display_name: '&cBrown Mushroom'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      cactus:
+        display_name: '&aCactus'
+        material: CACTUS
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.cactus'
+        priority: 1
+        data: 0
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+      cactus-locked:
+        display_name: '&cCactus'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      sugar-cane:
+        display_name: '&aSugar Cane'
+        material: SUGAR_CANE
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.sugar-cane'
+        priority: 1
+        data: 0
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+      sugar-cane-locked:
+        display_name: '&cSugar Cane'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      nether-wart:
+        display_name: '&aNether Wart'
+        material: 372
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.nether-wart'
+        priority: 1
+        data: 0
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+      nether-wart-locked:
+        display_name: '&cNether Wart'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] collections'
+        right_click_commands:
+        - '[openguimenu] collections'

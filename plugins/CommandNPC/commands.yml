@@ -1,0 +1,76 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~ah~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~reshop open farmer~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~reshop open lumberjack~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '3':
+    Commands:
+    - 1~~~reshop open miner~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '4':
+    Commands:
+    - 1~~~reshop open builder~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '5':
+    Commands:
+    - 1~~~reshop open armorer~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '6':
+    Commands:
+    - 1~~~reshop open hunter~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '7':
+    Commands:
+    - 1~~~reshop open fisher~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '8':
+    Commands:
+    - 1~~~reshop open weaponsmith~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '9':
+    Commands:
+    - 1~~~reshop open enchanter~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '10':
+    Commands:
+    - 1~~~reshop open witch~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '12':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '13':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '14':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '15':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '16':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '17':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '18':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '19':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '20':
+    Commands:
+    - 1~~~lift~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '25':
+    Commands:
+    - 1~~~rewards~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '26':
+    Commands:
+    - 1~~~rewards~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '27':
+    Commands:
+    - 1~~~rewards~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '31':
+    Commands:
+    - 1~~~reshop open merchant~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '32':
+    Commands:
+    - 1~~~bank~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

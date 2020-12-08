@@ -1,0 +1,169 @@
+menu_title: 'Collections'
+open_command:
+- collections
+- collectionmenu
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 99
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      collections:
+        material: PAINTING
+        slot: 4
+        display_name: '&aCollections'
+        hide_attributes: true
+        lore:
+        - '&7Advance your Collections'
+        - '&7by exploring and getting new'
+        - '&7items!'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_collections}_m:45%%'
+        - '%progress_bar_{customplaceholders_collections}_c:&2-_p:&2-_r:&f-_l:20_m:45_fullbar:&2--------------------% &e%customplaceholders_collections%&6/&e45'
+        left_click_commands: []
+        right_click_commands: []
+      farming:
+        material: GOLD_HOE
+        slot: 20
+        display_name: '&aFarming Collection'
+        hide_attributes: true
+        lore:
+        - '&7Advance your Farming collection'
+        - '&7by harvesting crops.'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_farmingcollection}_m:10%%'
+        - '%progress_bar_{customplaceholders_farmingcollection}_c:&2-_p:&2-_r:&f-_l:20_m:10_fullbar:&2--------------------% &e%customplaceholders_farmingcollection%&6/&e10'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] farming-collection'
+        right_click_commands:
+        - '[openguimenu] farming-collection'
+      mining:
+        material: STONE_PICKAXE
+        slot: 21
+        display_name: '&aMining Collection'
+        hide_attributes: true
+        lore:
+        - '&7Advance your Mining collection'
+        - '&7by mining ores and stone.'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_miningcollection}_m:14%%'
+        - '%progress_bar_{customplaceholders_miningcollection}_c:&2-_p:&2-_r:&f-_l:20_m:14_fullbar:&2--------------------% &e%customplaceholders_miningcollection%&6/&e14'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] mining-collection'
+        right_click_commands:
+        - '[openguimenu] mining-collection'
+      combat:
+        material: STONE_SWORD
+        slot: 22
+        display_name: '&aCombat Collection'
+        hide_attributes: true
+        lore:
+        - '&7Advance your Combat collection'
+        - '&7by killing mobs and doing slayer'
+        - '&7missions.'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_combatcollection}_m:10%%'
+        - '%progress_bar_{customplaceholders_combatcollection}_c:&2-_p:&2-_r:&f-_l:20_m:10_fullbar:&2--------------------% &e%customplaceholders_combatcollection%&6/&e10'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] combat-collection'
+        right_click_commands:
+        - '[openguimenu] combat-collection'
+      foraging:
+        material: 6
+        data: 3
+        slot: 23
+        display_name: '&aForaging Collection'
+        lore:
+        - '&7Advance your Foraging collection'
+        - '&7by chopping logs.'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_foragingcollection}_m:6%%'
+        - '%progress_bar_{customplaceholders_foragingcollection}_c:&2-_p:&2-_r:&f-_l:20_m:6_fullbar:&2--------------------% &e%customplaceholders_foragingcollection%&6/&e6'
+        - ''
+        - '&eClick to visualize!'
+        left_click_commands:
+        - '[openguimenu] foraging-collection'
+        right_click_commands:
+        - '[openguimenu] foraging-collection'
+      enchanting:
+        material: 116
+        slot: 24
+        display_name: '&aEnchanting Collection'
+        lore:
+        - '&cSoon!'
+        left_click_commands: []
+        right_click_commands: []
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

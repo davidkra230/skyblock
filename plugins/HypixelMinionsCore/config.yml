@@ -1,0 +1,111 @@
+placeholders:
+  defense:
+    name: 'defense'
+    zero-display: '0'
+    normal-display: '%value%'
+  bonusdefense:
+    name: 'bonusdefense'
+    zero-display: '0'
+    normal-display: '%value%'
+  strength:
+    name: 'strength'
+    zero-display: '0'
+    normal-display: '%value%'
+  bonusstrength:
+    name: 'bonusstrength'
+    zero-display: '0'
+    normal-display: '%value%'
+  speed:
+    name: 'speed'
+    zero-display: '100'
+    normal-display: '%value%'
+  bonusspeed:
+    name: 'bonusspeed'
+    zero-display: '0'
+    normal-display: '%value%'
+  critdamage:
+    name: 'critdamage'
+    zero-display: '0'
+    normal-display: '%value%'
+  bonuscritdamage:
+    name: 'bonuscritdamage'
+    zero-display: '0'
+    normal-display: '%value%'
+  critchance:
+    name: 'critchance'
+    zero-display: '0'
+    normal-display: '%value%'
+  bonuscritchance:
+    name: 'bonuscritchance'
+    zero-display: '0'
+    normal-display: '%value%'
+  intelligence:
+    name: 'intelligence'
+    zero-display: '0'
+    normal-display: '%value%'
+  bonusintelligence:
+    name: 'bonusintelligence'
+    zero-display: '0'
+    normal-display: '%value%'
+  collections:
+    name: 'collections'
+    zero-display: '0'
+    normal-display: '%value%'
+  recipes:
+    name: 'recipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  trades:
+    name: 'trades'
+    zero-display: '0'
+    normal-display: '%value%'
+  farmingcollection:
+    name: 'farmingcollection'
+    zero-display: '0'
+    normal-display: '%value%'
+  miningcollection:
+    name: 'miningcollection'
+    zero-display: '0'
+    normal-display: '%value%'
+  combatcollection:
+    name: 'combatcollection'
+    zero-display: '0'
+    normal-display: '%value%'
+  foragingcollection:
+    name: 'foragingcollection'
+    zero-display: '0'
+    normal-display: '%value%'
+  farmingrecipes:
+    name: 'farmingrecipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  miningrecipes:
+    name: 'miningrecipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  combatrecipes:
+    name: 'combatrecipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  foragingrecipes:
+    name: 'foragingrecipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  enchantingrecipes:
+    name: 'enchantingrecipes'
+    zero-display: '0'
+    normal-display: '%value%'
+  mana:
+    name: 'mana'
+    zero-display: '0'
+    normal-display: '%value%'
+  maxmana:
+    name: 'maxmana'
+    zero-display: '100'
+    normal-display: '%value%'
+
+placeholders-text:
+  mission:
+    name: 'mission'
+    zero-display: 'None'
+    normal-display: '%value%'

@@ -1,0 +1,261 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.80
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.25
+        default: 0.25
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+      night_vision:
+        duration: 999999
+        level: 1
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 10
+        - customplaceholders add {player} bonusdefense 10
+      remove:
+        - customplaceholders remove {player} defense 10
+        - customplaceholders remove {player} bonusdefense 10
+    name: '&fMushroom Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+10'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 16
+        - customplaceholders add {player} bonusdefense 16
+      remove:
+        - customplaceholders remove {player} defense 16
+        - customplaceholders remove {player} bonusdefense 16
+    name: '&fMushroom Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+16'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 14
+        - customplaceholders add {player} bonusdefense 14
+      remove:
+        - customplaceholders remove {player} defense 14
+        - customplaceholders remove {player} bonusdefense 14
+    name: '&fMushroom Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+14'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 8
+        - customplaceholders add {player} bonusdefense 8
+      remove:
+        - customplaceholders remove {player} defense 8
+        - customplaceholders remove {player} bonusdefense 8
+    name: '&fMushroom Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+8'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fMushroom Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+10'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fMushroom Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+16'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fMushroom Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+14'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fMushroom Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:77:77
+    lore:
+      - '&7Defense: &a+8'
+      - '&8&c'
+      - '&6Full Set Bonus: Night Passion'
+      - '&7Gives a permanent night vision. Also'
+      - '&7during the night, the attributes of the'
+      - '&7set are tripled.'
+      - '&8&5'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

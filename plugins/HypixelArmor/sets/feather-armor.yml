@@ -1,0 +1,261 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - speed walk 1.05 {player}
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - speed walk 1 {player}
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.50
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.25
+        default: 0.25
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+  2:
+    type: fall
+    sound:
+      enabled: false
+      type: 'bat_takeoff'
+      volume: 1
+      pitch: 2
+    message:
+      enabled: false
+      text:
+        - '&7'
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 10
+        - customplaceholders add {player} bonusdefense 10
+      remove:
+        - customplaceholders remove {player} defense 10
+        - customplaceholders remove {player} bonusdefense 10
+    name: '&aFeather Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 16
+        - customplaceholders add {player} bonusdefense 16
+      remove:
+        - customplaceholders remove {player} defense 16
+        - customplaceholders remove {player} bonusdefense 16
+    name: '&aFeather Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+16'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 14
+        - customplaceholders add {player} bonusdefense 14
+      remove:
+        - customplaceholders remove {player} defense 14
+        - customplaceholders remove {player} bonusdefense 14
+    name: '&aFeather Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+14'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 8
+        - customplaceholders add {player} bonusdefense 8
+      remove:
+        - customplaceholders remove {player} defense 8
+        - customplaceholders remove {player} bonusdefense 8
+    name: '&aFeather Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+8'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&aFeather Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&aFeather Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+16'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&aFeather Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+14'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&aFeather Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:255:255
+    lore:
+      - '&7Defense: &a+8'
+      - '&4&4'
+      - '&6Full Set Bonus: Feather Falling'
+      - '&7Fall damage will no longer damage'
+      - '&7the wearer.'
+      - '&8'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

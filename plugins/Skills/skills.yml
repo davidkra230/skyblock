@@ -1,0 +1,1025 @@
+farming:
+  expAmount: 1
+  rewards:
+    '1':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8None➜&3I
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Cactus &7Recipe
+    - whisper %player% &7    &8+&650 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '2':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8I➜&3II
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Red Mushroom &7Recipe
+    - whisper %player% &7    &aEnchanted Brown Mushroom &7Recipe
+    - whisper %player% &7    &8+&6100 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100
+    - customplaceholders add %player% farmingrecipes 2
+    - customplaceholders add %player% recipes 2
+    '3':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8II➜&3III
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fMushroom Helmet &7Recipe
+    - whisper %player% &7    &fMushroom Chestplate &7Recipe
+    - whisper %player% &7    &fMushroom Leggings &7Recipe
+    - whisper %player% &7    &fMushroom Boots &7Recipe
+    - whisper %player% &7    &8+&6200 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 200
+    - customplaceholders add %player% farmingrecipes 4
+    - customplaceholders add %player% recipes 4
+    '4':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8III➜&3IV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Hay Bale &7Recipe
+    - whisper %player% &7    &8+&6300 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 300
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '5':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8IV➜&3V
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aAccess to &bThe Barn
+    - whisper %player% &7    &9  Farmer Helmet &7Recipe
+    - whisper %player% &7    &9  Farmer Chestplate &7Recipe
+    - whisper %player% &7    &9  Farmer Leggings &7Recipe
+    - whisper %player% &7    &9  Farmer Boots &7Recipe
+    - whisper %player% &7    &8+&6400 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 400
+    - customplaceholders add %player% farmingrecipes 4
+    - customplaceholders add %player% recipes 4
+    - lp user %player% permission set jumppad.barn true
+    '6':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8V➜&3VI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Paper &7Recipe
+    - whisper %player% &7    &8+&6500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 500
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '7':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8VI➜&3VII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Flint &7Recipe
+    - whisper %player% &7    &8+&6600 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 600
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '8':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8VII➜&3VIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Feather &7Recipe
+    - whisper %player% &7    &8+&6700 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 700
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '9':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8VIII➜&3IX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aFeather Helmet &7Recipe
+    - whisper %player% &7    &aFeather Chestplate &7Recipe
+    - whisper %player% &7    &aFeather Leggings &7Recipe
+    - whisper %player% &7    &aFeather Boots &7Recipe
+    - whisper %player% &7    &8+&6800 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 800
+    - customplaceholders add %player% farmingrecipes 4
+    - customplaceholders add %player% recipes 4
+    '10':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8IX➜&3X
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Prismarine Crystals &7Recipe
+    - whisper %player% &7    &8+&6900 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 900
+    - customplaceholders add %player% farmingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '11':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8X➜&3XI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&61,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 1000
+    '12':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XI➜&3XII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&62,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 2000
+    '13':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XII➜&3XIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&63,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 3000
+    '14':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XIII➜&3XIV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&64,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 4000
+    '15':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XIV➜&3XV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&65,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 5000
+    '16':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XV➜&3XVI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&67,500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 7500
+    '17':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XVI➜&3XVII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&610,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 10000
+    '18':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XVII➜&3XVIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&625,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 25000
+    '19':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XVIII➜&3XIX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&650,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50000
+    '20':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Farming &8XIX➜&3MAX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&6100,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100000
+  levels:
+    '0': 50
+    '1': 50
+    '2': 125
+    '3': 200
+    '4': 300
+    '5': 500
+    '6': 750
+    '7': 1000
+    '8': 1500
+    '9': 2000
+    '10': 3500
+    '11': 5000
+    '12': 7500
+    '13': 10000
+    '14': 15000
+    '15': 20000
+    '16': 30000
+    '17': 50000
+    '18': 75000
+    '19': 100000
+foraging:
+  expAmount: 1
+  rewards:
+    '1':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8None➜&3I
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fOak Leaves &7Trade
+    - whisper %player% &7    &fBirch Leaves &7Trade
+    - whisper %player% &7    &fSpruce Leaves &7Trade
+    - whisper %player% &7    &fJungle Leaves &7Trade
+    - whisper %player% &7    &aEnchanted Oak Log &7Recipe
+    - whisper %player% &7    &8+&650 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50
+    - customplaceholders add %player% trades 4
+    - customplaceholders add %player% foragingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '2':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8I➜&3II
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fVine &7Trade
+    - whisper %player% &7    &fOak Boots &7Recipe
+    - whisper %player% &7    &fOak Chestplate &7Recipe
+    - whisper %player% &7    &fOak Leggings &7Recipe
+    - whisper %player% &7    &fOak Boots &7Recipe
+    - whisper %player% &7    &8+&6100 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100
+    - customplaceholders add %player% trades 1
+    - customplaceholders add %player% foragingrecipes 4
+    - customplaceholders add %player% recipes 4
+    '3':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8II➜&3III
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fAcacia Leaves &7Trade
+    - whisper %player% &7    &fDark Oak Leaves &7Trade
+    - whisper %player% &7    &aEnchanted Acacia Log &7Recipe
+    - whisper %player% &7    &8+&6200 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 200
+    - customplaceholders add %player% trades 2
+    - customplaceholders add %player% foragingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '4':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8III➜&3IV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fLong Grass &7Trade
+    - whisper %player% &7    &fDouble Grass &7Trade
+    - whisper %player% &7    &aSavanna Bow &7Recipe
+    - whisper %player% &7    &8+&6300 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 300
+    - customplaceholders add %player% trades 2
+    - customplaceholders add %player% foragingrecipes 1
+    - customplaceholders add %player% recipes 1
+    '5':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8IV➜&3V
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fDead Bush &7Trade
+    - whisper %player% &7    &8+&6400 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 400
+    - customplaceholders add %player% trades 1
+    '6':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8V➜&3VI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fRed Sand &7Trade
+    - whisper %player% &7    &8+&6500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 500
+    - customplaceholders add %player% trades 1
+    '7':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8VI➜&3VII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fSoul Sand &7Trade
+    - whisper %player% &7    &8+&6600 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 600
+    - customplaceholders add %player% trades 1
+    '8':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8VII➜&3VIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fMycelium &7Trade
+    - whisper %player% &7    &8+&6700 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 700
+    - customplaceholders add %player% trades 1
+    '9':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8VIII➜&3IX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fNether Brick &7Trade
+    - whisper %player% &7    &8+&6800 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 800
+    - customplaceholders add %player% trades 1
+    '10':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8IX➜&3X
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fSponge &7Trade
+    - whisper %player% &7    &8+&6900 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 900
+    - customplaceholders add %player% trades 1
+    '11':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8X➜&3XI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&61,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 1000
+    '12':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XI➜&3XII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&62,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 2000
+    '13':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XII➜&3XIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&63,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 3000
+    '14':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XIII➜&3XIV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&64,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 4000
+    '15':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XIV➜&3XV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&65,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 5000
+    '16':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XV➜&3XVI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&67,500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 7500
+    '17':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XVI➜&3XVII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&610,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 10000
+    '18':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XVII➜&3XVIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&625,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 25000
+    '19':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XVIII➜&3XIX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&650,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50000
+    '20':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Foraging &8XIX➜&3MAX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&6100,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100000
+  levels:
+    '0': 50
+    '1': 50
+    '2': 125
+    '3': 200
+    '4': 300
+    '5': 500
+    '6': 750
+    '7': 1000
+    '8': 1500
+    '9': 2000
+    '10': 3500
+    '11': 5000
+    '12': 7500
+    '13': 10000
+    '14': 15000
+    '15': 20000
+    '16': 30000
+    '17': 50000
+    '18': 75000
+    '19': 100000
+LevelUpMessage: '&7'
+combat:
+  expAmount: 3
+  rewards:
+    '1':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8None➜&3I
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aGrappling Hook &7Recipe
+    - whisper %player% &7    &8+&650 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '2':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8I➜&3II
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Rotten Flesh &7Recipe
+    - whisper %player% &7    &8+&6100 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '3':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8II➜&3III
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Bone &7Recipe
+    - whisper %player% &7    &8+&6200 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 200
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '4':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8III➜&3IV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Arrow &7Recipe
+    - whisper %player% &7    &8+&6300 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 300
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '5':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8IV➜&3V
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aAccess to &cSpider Den
+    - whisper %player% &7    &a  Enchanted Spider Eye &7Recipe
+    - whisper %player% &7    &8+&6400 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 400
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    - lp user %player% permission set jumppad.spiders-den true
+    '6':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8V➜&3VI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted String &7Recipe
+    - whisper %player% &7    &8+&6500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 500
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '7':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8VI➜&3VII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Gunpowder &7Recipe
+    - whisper %player% &7    &8+&6600 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 600
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '8':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8VII➜&3VIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Slime Ball &7Recipe
+    - whisper %player% &7    &8+&6700 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 700
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '9':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8VIII➜&3IX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Blaze Rod &7Recipe
+    - whisper %player% &7    &8+&6800 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 800
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '10':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8IX➜&3X
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aAccess to &cThe Nether
+    - whisper %player% &7    &a  Enchanted Blaze Powder &7Recipe
+    - whisper %player% &7    &8+&6900 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 900
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    - lp user %player% permission set jumppad.nether true
+    '11':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8X➜&3XI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Magma Cream &7Recipe
+    - whisper %player% &7    &8+&61,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 1000
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '12':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XI➜&3XII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &5Magma Helmet &7Recipe
+    - whisper %player% &7    &5Magma Chestplate &7Recipe
+    - whisper %player% &7    &5Magma Leggings &7Recipe
+    - whisper %player% &7    &5Magma Boots &7Recipe
+    - whisper %player% &7    &8+&62,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 2000
+    - customplaceholders add %player% combatrecipes 4
+    - customplaceholders add %player% recipes 4
+    '13':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XII➜&3XIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Ghast Tear &7Recipe
+    - whisper %player% &7    &8+&63,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 3000
+    - customplaceholders add %player% combatrecipes 1
+    - customplaceholders add %player% recipes 1
+    '14':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XIII➜&3XIV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&64,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 4000
+    '15':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XIV➜&3XV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aAccess to &dThe End
+    - whisper %player% &7    &8+&65,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 5000
+    - lp user %player% permission set jumppad.end true
+    '16':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XV➜&3XVI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&67,500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 7500
+    '17':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XVI➜&3XVII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&610,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 10000
+    '18':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XVII➜&3XVIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&625,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 25000
+    '19':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XVIII➜&3XIX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&650,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50000
+    '20':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Combat &8XIX➜&3MAX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&6100,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100000
+  levels:
+    '0': 50
+    '1': 50
+    '2': 125
+    '3': 200
+    '4': 300
+    '5': 500
+    '6': 750
+    '7': 1000
+    '8': 1500
+    '9': 2000
+    '10': 3500
+    '11': 5000
+    '12': 7500
+    '13': 10000
+    '14': 15000
+    '15': 20000
+    '16': 30000
+    '17': 50000
+    '18': 75000
+    '19': 100000
+mining:
+  expAmount:
+    IRON_ORE: 3
+    NETHERRACK: 1
+    QUARTZ_ORE: 2
+    LAPIS_ORE: 4
+    REDSTONE_ORE: 4
+    GOLD_ORE: 3
+    EMERALD_ORE: 5
+    COAL_ORE: 2
+    DIAMOND_ORE: 5
+    STONE: 1
+  rewards:
+    '1':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8None➜&3I
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fCoal &7Trade
+    - whisper %player% &7    &aEnchanted Cobblestone &7Recipe
+    - whisper %player% &7    &8+&6500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    - customplaceholders add %player% trades 1
+    '2':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8I➜&3II
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fGrass &7Trade
+    - whisper %player% &7    &fDirt &7Trade
+    - whisper %player% &7    &aSmall Backpack &7Recipe
+    - whisper %player% &7    &8+&6100 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    - customplaceholders add %player% trades 2
+    '3':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8II➜&3III
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aCobblestone Helmet &7Recipe
+    - whisper %player% &7    &aCobblestone Chestplate &7Recipe
+    - whisper %player% &7    &aCobblestone Leggings &7Recipe
+    - whisper %player% &7    &aCobblestone Boots &7Recipe
+    - whisper %player% &7    &8+&6200 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 200
+    - customplaceholders add %player% miningrecipes 4
+    - customplaceholders add %player% recipes 4
+    '4':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8III➜&3IV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &fClay &7Trade
+    - whisper %player% &7    &aEnchanted Coal &7Recipe
+    - whisper %player% &7    &8+&6300 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 300
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    - customplaceholders add %player% trades 1
+    '5':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8IV➜&3V
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aAccess to the &eDeep Caverns
+    - whisper %player% &7    &a  Enchanted Iron Ingot &7Recipe
+    - whisper %player% &7    &8+&6400 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 400
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    - lp user %player% permission set jumppad.deep-caverns true
+    '6':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8V➜&3VI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Iron Block &7Recipe
+    - whisper %player% &7    &8+&6500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 500
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '7':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8VI➜&3VII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aMedium Backpack &7Recipe
+    - whisper %player% &7    &8+&6600 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 600
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '8':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8VII➜&3VIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Gold Ingot &7Recipe
+    - whisper %player% &7    &8+&6700 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 700
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '9':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8VIII➜&3IX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Gold Block &7Recipe
+    - whisper %player% &7    &8+&6800 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 800
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '10':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8IX➜&3X
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Diamond &7Recipe
+    - whisper %player% &7    &8+&6900 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 900
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '11':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8X➜&3XI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &9Hardened Diamond Helmet &7Recipe
+    - whisper %player% &7    &9Hardened Diamond Chestplate &7Recipe
+    - whisper %player% &7    &9Hardened Diamond Leggings &7Recipe
+    - whisper %player% &7    &9Hardened Diamond Boots &7Recipe
+    - whisper %player% &7    &8+&61,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 1000
+    - customplaceholders add %player% miningrecipes 4
+    - customplaceholders add %player% recipes 4
+    '12':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XI➜&3XII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Emerald &7Recipe
+    - whisper %player% &7    &8+&62,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 2000
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '13':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XII➜&3XIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Emerald Block &7Recipe
+    - whisper %player% &7    &8+&63,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 3000
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '14':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XIII➜&3XIV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aLarge Backpack &7Recipe
+    - whisper %player% &7    &8+&64,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 4000
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '15':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XIV➜&3XV
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &9Emerald Helmet &7Recipe
+    - whisper %player% &7    &9Emerald Chestplate &7Recipe
+    - whisper %player% &7    &9Emerald Leggings &7Recipe
+    - whisper %player% &7    &9Emerald Boots &7Recipe
+    - whisper %player% &7    &8+&65,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 5000
+    - customplaceholders add %player% miningrecipes 4
+    - customplaceholders add %player% recipes 4
+    '16':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XV➜&3XVI
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &aEnchanted Redstone &7Recipe
+    - whisper %player% &7    &8+&67,500 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 7500
+    - customplaceholders add %player% miningrecipes 1
+    - customplaceholders add %player% recipes 1
+    '17':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XVI➜&3XVII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&610,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 10000
+    '18':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XVII➜&3XVIII
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&625,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 25000
+    '19':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XVIII➜&3XIX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&650,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 50000
+    '20':
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - whisper %player% &b&l  SKILL LEVEL UP &3Mining &8XIX➜&3MAX
+    - whisper %player% &7
+    - whisper %player% &a&l  REWARDS
+    - whisper %player% &7    &8+&6100,000 &7Coins
+    - whisper %player% &7
+    - whisper %player% &3▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+    - eeco give %player% 100000
+  levels:
+    '0': 50
+    '1': 50
+    '2': 125
+    '3': 200
+    '4': 300
+    '5': 500
+    '6': 750
+    '7': 1000
+    '8': 1500
+    '9': 2000
+    '10': 3500
+    '11': 5000
+    '12': 7500
+    '13': 10000
+    '14': 15000
+    '15': 20000
+    '16': 30000
+    '17': 50000
+    '18': 75000
+    '19': 100000
+particles: false
+expActionBar: '&3+1 %skill% Experience (%exp%.0/%expNeeded%.0)'

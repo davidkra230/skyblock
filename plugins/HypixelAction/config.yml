@@ -1,0 +1,12 @@
+# ActionAnnouncer v1.15.0 Main configuration
+announcer_enabled: true
+announcer_random: false
+announce_interval: 3
+announcement_length: 4
+announcements:
+- '&c%player_health_rounded%/%player_max_health_rounded%❤    &a%customplaceholders_defense%❇
+  Defense    &b%customplaceholders_maxmana%/%customplaceholders_maxmana%✎ Mana'
+announce_on_join: false
+join_announcement: '&eWelcome to the server &b%player%! There are &f%online% &epeople
+  online!'
+disable_sounds: false

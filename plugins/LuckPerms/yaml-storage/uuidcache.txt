@@ -1,0 +1,4 @@
+# LuckPerms UUID lookup cache
+556945d5-7ffe-4d60-a826-2163fe443f38:Khrystyian
+c9ac6562-8a77-4929-90c8-444424c5b085:AwfulPlanet1308
+5b975c91-b95a-4f2c-b4b8-79deaf0457ff:MiniFlexJAV

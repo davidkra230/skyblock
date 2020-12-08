@@ -1,0 +1,1477 @@
+menu_title: 'Combat Skill'
+open_command: 'cskill'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 2
+        - 6
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 31
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      combat:
+        material: STONE_SWORD
+        slot: 0
+        display_name: '&aCombat'
+        hide_attributes: true
+        lore:
+        - '&7Fight mobs and players to earn'
+        - '&7Combat XP!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1:
+        material: 160
+        priority: 1
+        slot: 1
+        data: 5
+        amount: 1
+        display_name: '&aCombat I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &aGrappling Hook &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-1-progress:
+        material: 160
+        priority: 2
+        slot: 1
+        data: 4
+        amount: 1
+        display_name: '&eCombat I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 0
+        lore:
+        - '&7Rewards:'
+        - '  &aGrappling Hook &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1-locked:
+        material: 160
+        priority: 3
+        slot: 1
+        data: 14
+        amount: 1
+        display_name: '&cCombat I'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &aGrappling Hook &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      level-2:
+        material: 160
+        priority: 1
+        slot: 10
+        data: 5
+        amount: 2
+        display_name: '&aCombat II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-2-progress:
+        material: 160
+        priority: 2
+        slot: 10
+        data: 4
+        amount: 2
+        display_name: '&eCombat II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-2-locked:
+        material: 160
+        priority: 3
+        slot: 10
+        data: 14
+        amount: 2
+        display_name: '&cCombat II'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Rotten Flesh &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-3:
+        material: 160
+        priority: 1
+        slot: 19
+        data: 5
+        amount: 3
+        display_name: '&aCombat III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-3-progress:
+        material: 160
+        priority: 2
+        slot: 19
+        data: 4
+        amount: 3
+        display_name: '&eCombat III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-3-locked:
+        material: 160
+        priority: 3
+        slot: 19
+        data: 14
+        amount: 3
+        display_name: '&cCombat III'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Bone &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-4:
+        material: 160
+        priority: 1
+        slot: 28
+        data: 5
+        amount: 4
+        display_name: '&aCombat IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-progress:
+        material: 160
+        priority: 2
+        slot: 28
+        data: 4
+        amount: 4
+        display_name: '&eCombat IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-locked:
+        material: 160
+        priority: 3
+        slot: 28
+        data: 14
+        amount: 4
+        display_name: '&cCombat IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Arrow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-5:
+        material: 160
+        priority: 1
+        slot: 29
+        data: 5
+        amount: 5
+        display_name: '&aCombat V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cSpider''s Den'
+        - '  &a  Enchanted Spider Eye &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-progress:
+        material: 160
+        priority: 2
+        slot: 29
+        data: 4
+        amount: 5
+        display_name: '&eCombat V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cSpider''s Den'
+        - '  &a  Enchanted Spider Eye &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-locked:
+        material: 160
+        priority: 3
+        slot: 29
+        data: 14
+        amount: 5
+        display_name: '&cCombat V'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cSpider''s Den'
+        - '  &a  Enchanted Spider Eye &7Recipe'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-6:
+        material: 160
+        priority: 1
+        slot: 30
+        data: 5
+        amount: 6
+        display_name: '&aCombat VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted String &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-progress:
+        material: 160
+        priority: 2
+        slot: 30
+        data: 4
+        amount: 6
+        display_name: '&eCombat VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted String &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-locked:
+        material: 160
+        priority: 3
+        slot: 30
+        data: 14
+        amount: 6
+        display_name: '&cCombat VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted String &7Recipe'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+      level-7:
+        material: 160
+        priority: 1
+        slot: 21
+        data: 5
+        amount: 7
+        display_name: '&aCombat VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-progress:
+        material: 160
+        priority: 2
+        slot: 21
+        data: 4
+        amount: 7
+        display_name: '&eCombat VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-locked:
+        material: 160
+        priority: 3
+        slot: 21
+        data: 14
+        amount: 7
+        display_name: '&cCombat VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Gunpowder &7Recipe'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      level-8:
+        material: 160
+        priority: 1
+        slot: 12
+        data: 5
+        amount: 8
+        display_name: '&aCombat VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-progress:
+        material: 160
+        priority: 2
+        slot: 12
+        data: 4
+        amount: 8
+        display_name: '&eCombat VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-locked:
+        material: 160
+        priority: 3
+        slot: 12
+        data: 14
+        amount: 8
+        display_name: '&cCombat VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Slime Ball &7Recipe'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-9:
+        material: 160
+        priority: 1
+        slot: 3
+        data: 5
+        amount: 9
+        display_name: '&aCombat IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-progress:
+        material: 160
+        priority: 2
+        slot: 3
+        data: 4
+        amount: 9
+        display_name: '&eCombat IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-locked:
+        material: 160
+        priority: 3
+        slot: 3
+        data: 14
+        amount: 9
+        display_name: '&cCombat IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Blaze Rod &7Recipe'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-10:
+        material: 160
+        priority: 1
+        slot: 4
+        data: 5
+        amount: 10
+        display_name: '&aCombat X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cThe Nether'
+        - '  &a  Enchanted Blaze Powder &7Recipe'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-progress:
+        material: 160
+        priority: 2
+        slot: 4
+        data: 4
+        amount: 10
+        display_name: '&eCombat X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cThe Nether'
+        - '  &a  Enchanted Blaze Powder &7Recipe'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-locked:
+        material: 160
+        priority: 3
+        slot: 4
+        data: 14
+        amount: 10
+        display_name: '&cCombat X'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &cThe Nether'
+        - '  &a  Enchanted Blaze Powder &7Recipe'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-11:
+        material: 160
+        priority: 1
+        slot: 5
+        data: 5
+        amount: 11
+        display_name: '&aCombat XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-progress:
+        material: 160
+        priority: 2
+        slot: 5
+        data: 4
+        amount: 11
+        display_name: '&eCombat XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-locked:
+        material: 160
+        priority: 3
+        slot: 5
+        data: 14
+        amount: 11
+        display_name: '&cCombat XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Magma Cream &7Recipe'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-12:
+        material: 160
+        priority: 1
+        slot: 14
+        data: 5
+        amount: 12
+        display_name: '&aCombat XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Helmet &7Recipe'
+        - '  &5Magma Chestplate &7Recipe'
+        - '  &5Magma Leggings &7Recipe'
+        - '  &5Magma Boots &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-progress:
+        material: 160
+        priority: 2
+        slot: 14
+        data: 4
+        amount: 12
+        display_name: '&eCombat XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Helmet &7Recipe'
+        - '  &5Magma Chestplate &7Recipe'
+        - '  &5Magma Leggings &7Recipe'
+        - '  &5Magma Boots &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-locked:
+        material: 160
+        priority: 3
+        slot: 14
+        data: 14
+        amount: 12
+        display_name: '&cCombat XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &5Magma Helmet &7Recipe'
+        - '  &5Magma Chestplate &7Recipe'
+        - '  &5Magma Leggings &7Recipe'
+        - '  &5Magma Boots &7Recipe'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-13:
+        material: 160
+        priority: 1
+        slot: 23
+        data: 5
+        amount: 13
+        display_name: '&aCombat XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-progress:
+        material: 160
+        priority: 2
+        slot: 23
+        data: 4
+        amount: 13
+        display_name: '&eCombat XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-locked:
+        material: 160
+        priority: 3
+        slot: 23
+        data: 14
+        amount: 13
+        display_name: '&cCombat XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &aEnchanted Ghast Tear &7Recipe'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-14:
+        material: 160
+        priority: 1
+        slot: 32
+        data: 5
+        amount: 14
+        display_name: '&aCombat XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-progress:
+        material: 160
+        priority: 2
+        slot: 32
+        data: 4
+        amount: 14
+        display_name: '&eCombat XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-locked:
+        material: 160
+        priority: 3
+        slot: 32
+        data: 14
+        amount: 14
+        display_name: '&cCombat XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-15:
+        material: 160
+        priority: 1
+        slot: 33
+        data: 5
+        amount: 15
+        display_name: '&aCombat XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &dThe End'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-progress:
+        material: 160
+        priority: 2
+        slot: 33
+        data: 4
+        amount: 15
+        display_name: '&eCombat XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &dThe End'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-locked:
+        material: 160
+        priority: 3
+        slot: 33
+        data: 14
+        amount: 15
+        display_name: '&cCombat XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &aAccess to &dThe End'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-16:
+        material: 160
+        priority: 1
+        slot: 34
+        data: 5
+        amount: 16
+        display_name: '&aCombat XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-progress:
+        material: 160
+        priority: 2
+        slot: 34
+        data: 4
+        amount: 16
+        display_name: '&eCombat XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-locked:
+        material: 160
+        priority: 3
+        slot: 34
+        data: 14
+        amount: 16
+        display_name: '&cCombat XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-17:
+        material: 160
+        priority: 1
+        slot: 25
+        data: 5
+        amount: 17
+        display_name: '&aCombat XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-progress:
+        material: 160
+        priority: 2
+        slot: 25
+        data: 4
+        amount: 17
+        display_name: '&eCombat XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-locked:
+        material: 160
+        priority: 3
+        slot: 25
+        data: 14
+        amount: 17
+        display_name: '&cCombat XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-18:
+        material: 160
+        priority: 1
+        slot: 16
+        data: 5
+        amount: 18
+        display_name: '&aCombat XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-progress:
+        material: 160
+        priority: 2
+        slot: 16
+        data: 4
+        amount: 18
+        display_name: '&eCombat XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-locked:
+        material: 160
+        priority: 3
+        slot: 16
+        data: 14
+        amount: 18
+        display_name: '&cCombat XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-19:
+        material: 160
+        priority: 1
+        slot: 7
+        data: 5
+        amount: 19
+        display_name: '&aCombat XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-progress:
+        material: 160
+        priority: 2
+        slot: 7
+        data: 4
+        amount: 19
+        display_name: '&eCombat XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-locked:
+        material: 160
+        priority: 3
+        slot: 7
+        data: 14
+        amount: 19
+        display_name: '&cCombat XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-20:
+        material: 160
+        priority: 1
+        slot: 8
+        data: 5
+        amount: 20
+        display_name: '&aCombat XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-progress:
+        material: 160
+        priority: 2
+        slot: 8
+        data: 4
+        amount: 20
+        display_name: '&eCombat XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-locked:
+        material: 160
+        priority: 3
+        slot: 8
+        data: 14
+        amount: 20
+        display_name: '&cCombat XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelCombat%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] skills'
+        right_click_commands:
+        - '[openguimenu] skills'

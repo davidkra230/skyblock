@@ -1,0 +1,85 @@
+title: '&8Merchant'
+permission-to-open: none
+background-color: 15
+items:
+  '2':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §6Lucky Coins Ring
+        lore:
+        - ''
+        - §7This talisman gives you
+        - §7a small amount of coins
+        - §7at random intervals.
+        - ''
+        - '§7Coins Interval: §e5 - 7 minutes'
+        - '§7Maximum Amount: §617 coins'
+        - ''
+        - §eClick to upgrade!
+        internal: H4sIAAAAAAAAAFWQzW6CQBzE/9U2oaSXNjHpA/RKwpfgHnpoix8QFyui1b0t7qrAAgaxFZ+rD1h6aFKPM7+Zw4wMIMPdLD0K8V4Wm1hwCVoug6dej/ZUSpHCrK6pmDbtKpQxVTFpZCPGUKQhXQa5Ke15WcX8cAtSxU/VseQHGQCuJLhZUHHk8M1rTyXLncqWnljXrtXocKaKiZvsbTdf1NGba7lZw0cv1rhG/7Ldin50xcrwdiSfHqNsoY6NQPBRoK2z+ecqnOv+cK75ITbxcHqehOkXdjyBnUFCktcYh67hn4OEDPv6KmQ7nJB04pDYD0VMkq2Ok7SeOIEgyWCHz1uDOEGK3zy0WarPABJc+zTjcL9BiFlM0w0UIc3u2Sa04SEoaip4f13kRVa7OeOn381teLwAfnPIfL8tKeMNbknQucAhFfEhozl0SpqzIlPWRZwflOrP/gFtinvbnQEAAA==
+        skull-owner: f99d6d1239b917874
+    sellingValue: 0.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '3':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §aLucky Purse Artifact
+        lore:
+        - ''
+        - §7This talisman gives a
+        - §a20% §7chance to not
+        - §7lose coins from your
+        - §7purse on death!
+        internal: H4sIAAAAAAAAAFVPy06DQBS9Vk2QuFHjH7gloeVRWBqpdJp2sC2FMrsBBoHOQFNoA36VnygbEz2r81wcGUCG++3hzPnHqc4KziQYoRReEtWgNDUMRWMZVXQztZXYSDNlolmapVvW1GaqDPIwOrJTW7DmDqSWde35xBoZAK4kuA0oPzP4Zv1CJftcTfcLnvTIHLS/VbmHyuMUVUEfvyETiSGfv5rL3v7TNVoaGjzSFjmp1udYBOpS23A234wTsbtg9/2wctYaFjsdl0mHy8MkCqOvyP80sMNzImb9wDvsIiMSmwPxozEJcUmc99xz0djzcU7CQJAyyFfOqvPcdZHtxzaABDeYCgYPsWVmNEvogKmuTXQVruFxU/eUs1lSV7XoUZWybvg7kuD5X+BTXjSCVvCUMtrmSkMvTGl/zR8vzRbveAEAAA==
+        skull-owner: b86fafcaaaa743240
+    sellingValue: 0.0
+    buyValue: 10000.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0
+  '4':
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      type: SKULL_ITEM
+      damage: 3
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: §cPurse Saver Ring
+        lore:
+        - ''
+        - §7This talisman lowers
+        - §7the percent of coins
+        - §7you lose on death events
+        - §7by §c10%§7!
+        - ''
+        - §eClick to upgrade!
+        internal: H4sIAAAAAAAAAFXQzU6DQBQF4OtfgsSNJiY+gFuSoQiURRdqq05TprbS0rIbhosFZ2hDwUCfywcUFya6vPnOWdyjA+hw8fZRS/labtNMogbHNIFb4nmc38Wm4aDXM+7cpG/EPSRGXxA3TTGxievooHelHZZVhvtz0CpsqrrEvQ4ARxqcLbmsEb6wHZNotSHJaixFS53uDt6InNJ859Ji2caP1KGq85d7Z9J6f7J2xUNbrq3xJipmdayWZGLNJb7MTaEWn+vgIWM9tvEVk9Fw1ERDv2Xh6OCHMzPKqcUCpta5aKKANiz/sKIhtf1wLNcHmfsq2rDnUZdb2P7zPJuGvj0NnhQtTC+dDQYAGpwyrhAu3ZhYPbPviBjRQpG6cAJX823LJY7EttiqlhYJNj8/n8DNP2DdIIvde8kT7PhYg+t/HHCZ7RUv4KbbUGBRGSUmtcDSqH7lG4tLFFegAQAA
+        skull-owner: 7b032186cbee3ecf7
+    sellingValue: 0.0
+    buyValue: 2500.0
+    detailed: true
+    amount1: 0
+    amount2: 0
+    amount3: 0
+    amount4: 0
+    amount5: 0

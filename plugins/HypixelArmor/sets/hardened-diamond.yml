@@ -1,0 +1,150 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&aYou are wearing Full Set of Hardened Diamond Armor. You will have 40 extra ❇ Defense while wearing this set.'
+  commands:
+    enabled: false
+    list:
+      - eeco give {player} 40
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&aYou are no longer wearing Full Set of Hardened Diamond Armor. Your no longer have a ❇ Defense buff.'
+  commands:
+    enabled: false
+    list:
+      - eeco take {player} 40
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: -1
+    health: -1
+    kb: -1
+    status-effects:
+#
+set-pieces:
+  helmet:
+    name: '&9Hardened Diamond Helmet'
+    item: DIAMOND_HELMET
+    data: 0
+    lore:
+      - '&7Reduces &a2% &7of all damage received.'
+      - '&8'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    name: '&9Hardened Diamond Chestplate'
+    item: DIAMOND_chestplate
+    data: 0
+    lore:
+      - '&7Reduces &a2% &7of all damage received.'
+      - '&8'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    name: '&9Hardened Diamond Leggings'
+    item: DIAMOND_leggings
+    data: 0
+    lore:
+      - '&7Reduces &a2% &7of all damage received.'
+      - '&8'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    name: '&9Hardened Diamond Boots'
+    item: DIAMOND_boots
+    data: 0
+    lore:
+      - '&7Reduces &a2% &7of all damage received.'
+      - '&8'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: 'Hardened Diamond Armor'
+  type: HOPPER
+  size: 5
+  1:
+    slot: 0
+    action: helmet
+    name: '&aHelmet'
+    item: PAPER
+    data: 0
+    lore:
+      - '&eClick to receive!'
+    enchantments:
+    item-flags:
+    cost: 1.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&aChestplate'
+    item: PAPER
+    data: 0
+    lore:
+      - '&eClick to receive!'
+    enchantments:
+    item-flags:
+    cost: 1.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&aLeggings'
+    item: PAPER
+    data: 0
+    lore:
+      - '&eClick to receive!'
+    enchantments:
+    item-flags:
+    cost: 1.0
+  4:
+    slot: 3
+    action: boots
+    name: '&aBoots'
+    item: PAPER
+    data: 0
+    lore:
+      - '&eClick to receive!'
+    enchantments:
+    item-flags:
+    cost: 1.0
+  5:
+    slot: 4
+    action: close
+    name: '&cExit'
+    item: barrier
+    data: 0
+    lore: 
+    - '&7'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants

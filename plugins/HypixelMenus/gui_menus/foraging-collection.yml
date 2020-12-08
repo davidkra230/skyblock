@@ -1,0 +1,247 @@
+menu_title: 'Foraging Collection'
+open_command: 'foraging-collection'
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 41
+        - 8
+        - 9
+        - 17
+        - 18
+        - 39
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      foraging:
+        material: 6
+        data: 3
+        slot: 4
+        display_name: '&aForaging Collection'
+        lore:
+        - '&7View your Foraging Collection!'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_foragingcollection}_m:6%%'
+        - '%progress_bar_{customplaceholders_foragingcollection}_c:&2-_p:&2-_r:&f-_l:20_m:6_fullbar:&2--------------------% &e%customplaceholders_foragingcollection%&6/&e6'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      oak-log:
+        display_name: '&aOak Log'
+        material: 17
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.oak-log'
+        priority: 1
+        data: 0
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+      oak-log-locked:
+        display_name: '&cOak Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      spruce-log:
+        display_name: '&aSpruce Log'
+        material: 17
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.spruce-log'
+        priority: 1
+        data: 1
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+      spruce-log-locked:
+        display_name: '&cSpruce Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+
+
+      birch-log:
+        display_name: '&aBirch Log'
+        material: 17
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.birch-log'
+        priority: 1
+        data: 2
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+      birch-log-locked:
+        display_name: '&cBirch Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      jungle-log:
+        display_name: '&aJungle Log'
+        material: 17
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.jungle-log'
+        priority: 1
+        data: 3
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+      jungle-log-locked:
+        display_name: '&cJungle Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+
+
+      acacia-log:
+        display_name: '&aAcacia Log'
+        material: 162
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.acacia-log'
+        priority: 1
+        data: 0
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+      acacia-log-locked:
+        display_name: '&cAcacia Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+
+      dark-oak-log:
+        display_name: '&aDark Oak Log'
+        material: 162
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.dark-oak-log'
+        priority: 1
+        data: 1
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+      dark-oak-log-locked:
+        display_name: '&cDark Oak Log'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] collections'
+        right_click_commands:
+        - '[openguimenu] collections'

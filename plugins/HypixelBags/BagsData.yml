@@ -1,0 +1,133 @@
+Bags:
+  556945d5-7ffe-4d60-a826-2163fe443f38:
+    Arrows: []
+    Potions: []
+    Talismans: []
+    Bag: []
+  d6fb402f-37f8-4a3b-b709-1c1c93ebd58f:
+    Arrows: []
+    Potions: []
+    Talismans: []
+    Bag: []
+  5b975c91-b95a-4f2c-b4b8-79deaf0457ff:
+    Arrows:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aGo Back!
+    Potions:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    Talismans:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    Bag: []
+  7e6ea977-ff36-4870-914a-37d6664e2e3e:
+    Arrows:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: §aGo Back!
+    Potions: []
+    Talismans:
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    - ==: org.bukkit.inventory.ItemStack
+      type: AIR
+    Bag: []
+  921f7b95-8821-42ce-9cef-4a5203486279:
+    Arrows: []
+    Potions: []
+    Talismans: []
+    Bag: []
+  c9ac6562-8a77-4929-90c8-444424c5b085:
+    Arrows: []
+    Potions: []
+    Talismans: []
+    Bag: []

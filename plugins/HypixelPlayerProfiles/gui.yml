@@ -1,0 +1,180 @@
+#
+# ██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░██╗███╗░░██╗███████╗░█████╗░
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗
+# ██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝██║██╔██╗██║█████╗░░██║░░██║
+# ██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗██║██║╚████║██╔══╝░░██║░░██║
+# ██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██║██║░╚███║██║░░░░░╚█████╔╝
+# ╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
+#                               Player Information
+#                           Developed by aglerr with <3
+#
+# Join our discord to get a support!
+# Discord: https://discord.gg/vHqQfsF
+#
+# If you found any bugs please report it on discussion page or join our discord
+# server, don't post the bug on the review section!
+# Don't forget to rate us ★★★★★
+#
+###############################################################################
+#
+# This is the gui.yml, you can toggle any options such as fill-inventory
+# hotbar items, player armor etc.
+#
+###############################################################################
+GUI:
+  title: '%player_name%''s Profile'
+  size: 54
+  
+fill-inventory:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+  name: '&7'
+  amount: 1
+  
+hotbar-items:
+  slot-1:
+    enabled: false
+    slot: 36
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 1
+      name: '&aHotbar Slot 1'
+      lore:
+      - '&cEmpty!'
+  slot-2:
+    enabled: false
+    slot: 37
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 2
+      name: '&aHotbar Slot 2'
+      lore:
+      - '&cEmpty!'
+  slot-3:
+    enabled: false
+    slot: 38
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 3
+      name: '&aHotbar Slot 3'
+      lore:
+      - '&cEmpty!'
+  slot-4:
+    enabled: false
+    slot: 39
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 4
+      name: '&aHotbar Slot 4'
+      lore:
+      - '&cEmpty!'
+  slot-5:
+    enabled: false
+    slot: 40
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 5
+      name: '&aHotbar Slot 5'
+      lore:
+      - '&cEmpty!'
+  slot-6:
+    enabled: false
+    slot: 41
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 6
+      name: '&aHotbar Slot 6'
+      lore:
+      - '&cEmpty!'
+  slot-7:
+    enabled: false
+    slot: 42
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 7
+      name: '&aHotbar Slot 7'
+      lore:
+      - '&cEmpty!'
+  slot-8:
+    enabled: false
+    slot: 43
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 8
+      name: '&aHotbar Slot 8'
+      lore:
+      - '&cEmpty!'
+  slot-9:
+    enabled: false
+    slot: 44
+    empty:
+      material: RED_STAINED_GLASS_PANE
+      amount: 9
+      name: '&aHotbar Slot 9'
+      lore:
+      - '&cEmpty!'
+  
+items:
+  close-button:
+    enabled: true
+    material: BARRIER
+    amount: 1
+    name: '&cClose'
+    slot: 49
+    lore: []
+  player-head:
+    enabled: true
+    amount: 1
+    slot: 22
+    name: '&7%vault_rankprefix%%player_name%''s Profile'
+    lore:
+    - ' &c❤ Health &f%player_max_health_rounded% HP'
+    - ' &a❇ Defense &f%customplaceholders_defense%'
+    - ' &c❁ Strength &f%customplaceholders_strength%'
+    - ' &f✦ Speed &f%customplaceholders_speed%%'
+    - ' &9☣ Crit Chance &f%customplaceholders_critchance%%'
+    - ' &9☠ Crit Damage &f%customplaceholders_critdamage%%'
+    - ' &b✎ Intelligence &f%customplaceholders_intelligence%'
+    - ' &3✦ Attack Speed &f0%'
+  main-hand:
+    enabled: true
+    material: RED_STAINED_GLASS_PANE
+    slot: 20
+    name: '&eMain Hand'
+    lore:
+    - '&cEmpty!'
+  off-hand:
+    enabled: false
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    name: '&aOff Hand'
+    lore:
+    - '&cEmpty!'
+  helmet:
+    enabled: true
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+    name: '&eHelmet'
+    lore:
+    - '&cEmpty!'
+  chestplate:
+    enabled: true
+    material: RED_STAINED_GLASS_PANE
+    slot: 19
+    name: '&eChestplate'
+    lore:
+    - '&cEmpty!'
+  leggings:
+    enabled: true
+    material: RED_STAINED_GLASS_PANE
+    slot: 28
+    name: '&eLeggings'
+    lore:
+    - '&cEmpty!'
+  boots:
+    enabled: true
+    material: RED_STAINED_GLASS_PANE
+    slot: 37
+    name: '&eBoots'
+    lore:
+    - '&cEmpty!'

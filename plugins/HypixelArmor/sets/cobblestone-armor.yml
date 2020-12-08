@@ -1,0 +1,277 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - none
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.50
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.25
+        default: 0.25
+      fly:
+        set: 0.25
+        default: 0.25
+    status-effects:
+      fast_digging:
+        duration: 999999
+        level: 2
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 6
+        - customplaceholders add {player} bonusdefense 6
+        - customplaceholders add {player} strength 3
+        - customplaceholders add {player} bonusstrength 3
+      remove:
+        - customplaceholders remove {player} defense 6
+        - customplaceholders remove {player} bonusdefense 6
+        - customplaceholders remove {player} strength 3
+        - customplaceholders remove {player} bonusstrength 3
+    name: '&aCobblestone Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+6'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 9
+        - customplaceholders add {player} bonusdefense 9
+        - customplaceholders add {player} strength 3
+        - customplaceholders add {player} bonusstrength 3
+      remove:
+        - customplaceholders remove {player} defense 9
+        - customplaceholders remove {player} bonusdefense 9
+        - customplaceholders remove {player} strength 3
+        - customplaceholders remove {player} bonusstrength 3
+    name: '&aCobblestone Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+9'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 8
+        - customplaceholders add {player} bonusdefense 8
+        - customplaceholders add {player} strength 3
+        - customplaceholders add {player} bonusstrength 3
+      remove:
+        - customplaceholders remove {player} defense 8
+        - customplaceholders remove {player} bonusdefense 8
+        - customplaceholders remove {player} strength 3
+        - customplaceholders remove {player} bonusstrength 3
+    name: '&aCobblestone Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+8'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 5
+        - customplaceholders add {player} bonusdefense 5
+        - customplaceholders add {player} strength 3
+        - customplaceholders add {player} bonusstrength 3
+      remove:
+        - customplaceholders remove {player} defense 5
+        - customplaceholders remove {player} bonusdefense 5
+        - customplaceholders remove {player} strength 3
+        - customplaceholders remove {player} bonusstrength 3
+    name: '&aCobblestone Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+5'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&aCobblestone Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+6'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&aCobblestone Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+9'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&aCobblestone Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+8'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&aCobblestone Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 120:120:120
+    lore:
+      - '&7Defense: &a+5'
+      - '&7Strength: &a+3'
+      - '&8&c'
+      - '&6Full Set Bonus: Haste'
+      - '&7Gives a permanent &aHaste II &7effect'
+      - '&7while wearing this set.'
+      - '&8&5'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

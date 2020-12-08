@@ -1,0 +1,230 @@
+#----------------------------------#
+#         [Rewards GUI]            #
+#         by Sneklingame           #
+#----------------------------------#
+
+#Please check the Wiki for more information: https://github.com/sneklingame/Rewards-GUI/wiki/
+
+check-for-updates: false
+
+storage-method: YAML
+
+host: localhost
+port: 3306
+database: rewards
+table: players
+username: root
+password: ''
+
+click-message: '&6[Rewards] &fYou have claimed a reward!'
+cooldown-message: '&cYou can claim this reward in &e%days%d %hours%h %minutes%m %seconds%s&c.'
+
+title: '&8Rewards'
+rows: 4
+keep-open: true
+
+fill-blank-space:
+  enabled: true
+  item: STAINED_GLASS_PANE
+  data-value: 15
+
+
+Items:
+
+  daily:
+    name: '&aDaily Reward'
+
+    type: STORAGE_MINECART
+    active-cooldown-type: MINECART
+    slot: 12
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&6100 &7Coins'
+      - '  &8+&350 &7Experience'
+      - ''
+      - '&eClick to claim!'
+    give-money: 100
+    commands:
+      - 'console: xp 30 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.default
+    no-permission-message: "&cYou don't have permission to claim this reward."
+
+  weekly:
+    name: '&aWeekly Reward'
+    type: STORAGE_MINECART
+    active-cooldown-type: MINECART
+    slot: 13
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 7 days.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&6500 &7Coins'
+      - '  &8+&3250 &7Experience'
+      - ''
+      - '&eClick to claim!'
+    give-money: 500
+    commands:
+      - 'console: xp 250 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eWeekly Reward&f, come back in &e7 days&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 604800
+    permission: rank.default
+    no-permission-message: "&cYou don't have permission to claim this reward."
+
+  monthly:
+    name: '&aMonthly Reward'
+    type: STORAGE_MINECART
+    active-cooldown-type: MINECART
+    slot: 14
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 30 days.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&65,000 &7Coins'
+      - '  &8+&31,000 &7Experience'
+      - ''
+      - '&eClick to claim!'
+    give-money: 5000
+    commands:
+      - 'console: xp 1000 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eMonthly Reward&f, come back in &e30 days&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 2592000
+    permission: rank.default
+    no-permission-message: "&cYou don't have permission to claim this reward."
+
+  daily_vip:
+    name: '&aDaily VIP Reward'
+    type: POWERED_MINECART
+    active-cooldown-type: MINECART
+    slot: 20
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&61,000 &7Coins'
+      - '  &8+&3250 &7Experience'
+      - ''
+      - '&eClick to claim!'
+      - '&cRequires &aVIP &cor higher'
+    give-money: 1000
+    commands:
+      - 'console: xp 250 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily VIP Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.vip
+    no-permission-message: "&cYou must be VIP in order to claim this reward."
+
+  daily_vip+:
+    name: '&aDaily VIP+ Reward'
+    type: POWERED_MINECART
+    active-cooldown-type: MINECART
+    slot: 21
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&62,000 &7Coins'
+      - '  &8+&3500 &7Experience'
+      - ''
+      - '&eClick to claim!'
+      - '&cRequires &aVIP&6+ &cor higher'
+    give-money: 2000
+    commands:
+      - 'console: xp 500 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily VIP+ Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.vip+
+    no-permission-message: "&cYou must be VIP+ in order to claim this reward."
+
+  daily_mvp:
+    name: '&aDaily MVP Reward'
+    type: POWERED_MINECART
+    active-cooldown-type: MINECART
+    slot: 22
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&63,000 &7Coins'
+      - '  &8+&3750 &7Experience'
+      - ''
+      - '&eClick to claim!'
+      - '&cRequires &bMVP &cor higher'
+    give-money: 3000
+    commands:
+      - 'console: xp 750 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily MVP Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.mvp
+    no-permission-message: "&cYou must be MVP in order to claim this reward."
+
+  daily_mvp+:
+    name: '&aDaily MVP+ Reward'
+    type: POWERED_MINECART
+    active-cooldown-type: MINECART
+    slot: 23
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&64,000 &7Coins'
+      - '  &8+&31,000 &7Experience'
+      - ''
+      - '&eClick to claim!'
+      - '&cRequires &bMVP&c+ &cor higher'
+    give-money: 4000
+    commands:
+      - 'console: xp 1000 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily MVP+ Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.mvp+
+    no-permission-message: "&cYou must be MVP+ in order to claim this reward."
+
+  daily_mvp++:
+    name: '&aDaily MVP++ Reward'
+    type: POWERED_MINECART
+    active-cooldown-type: MINECART
+    slot: 24
+    lore:
+      - '&7You can claim this reward'
+      - '&7once every 24 hours.'
+      - ''
+      - '&7Rewards:'
+      - '  &8+&65,000 &7Coins'
+      - '  &8+&32,000 &7Experience'
+      - ''
+      - '&eClick to claim!'
+      - '&cRequires &6MVP&c++ &cor higher'
+    give-money: 5000
+    commands:
+      - 'console: xp 2000 %player%'
+      - 'console: whisper %player% &6[Rewards] &fYou claimed your &eDaily MVP++ Reward&f, come back in &e24 hours&f for more!'
+    sound: 'LEVEL_UP'
+    unavailable-sound: 'VILLAGER_NO'
+    cooldown: 86400
+    permission: rank.mvp++
+    no-permission-message: "&cYou must be MVP++ in order to claim this reward."

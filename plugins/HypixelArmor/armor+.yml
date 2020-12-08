@@ -1,0 +1,204 @@
+loaded-sets:
+  - savanna-bow
+  - lapis-armor
+  - emerald-armor
+  - feather-armor
+  - mushroom-armor
+  - farmer-armor
+  - cobblestone-armor
+  - oak-armor
+  - magma-armor
+  - developer
+#
+armor-switch:
+  enabled: false
+  sound:
+    enabled: false
+    type: 'level_up'
+    volume: 1
+    pitch: 2
+  message:
+    enabled: false
+    text:
+      - '&7'
+#
+gui:
+  name: '&8Custom Items GUI'
+  type: none
+  size: 54
+  1:
+    slot: 0
+    action: lapis-armor
+    name: '&aLapis Armor'
+    item: leather_chestplate
+    data: 0
+    color: 51:51:255
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aLapis Armor Helmet'
+     - '&8- &aLapis Armor Chestplate'
+     - '&8- &aLapis Armor Leggings'
+     - '&8- &aLapis Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  2:
+    slot: 1
+    action: emerald-armor
+    name: '&9Emerald Armor'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Emerald Armor Helmet'
+     - '&8- &9Emerald Armor Chestplate'
+     - '&8- &9Emerald Armor Leggings'
+     - '&8- &9Emerald Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  3:
+    slot: 2
+    action: savanna-bow
+    name: '&aSavanna Bow'
+    item: BOW
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aSavanna Bow'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  4:
+    slot: 3
+    action: feather-armor
+    name: '&aFeather Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:255:255
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aFeather Armor Helmet'
+     - '&8- &aFeather Armor Chestplate'
+     - '&8- &aFeather Armor Leggings'
+     - '&8- &aFeather Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  5:
+    slot: 4
+    action: farmer-armor
+    name: '&9Farmer Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &9Farmer Armor Helmet'
+     - '&8- &9Farmer Armor Chestplate'
+     - '&8- &9Farmer Armor Leggings'
+     - '&8- &9Farmer Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  6:
+    slot: 5
+    action: mushroom-armor
+    name: '&fMushroom Armor'
+    item: leather_chestplate
+    data: 0
+    color: 255:77:77
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fMushroom Armor Helmet'
+     - '&8- &fMushroom Armor Chestplate'
+     - '&8- &fMushroom Armor Leggings'
+     - '&8- &fMushroom Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  7:
+    slot: 6
+    action: cobblestone-armor
+    name: '&aCobblestone Armor'
+    item: leather_chestplate
+    data: 0
+    color: 120:120:120
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &aCobblestone Armor Helmet'
+     - '&8- &aCobblestone Armor Chestplate'
+     - '&8- &aCobblestone Armor Leggings'
+     - '&8- &aCobblestone Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  8:
+    slot: 7
+    action: oak-armor
+    name: '&fOak Armor'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &fOak Armor Helmet'
+     - '&8- &fOak Armor Chestplate'
+     - '&8- &fOak Armor Leggings'
+     - '&8- &fOak Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  9:
+    slot: 8
+    action: magma-armor
+    name: '&5Magma Armor'
+    item: chainmail_chestplate
+    data: 0
+    lore:
+     - ''
+     - '&7Contents:'
+     - '&8- &5Magma Armor Helmet'
+     - '&8- &5Magma Armor Chestplate'
+     - '&8- &5Magma Armor Leggings'
+     - '&8- &5Magma Armor Boots'
+     - ''
+     - '&eClick to open!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+  53:
+    slot: 49
+    action: close
+    name: '&cClose'
+    item: barrier
+    data: 0
+    lore:
+    enchantments:
+    item-flags:
+      - hide_attributes

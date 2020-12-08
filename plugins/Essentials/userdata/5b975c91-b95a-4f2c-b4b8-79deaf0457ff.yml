@@ -1,0 +1,22 @@
+nickname: §cMiniFlexJAV
+lastAccountName: MiniFlexJAV
+timestamps:
+  login: 1599397537618
+  lastteleport: 1599380971341
+  logout: 1599397518127
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Islands
+  x: 233.1601316304271
+  y: 118.0
+  z: 20.510038503460294
+  yaw: 0.3
+  pitch: -0.45000002
+logoutlocation:
+  world: Islands
+  x: 227.75755802669485
+  y: 116.0
+  z: 15.064691321618175
+  yaw: 97.79994
+  pitch: 2.7
+money: '5950.0'

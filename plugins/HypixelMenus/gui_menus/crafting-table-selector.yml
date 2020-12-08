@@ -1,0 +1,44 @@
+menu_title: 'Crafting Table Selector'
+open_command:
+- crafting-table-selector
+- workbench
+- ct
+inventory_type: HOPPER
+size: 5
+items:
+      DEFAULT:
+        material: WORKBENCH
+        slot: 1
+        display_name: '&aVanilla'
+        lore:
+        - '&7Used to craft Vanilla items.'
+        - '&7For example:'
+        - '&8- &7Wood'
+        - '&8- &7Tools'
+        - '&8- &7Blocks'
+        - ''
+        - '&eClick to start crafting!'
+        left_click_commands:
+        - '[player] wb'
+        - '[close]'
+        right_click_commands:
+        - '[player] wb'
+        - '[close]'
+      CUSTOM:
+        material: 120
+        slot: 3
+        display_name: '&aCustom'
+        lore:
+        - '&7Used to craft Custom items.'
+        - '&7For example:'
+        - '&8- &7Armor Sets'
+        - '&8- &7Enchanted Items'
+        - '&8- &7Minions'
+        - ''
+        - '&eClick to start crafting!'
+        left_click_commands:
+        - '[player] wbc'
+        - '[close]'
+        right_click_commands:
+        - '[player] wbc'
+        - '[close]'

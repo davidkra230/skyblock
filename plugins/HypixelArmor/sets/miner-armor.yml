@@ -1,0 +1,232 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&6&lFULL SET BONUS: &eHealth'
+  commands:
+    enabled: true
+    list:
+      - currency defense add {player} 25
+      - currency bonusdefense add {player} 25
+      - currency strength add {player} 10
+      - currency bonusstrength add {player} 10
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&cEmerald set deactivated!'
+  commands:
+    enabled: true
+    list:
+      - currency defense add {player} -25
+      - currency bonusdefense add {player} -25
+      - currency strength add {player} -10
+      - currency bonusstrength add {player} -10
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: 1.10
+    damage-reduction: 0.95
+    health: -1
+    kb: -1
+    status-effects:
+      regeneration:
+        duration: 999999
+        level: 1
+  2:
+    type: fall
+    sound:
+      enabled: false
+      type: 'bat_takeoff'
+      volume: 1
+      pitch: 2
+    message:
+      enabled: false
+      text:
+        - '&e&l** &oTHE FEATHER SET SAVED YOUR ANKLES &e&l**'
+#
+set-pieces:
+  helmet:
+    name: '&9Miner Armor Helmet'
+    item: diamond_helmet
+    data: 0
+    lore:
+      - '&7Set Defense: &a+25'
+      - '&7Set Strength: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Regenerative'
+      - '&7Grants a permanent Regeneration I'
+      - '&7effect to the wearer.'
+      - '&8&7'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    name: '&9Miner Armor Chestplate'
+    item: diamond_chestplate
+    data: 0
+    lore:
+      - '&7Set Defense: &a+25'
+      - '&7Set Strength: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Regenerative'
+      - '&7Grants a permanent Regeneration I'
+      - '&7effect to the wearer.'
+      - '&8&7'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    name: '&9Miner Armor Leggings'
+    item: diamond_leggings
+    data: 0
+    lore:
+      - '&7Set Defense: &a+25'
+      - '&7Set Strength: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Regenerative'
+      - '&7Grants a permanent Regeneration I'
+      - '&7effect to the wearer.'
+      - '&8&7'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    name: '&9Miner Armor Boots'
+    item: diamond_boots
+    data: 0
+    lore:
+      - '&7Set Defense: &a+25'
+      - '&7Set Strength: &a+10'
+      - '&4&4'
+      - '&6Full Set Bonus: Regenerative'
+      - '&7Grants a permanent Regeneration I'
+      - '&7effect to the wearer.'
+      - '&8&7'
+      - '&9&lRARE'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&7&lPURCHASE &6&lDEVELOPER SET'
+  type: HOPPER
+  size: 5
+  1:
+    slot: 0
+    action: helmet
+    name: '&6&lDeveloper Cranium'
+    item: skull_item
+    data: 3
+    owner: 9914cdba-4333-4da2-a316-70e1b39d8f46
+    lore:
+      - '&6The fabled cranium of the Developer.'
+      - '&7'
+      - '&6&lDEVELOPER SET BONUS'
+      - '&e* Deal +25% damage to all enemies.'
+      - '&e* Enemies deal 10% less damage to you.'
+      - '&e* Permanent Speed 3, Health Boost 2, Jump Boost 3.'
+      - '&7&o(Requires all 4 developer items.)'
+      - '&7'
+      - '&c&lCost: $25,000'
+    enchantments:
+      - protection_environmental:10
+    item-flags:
+    cost: 25000.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&6&lDeveloper Shroud'
+    item: iron_chestplate
+    data: 0
+    lore:
+      - '&6The balenciaga shroud of the Developer.'
+      - '&7'
+      - '&6&lDEVELOPER SET BONUS'
+      - '&e* Deal +25% damage to all enemies.'
+      - '&e* Enemies deal 10% less damage to you.'
+      - '&e* Permanent Speed 3, Health Boost 2, Jump Boost 3.'
+      - '&7&o(Requires all 4 developer items.)'
+      - '&7'
+      - '&c&lCost: $25,000'
+    enchantments:
+      - protection_environmental:10
+      - durability:10
+    item-flags:
+    cost: 25000.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&6&lDeveloper Robeset'
+    item: iron_leggings
+    data: 0
+    lore:
+      - '&6The gucci robe of the Developer.'
+      - '&7'
+      - '&6&lDEVELOPER SET BONUS'
+      - '&e* Deal +25% damage to all enemies.'
+      - '&e* Enemies deal 10% less damage to you.'
+      - '&e* Permanent Speed 3, Health Boost 2, Jump Boost 3.'
+      - '&7&o(Requires all 4 developer items.)'
+      - '&7'
+      - '&c&lCost: $25,000'
+    enchantments:
+      - protection_environmental:10
+      - durability:10
+    item-flags:
+    cost: 25000.0
+  4:
+    slot: 3
+    action: boots
+    name: '&6&lDeveloper Sandals'
+    item: iron_boots
+    data: 0
+    lore:
+      - '&6The versace sandals of the Developer.'
+      - '&7'
+      - '&6&lDEVELOPER SET BONUS'
+      - '&e* Deal +25% damage to all enemies.'
+      - '&e* Enemies deal 10% less damage to you.'
+      - '&e* Permanent Speed 3, Health Boost 2, Jump Boost 3.'
+      - '&7&o(Requires all 4 developer items.)'
+      - '&7'
+      - '&c&lCost: $25,000'
+    enchantments:
+      - protection_environmental:10
+      - durability:10
+    item-flags:
+    cost: 25000.0
+  5:
+    slot: 4
+    action: close
+    name: '&c&lExit'
+    item: barrier
+    data: 0
+    lore:
+      - '&7'
+      - '&7&o((left click to close this gui))'
+      - '&7'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants

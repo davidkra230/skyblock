@@ -1,0 +1,39 @@
+item-must-be-in-hand: '&c[CustomCrafting] &fYou don''t have any item in hand!'
+already-created: '&c[CustomCrafting] &fYou have already created recipe with this name!'
+recipe-created: '&a[CustomCrafting] &fRecipe has been created!'
+recipe-cancel: '&c[CustomCrafting] &fCreating recipe has been cancelled!'
+not-exits: '&c[CustomCrafting] &fCreating recipe name is not exits!'
+remove-succes: '&a[CustomCrafting] &fRecipe has been removed!'
+no-permission: '&a[CustomCrafting] &cNo Permission!'
+inv-full: '&cInventory full.'
+already-in-list: '&cYou already have this workbench on'
+successfully-registered: '&aYour workbench type has been changed'
+zone-time: Europe/Madrid
+workbench:
+  title: '&rCrafting Table'
+  fill-item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    name: '&r'
+    lore:
+    - '&r'
+  good-craft:
+    material: STAINED_GLASS_PANE
+    data: 5
+    name: '&r'
+    lore:
+    - '&r'
+  bad-craft:
+    material: STAINED_GLASS_PANE
+    data: 14
+    name: '&r'
+    lore:
+    - '&r'
+  back-item:
+    material: BARRIER
+    data: 0
+    name: '&aGo Back'
+    lore:
+    - '&7Click to go back'
+    cmds:
+    - '[console] dm open crafting-table-selector <player>'

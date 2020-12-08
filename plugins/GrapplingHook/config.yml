@@ -1,0 +1,40 @@
+Plugin:
+  prefix: '&7[&6GrapplingHook&7] '
+  grapplingHookName: '&aGrappling Hook'
+  useAir: true
+  useInAllWorlds: true
+  onFishingDisable: true
+  crafting: true
+  cooldown: 3.0
+Messages:
+  reload: '%prefix%&7Config reloaded!'
+  noperm: '%prefix%&4You have no permissions to do that.'
+  unknownCMD: '%prefix%&7Unknown command or wrong syntax.'
+  onlyNumbers: '%prefix%&4Only numbers!'
+  useInAllWorlds: '%prefix%&7Grappling hook in all worlds enabled.'
+  useInIndividualWorlds: '%prefix%&7Grappling hook is now in each world individually
+    enabled.'
+  setSound: '%prefix%&7You set the sound to: %sound%.'
+  setWorld: '%prefix%&2The world: %world% has been added to the list.'
+  removeWorld: '%prefix%&4The world: %world% has been removed from the list.'
+  alreadyInList: '%prefix%&7World: %world%) is already in the list.'
+  isNotInList: '%prefix%&7World: %world% isn''t in the list.'
+  cooldown: '&cPlease wait %timeLeft%s more to use the Grappling Hook!'
+  setCooldown: '%prefix%&7New cooldown: %newTime%s'
+  useAir: '%prefix%&7UseAir is now: %state%'
+  crafting: '%prefix%&7Crafting is now: %state%'
+Sound:
+  grapplinghookSound: ENDERMAN_TELEPORT
+Recipe:
+  slot1: ''
+  slot2: ''
+  slot3: Stick
+  slot4: ''
+  slot5: Stick
+  slot6: String
+  slot7: Stick
+  slot8: ''
+  slot9: Iron_Ingot
+WorldList:
+- Islands
+- Server

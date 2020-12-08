@@ -1,0 +1,10 @@
+scoreboard:
+  MVdWPlaceholderAPI: false
+  PlaceholderAPI: true
+  onjoin:
+    use: true
+messages:
+  noperms: '&cYou don''t have permission to perform this command!'
+  ontoggle:
+    'true': '&aScoreboard is now enabled!'
+    'false': '&cScoreboard has been disabled!'

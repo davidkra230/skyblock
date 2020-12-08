@@ -1,0 +1,84 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&aYou are wearing Full Set of Emerald Armor. You will have 40 extra ❇ Defense while wearing this set.'
+  commands:
+    enabled: false
+    list:
+      - eeco give {player} 40
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&aYou are no longer wearing Full Set of Emerald Armor. Your no longer have a ❇ Defense buff.'
+  commands:
+    enabled: false
+    list:
+      - eeco take {player} 40
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: hand
+    damage-increase: 1.50
+    damage-cause: ENTITY_ATTACK
+#
+set-pieces:
+  hand:
+    name: '&aCleaver'
+    item: GOLD_SWORD
+    data: 0
+    lore:
+      - '&7Base Damage: &c7'
+      - '&7&7'
+      - '&6Item Ability: Cleave'
+      - '&7When hitting an entity, monsters'
+      - '&7in a &a3 &7block range will be'
+      - '&7hit for a portion of that damage'
+      - '&7too'
+      - '&4&c'
+      - '&a&lUNCOMMON'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: 'Cleaver'
+  type: HOPPER
+  size: 5
+  1:
+    slot: 0
+    action: hand
+    name: '&aCleaver'
+    item: PAPER
+    data: 0
+    lore:
+      - '&eClick to receive!'
+    enchantments:
+    item-flags:
+    cost: 1.0
+  2:
+    slot: 1
+    action: close
+    name: '&cExit'
+    item: barrier
+    data: 0
+    lore:
+      - '&eClick to exit!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants

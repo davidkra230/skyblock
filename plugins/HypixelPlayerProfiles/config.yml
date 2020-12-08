@@ -1,0 +1,67 @@
+#
+# ██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░██╗███╗░░██╗███████╗░█████╗░
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗
+# ██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝██║██╔██╗██║█████╗░░██║░░██║
+# ██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗██║██║╚████║██╔══╝░░██║░░██║
+# ██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██║██║░╚███║██║░░░░░╚█████╔╝
+# ╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
+#                               Player Information
+#                           Developed by aglerr with <3
+#
+# Join our discord to get a support!
+# Discord: https://discord.gg/vHqQfsF
+#
+# If you found any bugs please report it on discussion page or join our discord
+# server, don't post the bug on the review section!
+# Don't forget to rate us ★★★★★
+#
+###############################################################################
+messages:
+  no-permission: '&fUnknown command.'
+  reload: '&aThe config file has been reloaded!'
+  disable-world: '&cYou can''t use this feature on this world.'
+  open: '&aYou have opened &7%vault_rankprefix%%player_name%&a''s profile.'
+  target-not-found: '&cThe player was not found.'
+  help-cmd: 
+  - '&fUnknown command.'
+  toggle-blocked: 
+  - '&cYou disabled your profile!'
+  toggle-enabled: 
+  - '&aYou enabled your profile!'
+  target-toggle-blocked: '&7%vault_rankprefix%%player_name% &chas their profile disabled!'
+  selfview: '&cYou cannot view your own profile!'
+  is-in-combat: '&7'
+  
+options:
+  shiftclick: false
+  disable-npc: true
+  disable-selfviewing: false
+  disable-open-msg: true
+
+hooks:
+  combatlogx: false
+
+disable-worlds: []
+
+close-distance:
+  enabled: false
+  distance: 7
+  messages:
+    close: '%player_name%'
+
+auto-refresh:
+  enabled: true
+  interval: 40
+
+cooldown:
+  enabled: false
+  time: 3
+  messages:
+    on-cooldown: '%time%'
+    
+sounds:
+  on-open:
+    enabled: false
+    name: BLOCK_LAVA_POP
+    volume: 10.0
+    pitch: 1.0

@@ -1,0 +1,1018 @@
+{
+  "islands": {
+    "1": {
+      "owner": "556945d5-7ffe-4d60-a826-2163fe443f38",
+      "members": [
+        "556945d5-7ffe-4d60-a826-2163fe443f38"
+      ],
+      "pos1": {
+        "x": -75.0,
+        "y": 0.0,
+        "z": -75.0,
+        "world": "Islands"
+      },
+      "pos2": {
+        "x": 75.0,
+        "y": 0.0,
+        "z": 75.0,
+        "world": "Islands"
+      },
+      "center": {
+        "x": 0.0,
+        "y": 100.0,
+        "z": 0.0,
+        "world": "Islands"
+      },
+      "home": {
+        "x": 35.5,
+        "y": 116.0,
+        "z": 14.5,
+        "world": "Islands"
+      },
+      "netherhome": {
+        "x": 35.5,
+        "y": 116.0,
+        "z": 14.5,
+        "world": "Islands"
+      },
+      "id": 1,
+      "spawnerBooster": 0,
+      "farmingBooster": 0,
+      "expBooster": 0,
+      "flightBooster": 0,
+      "crystals": 0,
+      "sizeLevel": 1,
+      "memberLevel": 1,
+      "warpLevel": 1,
+      "oreLevel": 1,
+      "value": 0.0,
+      "valuableBlocks": {},
+      "warps": [],
+      "startvalue": -1.0,
+      "missions": {},
+      "missionLevels": {},
+      "visit": false,
+      "borderColor": "Off",
+      "permissions": {
+        "Moderator": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Visitor": {
+          "breakBlocks": false,
+          "placeBlocks": false,
+          "interact": false,
+          "kickMembers": false,
+          "inviteMembers": false,
+          "regen": false,
+          "islandprivate": false,
+          "promote": false,
+          "demote": false,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": false,
+          "withdrawBank": false,
+          "killMobs": false,
+          "pickupItems": false,
+          "breakSpawners": true
+        },
+        "Member": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "CoOwner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Owner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        }
+      },
+      "schematic": "island.schematic",
+      "netherschematic": "nether.schematic",
+      "bans": [],
+      "votes": [],
+      "coop": [],
+      "name": "Khrystyian",
+      "money": 0.0,
+      "exp": 0,
+      "biome": "PLAINS",
+      "lastRegen": "Jul 28, 2020 5:55:50 PM"
+    },
+    "2": {
+      "owner": "5b975c91-b95a-4f2c-b4b8-79deaf0457ff",
+      "members": [
+        "5b975c91-b95a-4f2c-b4b8-79deaf0457ff"
+      ],
+      "pos1": {
+        "x": 126.0,
+        "y": 100.0,
+        "z": -75.0,
+        "world": "Islands"
+      },
+      "pos2": {
+        "x": 276.0,
+        "y": 100.0,
+        "z": 75.0,
+        "world": "Islands"
+      },
+      "center": {
+        "x": 201.0,
+        "y": 100.0,
+        "z": 0.0,
+        "world": "Islands"
+      },
+      "home": {
+        "x": 236.5,
+        "y": 116.0,
+        "z": 14.5,
+        "world": "Islands"
+      },
+      "netherhome": {
+        "x": 272.0,
+        "y": 232.0,
+        "z": 29.0,
+        "world": "Islands"
+      },
+      "id": 2,
+      "spawnerBooster": 0,
+      "farmingBooster": 0,
+      "expBooster": 0,
+      "flightBooster": 0,
+      "crystals": 0,
+      "sizeLevel": 1,
+      "memberLevel": 1,
+      "warpLevel": 1,
+      "oreLevel": 1,
+      "value": 0.0,
+      "valuableBlocks": {},
+      "warps": [],
+      "startvalue": 0.0,
+      "missions": {
+        "Builder": 15
+      },
+      "missionLevels": {
+        "Treasure Hunter": 1,
+        "Competitor": 1,
+        "Miner": 1,
+        "Farmer": 1,
+        "Hunter": 1,
+        "Fisherman": 1,
+        "Builder": 1
+      },
+      "visit": false,
+      "borderColor": "Off",
+      "permissions": {
+        "Moderator": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Visitor": {
+          "breakBlocks": false,
+          "placeBlocks": false,
+          "interact": false,
+          "kickMembers": false,
+          "inviteMembers": false,
+          "regen": false,
+          "islandprivate": false,
+          "promote": false,
+          "demote": false,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": false,
+          "withdrawBank": false,
+          "killMobs": false,
+          "pickupItems": false,
+          "breakSpawners": true
+        },
+        "Member": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "CoOwner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Owner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        }
+      },
+      "schematic": "island.schematic",
+      "netherschematic": "nether.schematic",
+      "bans": [],
+      "votes": [],
+      "coop": [],
+      "name": "MiniFlexJAV",
+      "money": 0.0,
+      "exp": 0,
+      "biome": "PLAINS",
+      "lastRegen": "Sep 6, 2020 8:24:39 PM"
+    },
+    "3": {
+      "owner": "7e6ea977-ff36-4870-914a-37d6664e2e3e",
+      "members": [
+        "7e6ea977-ff36-4870-914a-37d6664e2e3e"
+      ],
+      "pos1": {
+        "x": 126.0,
+        "y": 0.0,
+        "z": 126.0,
+        "world": "Islands"
+      },
+      "pos2": {
+        "x": 276.0,
+        "y": 0.0,
+        "z": 276.0,
+        "world": "Islands"
+      },
+      "center": {
+        "x": 201.0,
+        "y": 100.0,
+        "z": 201.0,
+        "world": "Islands"
+      },
+      "home": {
+        "x": 236.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "netherhome": {
+        "x": 236.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "id": 3,
+      "spawnerBooster": 0,
+      "farmingBooster": 0,
+      "expBooster": 0,
+      "flightBooster": 0,
+      "crystals": 12003873,
+      "sizeLevel": 1,
+      "memberLevel": 1,
+      "warpLevel": 1,
+      "oreLevel": 3,
+      "value": 0.0,
+      "valuableBlocks": {},
+      "warps": [],
+      "startvalue": -1.0,
+      "missions": {
+        "Builder": 33
+      },
+      "missionLevels": {
+        "Competitor": 1,
+        "Miner": 1,
+        "Hunter": 1,
+        "Builder": 1,
+        "Treasure Hunter": 1,
+        "Farmer": 1,
+        "Fisherman": 1
+      },
+      "visit": false,
+      "borderColor": "Off",
+      "permissions": {
+        "Member": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Moderator": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Owner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "CoOwner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Visitor": {
+          "breakBlocks": false,
+          "placeBlocks": false,
+          "interact": false,
+          "kickMembers": false,
+          "inviteMembers": false,
+          "regen": false,
+          "islandprivate": false,
+          "promote": false,
+          "demote": false,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": false,
+          "withdrawBank": false,
+          "killMobs": false,
+          "pickupItems": false,
+          "breakSpawners": true
+        }
+      },
+      "schematic": "island.schematic",
+      "netherschematic": "nether.schematic",
+      "bans": [],
+      "votes": [],
+      "coop": [],
+      "name": "worldwar_3z",
+      "money": 0.0,
+      "exp": 0,
+      "biome": "PLAINS",
+      "lastRegen": "Oct 21, 2020 4:34:41 PM"
+    },
+    "4": {
+      "owner": "921f7b95-8821-42ce-9cef-4a5203486279",
+      "members": [
+        "921f7b95-8821-42ce-9cef-4a5203486279"
+      ],
+      "pos1": {
+        "x": -75.0,
+        "y": 0.0,
+        "z": 126.0,
+        "world": "Islands"
+      },
+      "pos2": {
+        "x": 75.0,
+        "y": 0.0,
+        "z": 276.0,
+        "world": "Islands"
+      },
+      "center": {
+        "x": 0.0,
+        "y": 100.0,
+        "z": 201.0,
+        "world": "Islands"
+      },
+      "home": {
+        "x": 35.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "netherhome": {
+        "x": 35.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "id": 4,
+      "spawnerBooster": 0,
+      "farmingBooster": 0,
+      "expBooster": 0,
+      "flightBooster": 0,
+      "crystals": 0,
+      "sizeLevel": 1,
+      "memberLevel": 1,
+      "warpLevel": 1,
+      "oreLevel": 1,
+      "value": 0.0,
+      "valuableBlocks": {},
+      "warps": [],
+      "startvalue": -1.0,
+      "missions": {
+        "Builder": 1
+      },
+      "missionLevels": {
+        "Competitor": 1,
+        "Hunter": 1,
+        "Miner": 1,
+        "Builder": 1,
+        "Treasure Hunter": 1,
+        "Farmer": 1,
+        "Fisherman": 1
+      },
+      "visit": false,
+      "borderColor": "Off",
+      "permissions": {
+        "Moderator": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Visitor": {
+          "breakBlocks": false,
+          "placeBlocks": false,
+          "interact": false,
+          "kickMembers": false,
+          "inviteMembers": false,
+          "regen": false,
+          "islandprivate": false,
+          "promote": false,
+          "demote": false,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": false,
+          "withdrawBank": false,
+          "killMobs": false,
+          "pickupItems": false,
+          "breakSpawners": true
+        },
+        "Member": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Owner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "CoOwner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        }
+      },
+      "schematic": "island.schematic",
+      "netherschematic": "nether.schematic",
+      "bans": [],
+      "votes": [],
+      "coop": [],
+      "name": "worldwar3z",
+      "money": 0.0,
+      "exp": 0,
+      "biome": "PLAINS",
+      "lastRegen": "Oct 22, 2020 12:39:18 AM"
+    },
+    "5": {
+      "owner": "c9ac6562-8a77-4929-90c8-444424c5b085",
+      "members": [
+        "c9ac6562-8a77-4929-90c8-444424c5b085"
+      ],
+      "pos1": {
+        "x": -276.0,
+        "y": 0.0,
+        "z": 126.0,
+        "world": "Islands"
+      },
+      "pos2": {
+        "x": -126.0,
+        "y": 0.0,
+        "z": 276.0,
+        "world": "Islands"
+      },
+      "center": {
+        "x": -201.0,
+        "y": 100.0,
+        "z": 201.0,
+        "world": "Islands"
+      },
+      "home": {
+        "x": -165.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "netherhome": {
+        "x": -165.5,
+        "y": 116.0,
+        "z": 215.5,
+        "world": "Islands"
+      },
+      "id": 5,
+      "spawnerBooster": 0,
+      "farmingBooster": 0,
+      "expBooster": 0,
+      "flightBooster": 0,
+      "crystals": 0,
+      "sizeLevel": 1,
+      "memberLevel": 1,
+      "warpLevel": 1,
+      "oreLevel": 1,
+      "value": 0.0,
+      "valuableBlocks": {},
+      "warps": [],
+      "startvalue": -1.0,
+      "missions": {},
+      "missionLevels": {},
+      "visit": false,
+      "borderColor": "Off",
+      "permissions": {
+        "Moderator": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Visitor": {
+          "breakBlocks": false,
+          "placeBlocks": false,
+          "interact": false,
+          "kickMembers": false,
+          "inviteMembers": false,
+          "regen": false,
+          "islandprivate": false,
+          "promote": false,
+          "demote": false,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": false,
+          "withdrawBank": false,
+          "killMobs": false,
+          "pickupItems": false,
+          "breakSpawners": true
+        },
+        "CoOwner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Owner": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        },
+        "Member": {
+          "breakBlocks": true,
+          "placeBlocks": true,
+          "interact": true,
+          "kickMembers": true,
+          "inviteMembers": true,
+          "regen": true,
+          "islandprivate": true,
+          "promote": true,
+          "demote": true,
+          "useNetherPortal": true,
+          "useWarps": true,
+          "coop": true,
+          "withdrawBank": true,
+          "killMobs": true,
+          "pickupItems": true,
+          "breakSpawners": true
+        }
+      },
+      "schematic": "island.schematic",
+      "netherschematic": "nether.schematic",
+      "bans": [],
+      "votes": [],
+      "coop": [],
+      "name": "AwfulPlanet1308",
+      "money": 0.0,
+      "exp": 0,
+      "biome": "PLAINS",
+      "lastRegen": "Dec 7, 2020 6:46:49 PM"
+    }
+  },
+  "users": {
+    "556945d5-7ffe-4d60-a826-2163fe443f38": {
+      "player": "556945d5-7ffe-4d60-a826-2163fe443f38",
+      "name": "Khrystyian",
+      "islandID": 1,
+      "role": "Owner",
+      "invites": [],
+      "bypassing": false,
+      "islandChat": false,
+      "flying": false,
+      "lastCreate": "Jul 28, 2020 5:55:50 PM"
+    },
+    "5b975c91-b95a-4f2c-b4b8-79deaf0457ff": {
+      "player": "5b975c91-b95a-4f2c-b4b8-79deaf0457ff",
+      "name": "MiniFlexJAV",
+      "islandID": 2,
+      "role": "Owner",
+      "invites": [],
+      "bypassing": false,
+      "islandChat": false,
+      "flying": false,
+      "lastCreate": "Sep 6, 2020 4:27:08 PM"
+    },
+    "7e6ea977-ff36-4870-914a-37d6664e2e3e": {
+      "player": "7e6ea977-ff36-4870-914a-37d6664e2e3e",
+      "name": "worldwar_3z",
+      "islandID": 3,
+      "role": "Owner",
+      "invites": [],
+      "bypassing": false,
+      "islandChat": false,
+      "flying": false,
+      "lastCreate": "Oct 21, 2020 4:34:41 PM"
+    },
+    "921f7b95-8821-42ce-9cef-4a5203486279": {
+      "player": "921f7b95-8821-42ce-9cef-4a5203486279",
+      "name": "worldwar3z",
+      "islandID": 4,
+      "role": "Owner",
+      "invites": [],
+      "bypassing": false,
+      "islandChat": false,
+      "flying": false,
+      "lastCreate": "Oct 22, 2020 12:39:18 AM"
+    },
+    "c9ac6562-8a77-4929-90c8-444424c5b085": {
+      "player": "c9ac6562-8a77-4929-90c8-444424c5b085",
+      "name": "AwfulPlanet1308",
+      "islandID": 5,
+      "role": "Owner",
+      "invites": [],
+      "bypassing": false,
+      "islandChat": false,
+      "flying": false,
+      "lastCreate": "Dec 7, 2020 6:46:49 PM"
+    }
+  },
+  "islandCache": [
+    [
+      [
+        2,
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        14,
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        12,
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        13,
+        0
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        14,
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    [
+      [
+        14,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        15,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        13,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        12,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        11,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    [
+      [
+        16,
+        13
+      ],
+      [
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        13
+      ],
+      [
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        13
+      ],
+      [
+        4
+      ]
+    ],
+    [
+      [
+        -11,
+        13
+      ],
+      [
+        5
+      ]
+    ]
+  ],
+  "length": 2,
+  "current": 1,
+  "direction": "WEST",
+  "nextLocation": {
+    "x": -201.0,
+    "y": 0.0,
+    "z": 0.0,
+    "world": "Islands"
+  },
+  "nextID": 6
+}

@@ -1,0 +1,175 @@
+menu_title: 'Your Skills'
+open_command:
+- s
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 99
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+      skills:
+        material: DIAMOND_SWORD
+        hide_attributes: true
+        slot: 4
+        display_name: '&aSkills'
+        hide_attributes: true
+        lore:
+        - '&7Advance your Skills'
+        - '&7by doing things such as'
+        - '&7Mining, Foraging, Combat'
+        - '&7and Farming!'
+        left_click_commands: []
+        right_click_commands: []
+      farming:
+        material: GOLD_HOE
+        slot: 20
+        display_name: '&aFarming'
+        hide_attributes: true
+        lore:
+        - '&7Harvest crops and shear to earn'
+        - '&7Farming XP!'
+        - ''
+        - '&7Progress to next Level: &e%progress_percentage_{skills_skillExpFarming}_m:{skills_skillExpNeededFarming}%%'
+        - '%progress_bar_{skills_skillExpFarming}_c:&2-_p:&2-_r:&f-_l:20_m:{skills_skillExpNeededFarming}_fullbar:&2--------------------% &e%skills_skillExpFarming%&6/&e%skills_skillExpNeededFarming%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] farming-skill'
+        right_click_commands:
+        - '[openguimenu] farming-skill'
+      mining:
+        material: STONE_PICKAXE
+        slot: 21
+        display_name: '&aMining'
+        hide_attributes: true
+        lore:
+        - '&7Mine ores and stone to earn'
+        - '&7Mining XP!'
+        - ''
+        - '&7Progress to next Level: &e%progress_percentage_{skills_skillExpMining}_m:{skills_skillExpNeededMining}%%'
+        - '%progress_bar_{skills_skillExpMining}_c:&2-_p:&2-_r:&f-_l:20_m:{skills_skillExpNeededMining}_fullbar:&2--------------------% &e%skills_skillExpMining%&6/&e%skills_skillExpNeededMining%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] mining-skill'
+        right_click_commands:
+        - '[openguimenu] mining-skill'
+      combat:
+        material: STONE_SWORD
+        slot: 22
+        display_name: '&aCombat'
+        hide_attributes: true
+        lore:
+        - '&7Fight mobs and players to earn'
+        - '&7Combat XP!'
+        - ''
+        - '&7Progress to next Level: &e%progress_percentage_{skills_skillExpCombat}_m:{skills_skillExpNeededCombat}%%'
+        - '%progress_bar_{skills_skillExpCombat}_c:&2-_p:&2-_r:&f-_l:20_m:{skills_skillExpNeededCombat}_fullbar:&2--------------------% &e%skills_skillExpCombat%&6/&e%skills_skillExpNeededCombat%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] combat-skill'
+        right_click_commands:
+        - '[openguimenu] combat-skill'
+      foraging:
+        material: 6
+        data: 3
+        slot: 23
+        display_name: '&aForaging'
+        lore:
+        - '&7Cut trees and forage for other'
+        - '&7plants to earn Foraging XP!'
+        - ''
+        - '&7Progress to next Level: &e%progress_percentage_{skills_skillExpForaging}_m:{skills_skillExpNeededForaging}%%'
+        - '%progress_bar_{skills_skillExpForaging}_c:&2-_p:&2-_r:&f-_l:20_m:{skills_skillExpNeededForaging}_fullbar:&2--------------------% &e%skills_skillExpForaging%&6/&e%skills_skillExpNeededForaging%'
+        - ''
+        - '&eClick to view!'
+        left_click_commands:
+        - '[openguimenu] foraging-skill'
+        right_click_commands:
+        - '[openguimenu] foraging-skill'
+      enchanting:
+        material: 116
+        slot: 24
+        display_name: '&aEnchanting'
+        lore:
+        - '&cSoon!'
+        left_click_commands: []
+        right_click_commands: []
+      go-back:
+        material: ARROW
+        slot: 48
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'
+      close:
+        material: BARRIER
+        slot: 49
+        display_name: '&cClose'
+        lore: []
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

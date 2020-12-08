@@ -1,0 +1,166 @@
+Options:
+  Updater: false
+  ShowCancelledNotice: false
+Messages:
+  NoPermission: '&cYou do not have permission to use that command!'
+  InvExpired: '&cThis inventory view has expired!'
+  ReloadPlugin: '&aInteractive Chat has been reloaded!'
+  LimitReached: '&cPlease do now use excessive amount of placeholders in one message!'
+  ColorsDisabled: '&lYou have colors disabled in your client settings! All messages
+    will be white and respect the settings!'
+  ColorsReEnabled: '&aYou have colors re-enabled in your client settings! All messages
+    will be colored from this point!'
+Settings:
+  FilterUselessColorCodes: false
+  CommandsToParse:
+  - /emsg.*
+  - /msg.*
+  - /pm.*
+  - /tell.*
+  - /r.*
+  UniversalCooldown: 0
+  MaxPlaceholders: 1
+  PlayerNotFound:
+    Hover:
+      Enable: false
+      Text:
+      - '&cUnable to parse placeholder..'
+    Click:
+      Enable: false
+      Action: SUGGEST_COMMAND
+      Value: ''
+    Replace:
+      Enable: false
+      ReplaceText: '&c{Placeholer}&r'
+Chat:
+  AllowMention: false
+  MentionedSound: ORB_PICKUP
+  MentionedTitle: '&c&lMentioned'
+  MentionedTitleDuration: 1.5
+  UnknownPlayerMentionSubtitle: '&fSomeone had mentioned you in the chat!'
+  KnownPlayerMentionSubtitle: '&3%player_name% &fmentioned you in the chat!'
+  MentionHighlight: '&e{MentionedPlayer}'
+  MentionHoverText:
+  - '&b{Sender} mentioned you!'
+ItemDisplay:
+  Item:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[item]'
+    Aliases:
+    - (?i)(\[i\])
+    Text: '&7(&f{Item} &bx{Amount}&7)'
+    InventoryTitle: '%player_name%''s Item'
+    Cooldown: 0
+    GUIEnabled: true
+    Frame:
+      Primary: STAINED_GLASS_PANE:15
+      Secondary: STAINED_GLASS_PANE:15
+  Inventory:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[inv]'
+    Aliases:
+    - (?i)(\[inventory\])
+    Text: '&7(&fInventory&7)'
+    InventoryTitle: '%player_name%''s Inventory'
+    Cooldown: 0
+    HoverMessage:
+    - '&eClick to view!'
+  EnderChest:
+    Enabled: true
+    CaseSensitive: false
+    Keyword: '[ender]'
+    Aliases:
+    - (?i)(\[e\])
+    Text: '&7(&fEnder Chest&7)'
+    InventoryTitle: '%player_name%''s Ender Chest'
+    Cooldown: 0
+    HoverMessage:
+    - '&eClick to view!'
+Player:
+  UsePlayerNameInteraction: false
+  CaseSensitive: false
+  Hover:
+    Enable: false
+    Text:
+    - '&aWorld: %multiverse_world_alias%'
+    - '&cHealth: %player_health_rounded%'
+  Click:
+    Enable: false
+    Action: SUGGEST_COMMAND
+    Value: '/msg %player_name% '
+CustomPlaceholders:
+  '1':
+    ParsePlayer: sender
+    Text: '[mxxxxxxxxxxxxxxxxxx]'
+    Aliases:
+    - (?i)(\[m\])
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&6%player_name%''s Balance: $%vault_eco_balance_commas%'
+    Click:
+      Enable: true
+      Action: SUGGEST_COMMAND
+      Value: '/pay %player_name% '
+    Replace:
+      Enable: true
+      ReplaceText: '[%player_name%''s Balance]'
+  '2':
+    ParsePlayer: viewer
+    Text: xxxxxxxxxxxxxxxxxxxxx
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&eVisit the author''s server!'
+      - '&bClick me!'
+    Click:
+      Enable: true
+      Action: OPEN_URL
+      Value: https://sunknights.fun
+    Replace:
+      Enable: true
+      ReplaceText: '&6&lSun&e&lKnights'
+  '3':
+    ParsePlayer: sender
+    Text: '[xxxxxxxxxxxxxxxxxx]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: true
+    Cooldown: 0
+    Hover:
+      Enable: false
+      Text: []
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: true
+      ReplaceText: '%player_world_time_24%'
+  '4':
+    ParsePlayer: viewer
+    Text: '[xxxxxxxxxxxxxxxxxxxx]'
+    Aliases: []
+    ParseKeyword: false
+    CaseSensitive: false
+    Cooldown: 0
+    Hover:
+      Enable: true
+      Text:
+      - '&bHover Text is cool!'
+    Click:
+      Enable: false
+      Action: ''
+      Value: ''
+    Replace:
+      Enable: false
+      ReplaceText: ''

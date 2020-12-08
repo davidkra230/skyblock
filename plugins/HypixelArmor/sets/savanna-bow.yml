@@ -1,0 +1,88 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: hand
+    damage-increase: 2.00
+    damage-cause: projectile
+#
+set-pieces:
+  hand:
+    name: '&aSavanna Bow'
+    item: bow
+    data: 0
+    lore:
+      - '&7Base damage: &c9'
+      - '&3&3'
+      - '&7All damage dealt with this'
+      - '&7bow is &adoubled&7.'
+      - '&4&4'
+      - '&a&lUNCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: hand
+    name: '&aSavanna Bow'
+    item: bow
+    data: 0
+    lore:
+      - '&7Base damage: &c9'
+      - '&3&3'
+      - '&7All damage dealt with this'
+      - '&7bow is &adoubled&7.'
+      - '&4&4'
+      - '&a&lUNCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

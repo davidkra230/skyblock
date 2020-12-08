@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "7e6ea977-ff36-4870-914a-37d6664e2e3e",
+    "name": "worldwar_3z",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5b975c91-b95a-4f2c-b4b8-79deaf0457ff",
+    "name": "MiniFlexJAV",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

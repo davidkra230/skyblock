@@ -1,0 +1,260 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - customplaceholders add {player} speed 50
+      - customplaceholders add {player} bonusspeed 50
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - customplaceholders remove {player} speed 50
+      - customplaceholders remove {player} bonusspeed 50
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.70
+    health: 30
+    kb: -1
+    speed:
+      walk:
+        set: 0.40
+        default: 0.25
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 5
+        - customplaceholders add {player} bonusdefense 5
+      remove:
+        - customplaceholders remove {player} defense 5
+        - customplaceholders remove {player} bonusdefense 5
+    name: '&fOak Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+5'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 8
+        - customplaceholders add {player} bonusdefense 8
+      remove:
+        - customplaceholders remove {player} defense 8
+        - customplaceholders remove {player} bonusdefense 8
+    name: '&fOak Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+8'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 7
+        - customplaceholders add {player} bonusdefense 7
+      remove:
+        - customplaceholders remove {player} defense 7
+        - customplaceholders remove {player} bonusdefense 7
+    name: '&fOak Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+7'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 4
+        - customplaceholders add {player} bonusdefense 4
+      remove:
+        - customplaceholders remove {player} defense 4
+        - customplaceholders remove {player} bonusdefense 4
+    name: '&fOak Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+5'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&fOak Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+5'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&fOak Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+8'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&fOak Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+7'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&fOak Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 0:255:0
+    lore:
+      - '&7Defense: &a+5'
+      - '&4&4'
+      - '&6Full Set Bonus: Forest Energy'
+      - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+      - '&7to the wearer while near trees, grass'
+      - '&7and saplings.'
+      - '&8&7'
+      - '&f&lCOMMON'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

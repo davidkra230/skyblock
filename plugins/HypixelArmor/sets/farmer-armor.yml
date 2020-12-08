@@ -1,0 +1,259 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - customplaceholders add {player} speed 25
+      - customplaceholders add {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: true
+    list:
+      - customplaceholders remove {player} speed 25
+      - customplaceholders remove {player} bonusspeed 25
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.80
+    health: -1
+    kb: -1
+    speed:
+      walk:
+        set: 0.30
+        default: 0.25
+      fly:
+        set: 0.20
+        default: 0.20
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 12
+        - customplaceholders add {player} bonusdefense 12
+      remove:
+        - customplaceholders remove {player} defense 12
+        - customplaceholders remove {player} bonusdefense 12
+    name: '&9Farmer Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+12'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 18
+        - customplaceholders add {player} bonusdefense 18
+      remove:
+        - customplaceholders remove {player} defense 18
+        - customplaceholders remove {player} bonusdefense 18
+    name: '&9Farmer Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+18'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 16
+        - customplaceholders add {player} bonusdefense 16
+      remove:
+        - customplaceholders remove {player} defense 16
+        - customplaceholders remove {player} bonusdefense 16
+    name: '&9Farmer Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+16'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 10
+        - customplaceholders add {player} bonusdefense 10
+      remove:
+        - customplaceholders remove {player} defense 10
+        - customplaceholders remove {player} bonusdefense 10
+    name: '&9Farmer Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+10'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&9Farmer Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+12'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&9Farmer Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+18'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&9Farmer Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+16'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&9Farmer Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 255:128:0
+    lore:
+      - '&7Defense: &a+10'
+      - '&8&c'
+      - '&6Full Set Bonus: Bonus Speed'
+      - '&7Increases your &f✦ Speed &7by'
+      - '&a+25 &7while worn near &bFarm&7,'
+      - '&bThe Barn&7, and other &bCrops&7.'
+      - '&8&5'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

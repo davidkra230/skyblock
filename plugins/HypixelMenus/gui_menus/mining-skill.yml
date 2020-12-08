@@ -1,0 +1,1510 @@
+menu_title: 'Mining Skill'
+open_command: 'mskill'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 2
+        - 6
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 31
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      mining:
+        material: STONE_PICKAXE
+        slot: 0
+        display_name: '&aMining'
+        hide_attributes: true
+        lore:
+        - '&7Mine ores and stone to earn'
+        - '&7Mining XP!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1:
+        material: 160
+        priority: 1
+        slot: 1
+        data: 5
+        amount: 1
+        display_name: '&aMining I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fCoal &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-1-progress:
+        material: 160
+        priority: 2
+        slot: 1
+        data: 4
+        amount: 1
+        display_name: '&eMining I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 0
+        lore:
+        - '&7Rewards:'
+        - '  &fCoal &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1-locked:
+        material: 160
+        priority: 3
+        slot: 1
+        data: 14
+        amount: 1
+        display_name: '&cMining I'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fCoal &7Trade'
+        - '  &aEnchanted Cobblestone &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      level-2:
+        material: 160
+        priority: 1
+        slot: 10
+        data: 5
+        amount: 2
+        display_name: '&aMining II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '&7  &fGrass &7Trade'
+        - '&7  &fDirt &7Trade'
+        - '&7  &aSmall Backpack &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-2-progress:
+        material: 160
+        priority: 2
+        slot: 10
+        data: 4
+        amount: 2
+        display_name: '&eMining II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '&7  &fGrass &7Trade'
+        - '&7  &fDirt &7Trade'
+        - '&7  &aSmall Backpack &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-2-locked:
+        material: 160
+        priority: 3
+        slot: 10
+        data: 14
+        amount: 2
+        display_name: '&cMining II'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '&7  &fGrass &7Trade'
+        - '&7  &fDirt &7Trade'
+        - '&7  &aSmall Backpack &7Recipe'
+        - '&7  &8+&6100 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-3:
+        material: 160
+        priority: 1
+        slot: 19
+        data: 5
+        amount: 3
+        display_name: '&aMining III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '&7  &aCobblestone Helmet &7Recipe'
+        - '&7  &aCobblestone Chestplate &7Recipe'
+        - '&7  &aCobblestone Leggings &7Recipe'
+        - '&7  &aCobblestone Boots &7Recipe'
+        - '&7  &8+&6200 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-3-progress:
+        material: 160
+        priority: 2
+        slot: 19
+        data: 4
+        amount: 3
+        display_name: '&eMining III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '&7  &aCobblestone Helmet &7Recipe'
+        - '&7  &aCobblestone Chestplate &7Recipe'
+        - '&7  &aCobblestone Leggings &7Recipe'
+        - '&7  &aCobblestone Boots &7Recipe'
+        - '&7  &8+&6200 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-3-locked:
+        material: 160
+        priority: 3
+        slot: 19
+        data: 14
+        amount: 3
+        display_name: '&cMining III'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '&7  &aCobblestone Helmet &7Recipe'
+        - '&7  &aCobblestone Chestplate &7Recipe'
+        - '&7  &aCobblestone Leggings &7Recipe'
+        - '&7  &aCobblestone Boots &7Recipe'
+        - '&7  &8+&6200 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-4:
+        material: 160
+        priority: 1
+        slot: 28
+        data: 5
+        amount: 4
+        display_name: '&aMining IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '&7  &fClay &7Trade'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &8+&6300 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-progress:
+        material: 160
+        priority: 2
+        slot: 28
+        data: 4
+        amount: 4
+        display_name: '&eMining IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '&7  &fClay &7Trade'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &8+&6300 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-locked:
+        material: 160
+        priority: 3
+        slot: 28
+        data: 14
+        amount: 4
+        display_name: '&cMining IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '&7  &fClay &7Trade'
+        - '&7  &aEnchanted Coal &7Recipe'
+        - '&7  &8+&6300 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-5:
+        material: 160
+        priority: 1
+        slot: 29
+        data: 5
+        amount: 5
+        display_name: '&aMining V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '&7  &aAccess to the &eDeep Caverns'
+        - '&7  &a  Enchanted Iron Ingot &7Recipe'
+        - '&7  &8+&6400 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-progress:
+        material: 160
+        priority: 2
+        slot: 29
+        data: 4
+        amount: 5
+        display_name: '&eMining V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '&7  &aAccess to the &eDeep Caverns'
+        - '&7  &a  Enchanted Iron Ingot &7Recipe'
+        - '&7  &8+&6400 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-locked:
+        material: 160
+        priority: 3
+        slot: 29
+        data: 14
+        amount: 5
+        display_name: '&cMining V'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '&7  &aAccess to the &eDeep Caverns'
+        - '&7  &a  Enchanted Iron Ingot &7Recipe'
+        - '&7  &8+&6400 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-6:
+        material: 160
+        priority: 1
+        slot: 30
+        data: 5
+        amount: 6
+        display_name: '&aMining VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Iron Block &7Recipe'
+        - '&7  &8+&6500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-progress:
+        material: 160
+        priority: 2
+        slot: 30
+        data: 4
+        amount: 6
+        display_name: '&eMining VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Iron Block &7Recipe'
+        - '&7  &8+&6500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-locked:
+        material: 160
+        priority: 3
+        slot: 30
+        data: 14
+        amount: 6
+        display_name: '&cMining VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Iron Block &7Recipe'
+        - '&7  &8+&6500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+      level-7:
+        material: 160
+        priority: 1
+        slot: 21
+        data: 5
+        amount: 7
+        display_name: '&aMining VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '&7  &aMedium Backpack &7Recipe'
+        - '&7  &8+&6600 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-progress:
+        material: 160
+        priority: 2
+        slot: 21
+        data: 4
+        amount: 7
+        display_name: '&eMining VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '&7  &aMedium Backpack &7Recipe'
+        - '&7  &8+&6600 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-locked:
+        material: 160
+        priority: 3
+        slot: 21
+        data: 14
+        amount: 7
+        display_name: '&cMining VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '&7  &aMedium Backpack &7Recipe'
+        - '&7  &8+&6600 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      level-8:
+        material: 160
+        priority: 1
+        slot: 12
+        data: 5
+        amount: 8
+        display_name: '&aMining VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Ingot &7Recipe'
+        - '&7  &8+&6700 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-progress:
+        material: 160
+        priority: 2
+        slot: 12
+        data: 4
+        amount: 8
+        display_name: '&eMining VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Ingot &7Recipe'
+        - '&7  &8+&6700 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-locked:
+        material: 160
+        priority: 3
+        slot: 12
+        data: 14
+        amount: 8
+        display_name: '&cMining VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Ingot &7Recipe'
+        - '&7  &8+&6700 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-9:
+        material: 160
+        priority: 1
+        slot: 3
+        data: 5
+        amount: 9
+        display_name: '&aMining IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Block &7Recipe'
+        - '&7  &8+&6800 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-progress:
+        material: 160
+        priority: 2
+        slot: 3
+        data: 4
+        amount: 9
+        display_name: '&eMining IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Block &7Recipe'
+        - '&7  &8+&6800 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-locked:
+        material: 160
+        priority: 3
+        slot: 3
+        data: 14
+        amount: 9
+        display_name: '&cMining IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Gold Block &7Recipe'
+        - '&7  &8+&6800 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-10:
+        material: 160
+        priority: 1
+        slot: 4
+        data: 5
+        amount: 10
+        display_name: '&aMining X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Diamond &7Recipe'
+        - '&7  &8+&6900 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-progress:
+        material: 160
+        priority: 2
+        slot: 4
+        data: 4
+        amount: 10
+        display_name: '&eMining X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Diamond &7Recipe'
+        - '&7  &8+&6900 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-locked:
+        material: 160
+        priority: 3
+        slot: 4
+        data: 14
+        amount: 10
+        display_name: '&cMining X'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Diamond &7Recipe'
+        - '&7  &8+&6900 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-11:
+        material: 160
+        priority: 1
+        slot: 5
+        data: 5
+        amount: 11
+        display_name: '&aMining XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Hardened Diamond Helmet &7Recipe'
+        - '&7  &9Hardened Diamond Chestplate &7Recipe'
+        - '&7  &9Hardened Diamond Leggings &7Recipe'
+        - '&7  &9Hardened Diamond Boots &7Recipe'
+        - '&7  &8+&61,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-progress:
+        material: 160
+        priority: 2
+        slot: 5
+        data: 4
+        amount: 11
+        display_name: '&eMining XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Hardened Diamond Helmet &7Recipe'
+        - '&7  &9Hardened Diamond Chestplate &7Recipe'
+        - '&7  &9Hardened Diamond Leggings &7Recipe'
+        - '&7  &9Hardened Diamond Boots &7Recipe'
+        - '&7  &8+&61,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-locked:
+        material: 160
+        priority: 3
+        slot: 5
+        data: 14
+        amount: 11
+        display_name: '&cMining XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Hardened Diamond Helmet &7Recipe'
+        - '&7  &9Hardened Diamond Chestplate &7Recipe'
+        - '&7  &9Hardened Diamond Leggings &7Recipe'
+        - '&7  &9Hardened Diamond Boots &7Recipe'
+        - '&7  &8+&61,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-12:
+        material: 160
+        priority: 1
+        slot: 14
+        data: 5
+        amount: 12
+        display_name: '&aMining XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald &7Recipe'
+        - '&7  &8+&62,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-progress:
+        material: 160
+        priority: 2
+        slot: 14
+        data: 4
+        amount: 12
+        display_name: '&eMining XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald &7Recipe'
+        - '&7  &8+&62,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-locked:
+        material: 160
+        priority: 3
+        slot: 14
+        data: 14
+        amount: 12
+        display_name: '&cMining XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald &7Recipe'
+        - '&7  &8+&62,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-13:
+        material: 160
+        priority: 1
+        slot: 23
+        data: 5
+        amount: 13
+        display_name: '&aMining XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald Block &7Recipe'
+        - '&7  &8+&63,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-progress:
+        material: 160
+        priority: 2
+        slot: 23
+        data: 4
+        amount: 13
+        display_name: '&eMining XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald Block &7Recipe'
+        - '&7  &8+&63,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-locked:
+        material: 160
+        priority: 3
+        slot: 23
+        data: 14
+        amount: 13
+        display_name: '&cMining XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Emerald Block &7Recipe'
+        - '&7  &8+&63,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-14:
+        material: 160
+        priority: 1
+        slot: 32
+        data: 5
+        amount: 14
+        display_name: '&aMining XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '&7  &aLarge Backpack &7Recipe'
+        - '&7  &8+&64,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-progress:
+        material: 160
+        priority: 2
+        slot: 32
+        data: 4
+        amount: 14
+        display_name: '&eMining XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '&7  &aLarge Backpack &7Recipe'
+        - '&7  &8+&64,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-locked:
+        material: 160
+        priority: 3
+        slot: 32
+        data: 14
+        amount: 14
+        display_name: '&cMining XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '&7  &aLarge Backpack &7Recipe'
+        - '&7  &8+&64,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-15:
+        material: 160
+        priority: 1
+        slot: 33
+        data: 5
+        amount: 15
+        display_name: '&aMining XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Emerald Helmet &7Recipe'
+        - '&7  &9Emerald Chestplate &7Recipe'
+        - '&7  &9Emerald Leggings &7Recipe'
+        - '&7  &9Emerald Boots &7Recipe'
+        - '&7  &8+&65,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-progress:
+        material: 160
+        priority: 2
+        slot: 33
+        data: 4
+        amount: 15
+        display_name: '&eMining XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Emerald Helmet &7Recipe'
+        - '&7  &9Emerald Chestplate &7Recipe'
+        - '&7  &9Emerald Leggings &7Recipe'
+        - '&7  &9Emerald Boots &7Recipe'
+        - '&7  &8+&65,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-locked:
+        material: 160
+        priority: 3
+        slot: 33
+        data: 14
+        amount: 15
+        display_name: '&cMining XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '&7  &9Emerald Helmet &7Recipe'
+        - '&7  &9Emerald Chestplate &7Recipe'
+        - '&7  &9Emerald Leggings &7Recipe'
+        - '&7  &9Emerald Boots &7Recipe'
+        - '&7  &8+&65,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-16:
+        material: 160
+        priority: 1
+        slot: 34
+        data: 5
+        amount: 16
+        display_name: '&aMining XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Redstone Dust &7Recipe'
+        - '&7  &8+&67,500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-progress:
+        material: 160
+        priority: 2
+        slot: 34
+        data: 4
+        amount: 16
+        display_name: '&eMining XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Redstone Dust &7Recipe'
+        - '&7  &8+&67,500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-locked:
+        material: 160
+        priority: 3
+        slot: 34
+        data: 14
+        amount: 16
+        display_name: '&cMining XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '&7  &aEnchanted Redstone Dust &7Recipe'
+        - '&7  &8+&67,500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-17:
+        material: 160
+        priority: 1
+        slot: 25
+        data: 5
+        amount: 17
+        display_name: '&aMining XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&610,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-progress:
+        material: 160
+        priority: 2
+        slot: 25
+        data: 4
+        amount: 17
+        display_name: '&eMining XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&610,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-locked:
+        material: 160
+        priority: 3
+        slot: 25
+        data: 14
+        amount: 17
+        display_name: '&cMining XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&610,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-18:
+        material: 160
+        priority: 1
+        slot: 16
+        data: 5
+        amount: 18
+        display_name: '&aMining XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&625,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-progress:
+        material: 160
+        priority: 2
+        slot: 16
+        data: 4
+        amount: 18
+        display_name: '&eMining XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&625,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-locked:
+        material: 160
+        priority: 3
+        slot: 16
+        data: 14
+        amount: 18
+        display_name: '&cMining XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&625,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-19:
+        material: 160
+        priority: 1
+        slot: 7
+        data: 5
+        amount: 19
+        display_name: '&aMining XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&650,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-progress:
+        material: 160
+        priority: 2
+        slot: 7
+        data: 4
+        amount: 19
+        display_name: '&eMining XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&650,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-locked:
+        material: 160
+        priority: 3
+        slot: 7
+        data: 14
+        amount: 19
+        display_name: '&cMining XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&650,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-20:
+        material: 160
+        priority: 1
+        slot: 8
+        data: 5
+        amount: 20
+        display_name: '&aMining XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&6100,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-progress:
+        material: 160
+        priority: 2
+        slot: 8
+        data: 4
+        amount: 20
+        display_name: '&eMining XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelMining%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&6100,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-locked:
+        material: 160
+        priority: 3
+        slot: 8
+        data: 14
+        amount: 20
+        display_name: '&cMining XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelMining%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '&7  &8+&6100,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] skills'
+        right_click_commands:
+        - '[openguimenu] skills'

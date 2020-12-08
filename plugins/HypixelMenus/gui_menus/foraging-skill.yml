@@ -1,0 +1,1485 @@
+menu_title: 'Foraging Skill'
+open_command: 'fgskill'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 2
+        - 6
+        - 9
+        - 11
+        - 13
+        - 15
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 31
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      foraging:
+        material: 6
+        data: 3
+        slot: 0
+        display_name: '&aForaging'
+        lore:
+        - '&7Cut trees and forage for other'
+        - '&7plants to earn Foraging XP!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1:
+        material: 160
+        priority: 1
+        slot: 1
+        data: 5
+        amount: 1
+        display_name: '&aForaging I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fOak Leaves &7Trade'
+        - '  &fSpruce Leaves &7Trade'
+        - '  &fJungle Leaves &7Trade'
+        - '  &fBirch Leaves &7Trade'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-1-progress:
+        material: 160
+        priority: 2
+        slot: 1
+        data: 4
+        amount: 1
+        display_name: '&eForaging I'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 0
+        lore:
+        - '&7Rewards:'
+        - '  &fOak Leaves &7Trade'
+        - '  &fSpruce Leaves &7Trade'
+        - '  &fJungle Leaves &7Trade'
+        - '  &fBirch Leaves &7Trade'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-1-locked:
+        material: 160
+        priority: 3
+        slot: 1
+        data: 14
+        amount: 1
+        display_name: '&cForaging I'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fSpruce Leaves &7Trade'
+        - '  &fJungle Leaves &7Trade'
+        - '  &fBirch Leaves &7Trade'
+        - '  &aEnchanted Oak Log &7Recipe'
+        - '  &8+&650 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+
+      level-2:
+        material: 160
+        priority: 1
+        slot: 10
+        data: 5
+        amount: 2
+        display_name: '&aForaging II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &fOak Helmet &7Recipe'
+        - '  &fOak Chestplate &7Recipe'
+        - '  &fOak Leggings &7Recipe'
+        - '  &fOak Boots &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-2-progress:
+        material: 160
+        priority: 2
+        slot: 10
+        data: 4
+        amount: 2
+        display_name: '&eForaging II'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 1
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &fOak Helmet &7Recipe'
+        - '  &fOak Chestplate &7Recipe'
+        - '  &fOak Leggings &7Recipe'
+        - '  &fOak Boots &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-2-locked:
+        material: 160
+        priority: 3
+        slot: 10
+        data: 14
+        amount: 2
+        display_name: '&cForaging II'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &fVine &7Trade'
+        - '  &fOak Helmet &7Recipe'
+        - '  &fOak Chestplate &7Recipe'
+        - '  &fOak Leggings &7Recipe'
+        - '  &fOak Boots &7Recipe'
+        - '  &8+&6100 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-3:
+        material: 160
+        priority: 1
+        slot: 19
+        data: 5
+        amount: 3
+        display_name: '&aForaging III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fAcacia Leaves &7Trade'
+        - '  &fDark Oak Leaves &7Trade'
+        - '  &aEnchanted Acacia Log &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-3-progress:
+        material: 160
+        priority: 2
+        slot: 19
+        data: 4
+        amount: 3
+        display_name: '&eForaging III'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Rewards:'
+        - '  &fAcacia Leaves &7Trade'
+        - '  &fDark Oak Leaves &7Trade'
+        - '  &aEnchanted Acacia Log &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-3-locked:
+        material: 160
+        priority: 3
+        slot: 19
+        data: 14
+        amount: 3
+        display_name: '&cForaging III'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fAcacia Leaves &7Trade'
+        - '  &fDark Oak Leaves &7Trade'
+        - '  &aEnchanted Acacia Log &7Recipe'
+        - '  &8+&6200 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-4:
+        material: 160
+        priority: 1
+        slot: 28
+        data: 5
+        amount: 4
+        display_name: '&aForaging IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-progress:
+        material: 160
+        priority: 2
+        slot: 28
+        data: 4
+        amount: 4
+        display_name: '&eForaging IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 3
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-4-locked:
+        material: 160
+        priority: 3
+        slot: 28
+        data: 14
+        amount: 4
+        display_name: '&cForaging IV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fLong Grass &7Trade'
+        - '  &fDouble Grass &7Trade'
+        - '  &aSavanna Bow &7Recipe'
+        - '  &8+&6300 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+
+      level-5:
+        material: 160
+        priority: 1
+        slot: 29
+        data: 5
+        amount: 5
+        display_name: '&aForaging V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-progress:
+        material: 160
+        priority: 2
+        slot: 29
+        data: 4
+        amount: 5
+        display_name: '&eForaging V'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 4
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      level-5-locked:
+        material: 160
+        priority: 3
+        slot: 29
+        data: 14
+        amount: 5
+        display_name: '&cForaging V'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fDead Bush &7Trade'
+        - '  &8+&6400 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-6:
+        material: 160
+        priority: 1
+        slot: 30
+        data: 5
+        amount: 6
+        display_name: '&aForaging VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fRed Sand &7Trade'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-progress:
+        material: 160
+        priority: 2
+        slot: 30
+        data: 4
+        amount: 6
+        display_name: '&eForaging VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 5
+        lore:
+        - '&7Rewards:'
+        - '  &fRed Sand &7Trade'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-6-locked:
+        material: 160
+        priority: 3
+        slot: 30
+        data: 14
+        amount: 6
+        display_name: '&cForaging VI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fRed Sand &7Trade'
+        - '  &8+&6500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+      level-7:
+        material: 160
+        priority: 1
+        slot: 21
+        data: 5
+        amount: 7
+        display_name: '&aForaging VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-progress:
+        material: 160
+        priority: 2
+        slot: 21
+        data: 4
+        amount: 7
+        display_name: '&eForaging VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 6
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-7-locked:
+        material: 160
+        priority: 3
+        slot: 21
+        data: 14
+        amount: 7
+        display_name: '&cForaging VII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fSoul Sand &7Trade'
+        - '  &8+&6600 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+      level-8:
+        material: 160
+        priority: 1
+        slot: 12
+        data: 5
+        amount: 8
+        display_name: '&aForaging VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-progress:
+        material: 160
+        priority: 2
+        slot: 12
+        data: 4
+        amount: 8
+        display_name: '&eForaging VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 7
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-8-locked:
+        material: 160
+        priority: 3
+        slot: 12
+        data: 14
+        amount: 8
+        display_name: '&cForaging VIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fMycelium &7Trade'
+        - '  &8+&6700 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-9:
+        material: 160
+        priority: 1
+        slot: 3
+        data: 5
+        amount: 9
+        display_name: '&aForaging IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-progress:
+        material: 160
+        priority: 2
+        slot: 3
+        data: 4
+        amount: 9
+        display_name: '&eForaging IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 8
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-9-locked:
+        material: 160
+        priority: 3
+        slot: 3
+        data: 14
+        amount: 9
+        display_name: '&cForaging IX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fNether Brick &7Trade'
+        - '  &8+&6800 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-10:
+        material: 160
+        priority: 1
+        slot: 4
+        data: 5
+        amount: 10
+        display_name: '&aForaging X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-progress:
+        material: 160
+        priority: 2
+        slot: 4
+        data: 4
+        amount: 10
+        display_name: '&eForaging X'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 9
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-10-locked:
+        material: 160
+        priority: 3
+        slot: 4
+        data: 14
+        amount: 10
+        display_name: '&cForaging X'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &fSponge &7Trade'
+        - '  &8+&6900 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-11:
+        material: 160
+        priority: 1
+        slot: 5
+        data: 5
+        amount: 11
+        display_name: '&aForaging XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-progress:
+        material: 160
+        priority: 2
+        slot: 5
+        data: 4
+        amount: 11
+        display_name: '&eForaging XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 10
+        lore:
+        - '&7Rewards:'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-11-locked:
+        material: 160
+        priority: 3
+        slot: 5
+        data: 14
+        amount: 11
+        display_name: '&cForaging XI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &8+&61,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-12:
+        material: 160
+        priority: 1
+        slot: 14
+        data: 5
+        amount: 12
+        display_name: '&aForaging XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-progress:
+        material: 160
+        priority: 2
+        slot: 14
+        data: 4
+        amount: 12
+        display_name: '&eForaging XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 11
+        lore:
+        - '&7Rewards:'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-12-locked:
+        material: 160
+        priority: 3
+        slot: 14
+        data: 14
+        amount: 12
+        display_name: '&cForaging XII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &8+&62,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+
+
+
+      level-13:
+        material: 160
+        priority: 1
+        slot: 23
+        data: 5
+        amount: 13
+        display_name: '&aForaging XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-progress:
+        material: 160
+        priority: 2
+        slot: 23
+        data: 4
+        amount: 13
+        display_name: '&eForaging XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 12
+        lore:
+        - '&7Rewards:'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-13-locked:
+        material: 160
+        priority: 3
+        slot: 23
+        data: 14
+        amount: 13
+        display_name: '&cForaging XIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &8+&63,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-14:
+        material: 160
+        priority: 1
+        slot: 32
+        data: 5
+        amount: 14
+        display_name: '&aForaging XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-progress:
+        material: 160
+        priority: 2
+        slot: 32
+        data: 4
+        amount: 14
+        display_name: '&eForaging XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 13
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-14-locked:
+        material: 160
+        priority: 3
+        slot: 32
+        data: 14
+        amount: 14
+        display_name: '&cForaging XIV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &8+&64,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+
+      level-15:
+        material: 160
+        priority: 1
+        slot: 33
+        data: 5
+        amount: 15
+        display_name: '&aForaging XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-progress:
+        material: 160
+        priority: 2
+        slot: 33
+        data: 4
+        amount: 15
+        display_name: '&eForaging XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 14
+        lore:
+        - '&7Rewards:'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-15-locked:
+        material: 160
+        priority: 3
+        slot: 33
+        data: 14
+        amount: 15
+        display_name: '&cForaging XV'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &8+&65,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-16:
+        material: 160
+        priority: 1
+        slot: 34
+        data: 5
+        amount: 16
+        display_name: '&aForaging XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-progress:
+        material: 160
+        priority: 2
+        slot: 34
+        data: 4
+        amount: 16
+        display_name: '&eForaging XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 15
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-16-locked:
+        material: 160
+        priority: 3
+        slot: 34
+        data: 14
+        amount: 16
+        display_name: '&cForaging XVI'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&67,500 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-17:
+        material: 160
+        priority: 1
+        slot: 25
+        data: 5
+        amount: 17
+        display_name: '&aForaging XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-progress:
+        material: 160
+        priority: 2
+        slot: 25
+        data: 4
+        amount: 17
+        display_name: '&eForaging XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 16
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-17-locked:
+        material: 160
+        priority: 3
+        slot: 25
+        data: 14
+        amount: 17
+        display_name: '&cForaging XVII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&610,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      level-18:
+        material: 160
+        priority: 1
+        slot: 16
+        data: 5
+        amount: 18
+        display_name: '&aForaging XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-progress:
+        material: 160
+        priority: 2
+        slot: 16
+        data: 4
+        amount: 18
+        display_name: '&eForaging XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 17
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-18-locked:
+        material: 160
+        priority: 3
+        slot: 16
+        data: 14
+        amount: 18
+        display_name: '&cForaging XVIII'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&625,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-19:
+        material: 160
+        priority: 1
+        slot: 7
+        data: 5
+        amount: 19
+        display_name: '&aForaging XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-progress:
+        material: 160
+        priority: 2
+        slot: 7
+        data: 4
+        amount: 19
+        display_name: '&eForaging XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 18
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-19-locked:
+        material: 160
+        priority: 3
+        slot: 7
+        data: 14
+        amount: 19
+        display_name: '&cForaging XIX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&650,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      level-20:
+        material: 160
+        priority: 1
+        slot: 8
+        data: 5
+        amount: 20
+        display_name: '&aForaging XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&aCOMPLETED!'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-progress:
+        material: 160
+        priority: 2
+        slot: 8
+        data: 4
+        amount: 20
+        display_name: '&eForaging XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 19
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&eIN PROGRESS'
+        left_click_commands: []
+        right_click_commands: []
+
+      level-20-locked:
+        material: 160
+        priority: 3
+        slot: 8
+        data: 14
+        amount: 20
+        display_name: '&cForaging XX'
+        view_requirement:
+          requirements:
+            level:
+              type: '<'
+              input: '%skills_skillLevelForaging%'
+              output: 20
+        lore:
+        - '&7Rewards:'
+        - '  &8+&6100,000 &7Coins'
+        - ''
+        - '&cINCOMPLETE!'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] skills'
+        right_click_commands:
+        - '[openguimenu] skills'

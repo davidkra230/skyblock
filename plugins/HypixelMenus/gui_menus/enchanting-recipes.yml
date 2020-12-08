@@ -1,0 +1,815 @@
+menu_title: 'Enchanting Recipes (1/1)'
+open_command: 'enchanting-recipes'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 48
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanting:
+        material: 116
+        slot: 4
+        display_name: '&aEnchanting Recipes'
+        hide_attributes: true
+        lore:
+        - '&7View your Enchanting Recipes!'
+        - ''
+        - '&7Unlocked Recipes: &e%progress_percentage_{customplaceholders_enchantingrecipes}_m:22%%'
+        - '%progress_bar_{customplaceholders_enchantingrecipes}_c:&2-_p:&2-_r:&f-_l:20_m:22_fullbar:&2--------------------% &e%customplaceholders_enchantingrecipes%&6/&e22'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      protection-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 10
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 1
+        lore:
+        - '&9Protection I'
+        - '&7Grants general protection against'
+        - '&7attacks, fire, lava and falling.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Iron Ingot'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      efficiency-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 11
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 2
+        lore:
+        - '&9Efficiency I'
+        - '&7Increases the speed of which'
+        - '&7the tool breaks blocks.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Redstone'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      fortune-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 12
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 3
+        lore:
+        - '&9Fortune I'
+        - '&7Increases block drops from mining.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Gold Ingot'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      sharpness-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 13
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 4
+        lore:
+        - '&9Sharpness I'
+        - '&7Increases attack damage dealt'
+        - '&7to mobs, animals or other players.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&8█ &7= &8Iron Sword'
+        - '&a█ &7= &aEnchanted Flint'
+        - ''
+        - '&7Recipe:'
+        - '&a█&7██'
+        - '&7█&f██'
+        - '&7█&f█&8█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      bane-of-arthropods-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 14
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 5
+        lore:
+        - '&9Bane of Arthropods I'
+        - '&7Increases attack damage'
+        - '&7against arthropods.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Spider Eye'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      smite-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 15
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 6
+        lore:
+        - '&9Smite I'
+        - '&7Increases attack damage'
+        - '&7against undead mobs.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Rotten Flesh'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      fire-aspect-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 16
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 7
+        lore:
+        - '&9Fire Aspect I'
+        - '&7Sets target on fire.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Blaze Rod'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      looting-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 19
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 8
+        lore:
+        - '&9Looting I'
+        - '&7Increases amount of loot dropped'
+        - '&7when the mob is killed.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Gold Block'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      knockback-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 20
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 9
+        lore:
+        - '&9Knockback I'
+        - '&7Increases knockback dealt.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Slime Ball'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      feather-falling-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 21
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 10
+        lore:
+        - '&9Feather Falling I'
+        - '&7Reduces fall and teleportation'
+        - '&7damage.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Feather'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      respiration-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 22
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 11
+        lore:
+        - '&9Respiration I'
+        - '&7Extends underwater breathing time.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&8█ &7= &8Raw Fish'
+        - '&b█ &7= &bWater Bucket'
+        - ''
+        - '&7Recipe:'
+        - '&8█&7██'
+        - '&7█&f██'
+        - '&7█&f█&b█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      aqua-affinity-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 23
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 12
+        lore:
+        - '&9Aqua Affinity I'
+        - '&7Speeds up how fast you can mine'
+        - '&7blocks underwater.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Prismarine Crystal'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      power-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 24
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 13
+        lore:
+        - '&9Power I'
+        - '&7Increases damage dealt by arrows.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Bone'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      silk-touch-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 25
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 14
+        lore:
+        - '&9Silk Touch I'
+        - '&7Mined blocks drop themselves.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted String'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      thorns-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 28
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 15
+        lore:
+        - '&9Thorns I'
+        - '&7Reflects some of the damage'
+        - '&7taken against the attacker.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Cactus'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      flame-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 29
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 16
+        lore:
+        - '&9Flame I'
+        - '&7Arrows set target on fire.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&8█ &7= &8Bow'
+        - '&a█ &7= &aEnchanted Blaze Rod'
+        - ''
+        - '&7Recipe:'
+        - '&a█&7██'
+        - '&7█&f██'
+        - '&7█&f█&8█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      punch-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 30
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 17
+        lore:
+        - '&9Punch I'
+        - '&7Increases knockback dealt.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&8█ &7= &8Arrow'
+        - '&a█ &7= &aEnchanted Slimeball'
+        - ''
+        - '&7Recipe:'
+        - '&a█&7██'
+        - '&7█&f██'
+        - '&7█&f█&8█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      infinity-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 31
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 18
+        lore:
+        - '&9Infinity I'
+        - '&7Shooting consumes no regular arrows.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&a█ &7= &aEnchanted Paper'
+        - '&f█ &7= &fBow'
+        - ''
+        - '&7Recipe:'
+        - '&7███'
+        - '&7█&a██'
+        - '&7█&a█&f█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      deapth-strider-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 32
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 19
+        lore:
+        - '&9Depth Strider I'
+        - '&7Increases underwater movement speed.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&8█ &7= &8Lily'
+        - '&f█ &7= &fRaw Fish'
+        - ''
+        - '&7Recipe:'
+        - '&f█&7██'
+        - '&7█&f██'
+        - '&7█&f█&8█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      projectile-protection-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 33
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 19
+        lore:
+        - '&9Projectile Protection I'
+        - '&7Reduces projectile damage.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Arrow'
+        - ''
+        - '&7Recipe:'
+        - '&7█&7██'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      fire-protection-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 34
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 20
+        lore:
+        - '&9Fire Protection I'
+        - '&7Reduces damage caused by'
+        - '&7fire and lava.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Magma Cream'
+        - ''
+        - '&7Recipe:'
+        - '&7█&7██'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      blast-protection-i-enchanted-book:
+        material: ENCHANTED_BOOK
+        priority: 1
+        slot: 37
+        data: 1
+        amount: 1
+        display_name: '&fEnchanted Book'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelCombat%'
+              output: 20
+        lore:
+        - '&9Blast Protection I'
+        - '&7Reduces blast and explosion damage.'
+        - ''
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fPaper'
+        - '&a█ &7= &aEnchanted Gunpowder'
+        - ''
+        - '&7Recipe:'
+        - '&7█&7██'
+        - '&7█&f██'
+        - '&7█&f█&a█'
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        - 26
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 37
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'

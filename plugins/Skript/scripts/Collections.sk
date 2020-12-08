@@ -1,0 +1,469 @@
+
+
+on break of oak log:
+    if player doesn't have permission "collection.oak-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.oak-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/oak_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of spruce log:
+    if player doesn't have permission "collection.spruce-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.spruce-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/spruce_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of birch log:
+    if player doesn't have permission "collection.birch-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.birch-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/birch_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of jungle log:
+    if player doesn't have permission "collection.jungle-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.jungle-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/jungle_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of acacia log:
+    if player doesn't have permission "collection.acacia-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.acacia-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/acacia_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of dark oak log:
+    if player doesn't have permission "collection.dark-oak-log":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.dark-oak-log true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% foragingcollection 1"
+            make the player execute command "/dark_oak_log"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+
+
+
+
+on break of stone:
+    if player doesn't have permission "collection.cobblestone":
+        if event-world is "Islands" or "Server" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.cobblestone true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/cobblestone"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of gravel:
+    if player doesn't have permission "collection.gravel":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.gravel true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/gravel"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of coal ore:
+    if player doesn't have permission "collection.coal":
+        if event-world is "Islands" or "Server" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.coal true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/coal"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of iron ore:
+    if player doesn't have permission "collection.iron":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.iron true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/iron"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of gold ore:
+    if player doesn't have permission "collection.gold":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.gold true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/gold"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of diamond ore:
+    if player doesn't have permission "collection.diamond":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.diamond true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/diamond"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of lapis ore:
+    if player doesn't have permission "collection.lapis-lazuli":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.lapis-lazuli true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/lapis_lazuli"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of emerald ore:
+    if player doesn't have permission "collection.emerald":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.emerald true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/emerald"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of redstone ore:
+    if player doesn't have permission "collection.redstone":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.redstone true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/redstone"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of nether quartz ore:
+    if player doesn't have permission "collection.nether-quartz":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.nether-quartz true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/nether_quartz"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of glowstone:
+    if player doesn't have permission "collection.glowstone":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.glowstone true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/glowstone"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of obsidian:
+    if player doesn't have permission "collection.obsidian":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.obsidian true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/obsidian"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of netherrack:
+    if player doesn't have permission "collection.netherrack":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.netherrack true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/netherrack"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of end stone:
+    if player doesn't have permission "collection.end-stone":
+        if event-world is "Islands" or "End":
+            make the console execute command "/lp user %player's name% permission set collection.end-stone true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% miningcollection 1"
+            make the player execute command "/end_stone"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+
+on break of wheat:7:
+    if player doesn't have permission "collection.wheat":
+        if event-world is "Islands" or "Server" or "Islands":
+            make the console execute command "/lp user %player's name% permission set collection.wheat true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/wheat"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of carrot plant:7:
+    if player doesn't have permission "collection.carrot":
+        if event-world is "Islands" or "Server" or "Islands":
+            make the console execute command "/lp user %player's name% permission set collection.carrot true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/carrot"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of potato plant:7:
+    if player doesn't have permission "collection.potato":
+        if event-world is "Islands" or "Server" or "Islands":
+            make the console execute command "/lp user %player's name% permission set collection.potato true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/potato"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of pumpkin:
+    if player doesn't have permission "collection.pumpkin":
+        if event-world is "Islands" or "Server" or "Islands":
+            make the console execute command "/lp user %player's name% permission set collection.pumpkin true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/pumpkin"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of melon block:
+    if player doesn't have permission "collection.melon":
+        if event-world is "Islands" or "Server" or "Islands":
+            make the console execute command "/lp user %player's name% permission set collection.melon true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/melon"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of red mushroom:
+    if player doesn't have permission "collection.red-mushroom":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.red-mushroom true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/red_mushroom"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of brown mushroom:
+    if player doesn't have permission "collection.brown-mushroom":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.brown-mushroom true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/brown_mushroom"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of cactus:
+    if player doesn't have permission "collection.cactus":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.cactus true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/cactus"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of sugar cane:
+    if player doesn't have permission "collection.sugar-cane":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.sugar-cane true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/sugar_cane"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+on break of nether wart:3:
+    if player doesn't have permission "collection.nether-wart":
+        if event-world is "Islands" or "Server":
+            make the console execute command "/lp user %player's name% permission set collection.nether-wart true"
+            make the console execute command "/customplaceholders add %player's name% collections 1"
+            make the console execute command "/customplaceholders add %player's name% farmingcollection 1"
+            make the player execute command "/nether_wart"
+            stop
+        else:
+            stop
+    else:
+        stop
+
+
+
+
+on death of a zombie:
+    attacker is a player
+    if attacker doesn't have permission "collection.rotten-flesh":
+        make the console execute command "/lp user %attacker's name% permission set collection.rotten-flesh true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/rotten_flesh"
+        stop
+    else:
+        stop
+
+on death of a skeleton:
+    attacker is a player
+    if attacker doesn't have permission "collection.bone":
+        make the console execute command "/lp user %attacker's name% permission set collection.bone true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/bone"
+        stop
+    else:
+        stop
+
+on death of a spider:
+    attacker is a player
+    if attacker doesn't have permission "collection.string":
+        make the console execute command "/lp user %attacker's name% permission set collection.string true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/string"
+        stop
+    else:
+        stop
+
+on death of a enderman:
+    attacker is a player
+    if attacker doesn't have permission "collection.ender-pearl":
+        make the console execute command "/lp user %attacker's name% permission set collection.ender-pearl true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/ender_pearl"
+        stop
+    else:
+        stop
+
+on death of a slime:
+    attacker is a player
+    if attacker doesn't have permission "collection.slimeball":
+        make the console execute command "/lp user %attacker's name% permission set collection.slimeball true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/slimeball"
+        stop
+    else:
+        stop
+
+on death of a magma cube:
+    attacker is a player
+    if attacker doesn't have permission "collection.magma-cream":
+        make the console execute command "/lp user %attacker's name% permission set collection.magma-cream true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/magma_cream"
+        stop
+    else:
+        stop
+
+on death of a blaze:
+    attacker is a player
+    if attacker doesn't have permission "collection.blaze-rod":
+        make the console execute command "/lp user %attacker's name% permission set collection.blaze-rod true"
+        make the console execute command "/customplaceholders add %attacker's name% combatcollection 1"
+        make the attacker execute command "/blaze_rod"
+        stop
+    else:
+        stop

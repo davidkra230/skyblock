@@ -1,0 +1,254 @@
+menu_title: 'Your Attributes'
+open_command: 'attributes'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 2
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
+        - 18
+        - 20
+        - 22
+        - 24
+        - 26
+        - 27
+        - 29
+        - 31
+        - 33
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 50
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+
+      attributes:
+        material: head;%player_name%
+        slot: 4
+        display_name: '&aYour Attributes'
+        lore:
+        - '&7Improving your attributes'
+        - '&7makes you become significantly'
+        - '&7more powerfull!'
+        - ''
+        - ' &c❤ Health &f%player_max_health_rounded% HP'
+        - ' &a❇ Defense &f%customplaceholders_defense%'
+        - ' &c❁ Strength &f%customplaceholders_strength%'
+        - ' &f✦ Speed &f%customplaceholders_speed%%'
+        - ' &9☣ Crit Chance &f%customplaceholders_critchance%%'
+        - ' &9☠ Crit Damage &f%customplaceholders_critdamage%%'
+        - ' &b✎ Intelligence &f%customplaceholders_intelligence%'
+        - ' &3✦ Attack Speed &f0%'
+        left_click_commands: []
+        right_click_commands: []
+
+      health:
+        display_name: '&c❤ Health &f%player_max_health_rounded%'
+        material: 322
+        lore:
+        - ''
+        - '&fBase Health: &a%player_max_health%'
+        - '&8Increase your Base Health by evolving'
+        - '&8your overall SkyBlock Level.'
+        - ''
+        - '&fRegeneration: &70.5 ❤'
+        - '&8The more Health you have, the more'
+        - '&8and faster it regenerates.'
+        - ''
+        - '&fRegeneration Frequency: &74.0s'
+        - '&8Armors and enchantments can decrease'
+        - '&8or increase your regeneration speed.'
+        priority: 1
+        data: 0
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+      critchance:
+        display_name: '&9☣ Crit Chance &f%customplaceholders_critchance%%'
+        material: 397
+        data: 1
+        lore:
+        - '&7This attribute increases your chance to'
+        - '&7hit mobs and players with critical damage.'
+        - ''
+        - '&fBase Crit Chance: &a%customplaceholders_critchance%'
+        - '&8Increase your Crit Chance by evolving'
+        - '&8your overall SkyBlock Level.'
+        - ''
+        - '&fBonus Crit Chance: &8+&a%customplaceholders_bonuscritchance%'
+        - '&8Increase your Bonus Crit Chance by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        priority: 1
+        slot: 28
+        left_click_commands: []
+        right_click_commands: []
+
+      intelligence:
+        display_name: '&b✎ Intelligence &f%customplaceholders_intelligence%'
+        material: 403
+        data: 0
+        lore:
+        - '&7This attribute increases your maximum'
+        - '&7mana and your damage caused using magic.'
+        - ''
+        - '&fBase Intelligence: &a%customplaceholders_intelligence%'
+        - '&8Increase your Intelligence by evolving'
+        - '&8your overall SkyBlock Level.'
+        - ''
+        - '&fBonus Intelligence: &8+&a%customplaceholders_bonusintelligence%'
+        - '&8Increase your Bonus Intelligence by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        priority: 1
+        slot: 32
+        left_click_commands: []
+        right_click_commands: []
+
+      attackspeed:
+        display_name: '&3✦ Attack Speed &f0%'
+        material: GOLD_SWORD
+        hide_attributes: true
+        data: 0
+        lore:
+        - '&cThis attribute is not released yet.'
+        priority: 1
+        slot: 34
+        left_click_commands: []
+        right_click_commands: []
+
+      defense:
+        display_name: '&a❇ Defense &f%customplaceholders_defense%'
+        material: IRON_CHESTPLATE
+        hide_attributes: true
+        lore:
+        - '&7This attribute reduces the damage taken'
+        - '&7by you caused by other players or mobs.'
+        - ''
+        - '&fBase Defense: &a%customplaceholders_defense%'
+        - '&8Increase your Base Defense by evolving'
+        - '&8your overall Skyblock Level.'
+        - ''
+        - '&fBonus Defense: &8+&a%customplaceholders_bonusdefense%'
+        - '&8Increase your Bonus Defense by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        priority: 1
+        data: 0
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+      critdamage:
+        display_name: '&9☣ Crit Damage &f%customplaceholders_critdamage%%'
+        material: 397
+        data: 1
+        lore:
+        - '&7This attribute increases the damage'
+        - '&7applied to mobs and players when the'
+        - '&7chance of critical damage is met.'
+        - ''
+        - '&fBase Crit Damage: &a%customplaceholders_critdamage%'
+        - '&8Increase your Crit Damage by evolving'
+        - '&8your overall SkyBlock Level.'
+        - ''
+        - '&fBonus Crit Damage: &8+&a%customplaceholders_bonuscritdamage%'
+        - '&8Increase your Bonus Crit Damage by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        priority: 1
+        slot: 30
+        left_click_commands: []
+        right_click_commands: []
+
+
+      strength:
+        display_name: '&c❁ Strength &f%customplaceholders_strength%'
+        material: BLAZE_POWDER
+        lore:
+        - '&7This attribute increases the damage'
+        - '&7caused by you to other players or mobs.'
+        - ''
+        - '&fBase Strength: &a%customplaceholders_strength%'
+        - '&8Increase your Base Damage by evolving'
+        - '&8your overall Skyblock Level.'
+        - ''
+        - '&fBonus Strength: &8+&a%customplaceholders_bonusstrength%'
+        - '&8Increase your Bonus Strength by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        priority: 1
+        data: 0
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+
+
+      speed:
+        display_name: '&f✦ Speed &f%customplaceholders_speed%%'
+        material: FEATHER
+        lore:
+        - '&7This attribute increases your speed'
+        - '&7while walking or running.'
+        - ''
+        - '&fBase Speed: &a%customplaceholders_speed%'
+        - '&8Increase your Base Speed by evolving'
+        - '&8your overall Skyblock Level.'
+        - ''
+        - '&fBonus Speed: &8+&a%customplaceholders_bonusspeed%'
+        - '&8Increase your Bonus Speed by'
+        - '&8equipping custom armor, accessories'
+        - '&8and reforging your items.'
+        - ''
+        - '&7You are &a%customplaceholders_bonusspeed%% &7faster.'
+        priority: 1
+        data: 0
+        slot: 25
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] menu'
+        right_click_commands:
+        - '[openguimenu] menu'

@@ -1,0 +1,40 @@
+name: default
+permissions:
+- grapplinghook.worlds.*
+- tellrawtriggers.*
+- auctionmaster.limit.auctions.5
+- chatty.chat.default
+- chatty.chat.default.see
+- chatty.chat.default.write
+- chatty.command.chat
+- chatty.command.msg
+- chatty.command.reply
+- essentials.workbench
+- friends.command.main
+- grapplinghook.useInAllWorlds
+- holomobhealth.use
+- hypixelcommands.user
+- interactivechat.mention.player
+- interactivechat.module.custom
+- interactivechat.module.enderchest
+- interactivechat.module.inventory
+- interactivechat.module.item
+- playerinformation.view
+- rank.default
+- rec.bank.command
+- rec.shop.open
+- scoreboard.islands
+- scoreboard.server
+- tab.sort.Default
+- tradesystem.trade
+- weight.5
+- worldspawn.bypass.delay
+prefixes:
+- '&7':
+    priority: 5
+suffixes:
+- '&7':
+    priority: 5
+meta:
+- default:
+    value: 'true'

@@ -1,0 +1,374 @@
+menu_title: 'Combat Collection'
+open_command: 'combat-collection'
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 41
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 39
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      combat:
+        material: STONE_SWORD
+        slot: 4
+        display_name: '&aCombat Collection'
+        hide_attributes: true
+        lore:
+        - '&7View your Combat Collection!'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_combatcollection}_m:10%%'
+        - '%progress_bar_{customplaceholders_combatcollection}_c:&2-_p:&2-_r:&f-_l:20_m:10_fullbar:&2--------------------% &e%customplaceholders_combatcollection%&6/&e10'
+        left_click_commands: []
+        right_click_commands: []
+
+      rotten-flesh:
+        display_name: '&aRotten Flesh'
+        material: 367
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.rotten-flesh'
+        priority: 1
+        data: 0
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+      rotten-flesh-locked:
+        display_name: '&cRotten Flesh'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      bone:
+        display_name: '&aBone'
+        material: Bone
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.bone'
+        priority: 1
+        data: 0
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+      bone-locked:
+        display_name: '&cBone'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      string:
+        display_name: '&aString'
+        material: string
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.string'
+        priority: 1
+        data: 0
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+      string-locked:
+        display_name: '&cString'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+
+
+      spider-eye:
+        display_name: '&aSpider Eye'
+        material: 375
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.spider-eye'
+        priority: 1
+        data: 0
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+      spider-eye-locked:
+        display_name: '&cSpider Eye'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      gunpowder:
+        display_name: '&aGunpowder'
+        material: 289
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.gunpowder'
+        priority: 1
+        data: 0
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+      gunpowder-locked:
+        display_name: '&cGunpowder'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      ender-pearl:
+        display_name: '&aEnder Pearl'
+        material: 368
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.ender-pearl'
+        priority: 1
+        data: 0
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+      ender-pearl-locked:
+        display_name: '&cEnder Pearl'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      ghast-tear:
+        display_name: '&aGhast Tear'
+        material: 370
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.ghast-tear'
+        priority: 1
+        data: 0
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+      ghast-tear-locked:
+        display_name: '&cGhast Tear'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      slimeball:
+        display_name: '&aSlimeball'
+        material: 341
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.slimeball'
+        priority: 1
+        data: 0
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+      slimeball-locked:
+        display_name: '&cSlimeball'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+
+      magma-cream:
+        display_name: '&aMagma Cream'
+        material: 378
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.magma-cream'
+        priority: 1
+        data: 0
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+      magma-cream-locked:
+        display_name: '&cMagma Cream'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      blaze-rod:
+        display_name: '&aBlaze Rod'
+        material: 369
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.blaze-rod'
+        priority: 1
+        data: 0
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+      blaze-rod-locked:
+        display_name: '&cBlaze Rod'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] collections'
+        right_click_commands:
+        - '[openguimenu] collections'

@@ -1,0 +1,501 @@
+menu_title: 'Mining Collection'
+open_command: 'mining-collection'
+size: 45
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 41
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 39
+        - 36
+        - 37
+        - 38
+        - 42
+        - 43
+        - 44
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      mining:
+        material: STONE_PICKAXE
+        slot: 4
+        display_name: '&aMining Collection'
+        hide_attributes: true
+        lore:
+        - '&7View your Mining Collection!'
+        - ''
+        - '&7Unlocked Collections: &e%progress_percentage_{customplaceholders_miningcollection}_m:14%%'
+        - '%progress_bar_{customplaceholders_miningcollection}_c:&2-_p:&2-_r:&f-_l:20_m:14_fullbar:&2--------------------% &e%customplaceholders_miningcollection%&6/&e14'
+        left_click_commands: []
+        right_click_commands: []
+
+      cobblestone:
+        display_name: '&aCobblestone'
+        material: COBBLESTONE
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.cobblestone'
+        priority: 1
+        data: 0
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+      cobblestone-locked:
+        display_name: '&cCobblestone'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 10
+        left_click_commands: []
+        right_click_commands: []
+
+      gravel:
+        display_name: '&aGravel'
+        material: GRAVEL
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.gravel'
+        priority: 1
+        data: 0
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+      gravel-locked:
+        display_name: '&cGravel'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 11
+        left_click_commands: []
+        right_click_commands: []
+
+
+      coal:
+        display_name: '&aCoal'
+        material: COAL
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.coal'
+        priority: 1
+        data: 0
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+      coal-locked:
+        display_name: '&cCoal'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 12
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      iron:
+        display_name: '&aIron'
+        material: IRON_INGOT
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.iron'
+        priority: 1
+        data: 0
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+      iron-locked:
+        display_name: '&cIron'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 13
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      gold:
+        display_name: '&aGold'
+        material: GOLD_INGOT
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.gold'
+        priority: 1
+        data: 0
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+      gold-locked:
+        display_name: '&cGold'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 14
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      diamond:
+        display_name: '&aDiamond'
+        material: DIAMOND
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.diamond'
+        priority: 1
+        data: 0
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+      diamond-locked:
+        display_name: '&cDiamond'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 15
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+
+      lapis-lazuli:
+        display_name: '&aLapis Lazuli'
+        material: INK_SACK
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.lapis-lazuli'
+        priority: 1
+        data: 4
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+      lapis-lazuli-locked:
+        display_name: '&cLapis Lazuli'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 16
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      emerald:
+        display_name: '&aEmerald'
+        material: EMERALD
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.emerald'
+        priority: 1
+        data: 0
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+      emerald-locked:
+        display_name: '&cEmerald'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 19
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      redstone:
+        display_name: '&aRedstone'
+        material: REDSTONE
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.redstone'
+        priority: 1
+        data: 0
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+      redstone-locked:
+        display_name: '&cRedstone'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 20
+        left_click_commands: []
+        right_click_commands: []
+
+
+      quartz:
+        display_name: '&aNether Quartz'
+        material: 406
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.nether-quartz'
+        priority: 1
+        data: 0
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+      quartz-locked:
+        display_name: '&cNether Quartz'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 21
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      glowstone:
+        display_name: '&aGlowstone'
+        material: 348
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.glowstone'
+        priority: 1
+        data: 0
+        slot: 22
+        left_click_commands: []
+        right_click_commands: []
+      glowstone-locked:
+        display_name: '&cGlowstone'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 22
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      obsidian:
+        display_name: '&aObsidian'
+        material: OBSIDIAN
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.obsidian'
+        priority: 1
+        data: 0
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+      obsidian-locked:
+        display_name: '&cObsidian'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 23
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      netherrack:
+        display_name: '&aNetherrack'
+        material: 87
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.netherrack'
+        priority: 1
+        data: 0
+        slot: 24
+        left_click_commands: []
+        right_click_commands: []
+      netherrack-locked:
+        display_name: '&cNetherrack'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        - ''
+        - '&cYou haven''t found this item!'
+        priority: 2
+        data: 8
+        slot: 24
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      end-stone:
+        display_name: '&aEnd Stone'
+        material: 121
+        lore:
+        - '&7You have unlocked this'
+        - '&7collection item.'
+        view_requirement:
+          requirements:
+            permission:
+              type: has permission
+              permission: 'collection.end-stone'
+        priority: 1
+        data: 0
+        slot: 25
+        left_click_commands: []
+        right_click_commands: []
+      end-stone-locked:
+        display_name: '&cEnd Stone'
+        material: INK_SACK
+        lore:
+        - '&7Find this item to unlock'
+        - '&7it in your collection.'
+        priority: 2
+        data: 8
+        slot: 25
+        left_click_commands: []
+        right_click_commands: []
+
+
+
+      go-back:
+        material: ARROW
+        slot: 40
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] collections'
+        right_click_commands:
+        - '[openguimenu] collections'

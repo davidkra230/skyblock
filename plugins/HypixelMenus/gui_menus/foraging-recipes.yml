@@ -1,0 +1,312 @@
+menu_title: 'Foraging Recipes (1/1)'
+open_command: 'foraging-recipes'
+size: 54
+items:
+      background:
+        material: 160
+        data: 15
+        priority: 1
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+        - 45
+        - 46
+        - 47
+        - 50
+        - 48
+        - 51
+        - 52
+        - 53
+        display_name: '&7'
+        lore: []
+        left_click_commands: []
+        right_click_commands: []
+
+      foraging:
+        material: 6
+        data: 3
+        slot: 4
+        display_name: '&aForaging Recipes'
+        lore:
+        - '&7View your Combat Recipes!'
+        - ''
+        - '&7Unlocked Recipes: &e%progress_percentage_{customplaceholders_foragingrecipes}_m:7%%'
+        - '%progress_bar_{customplaceholders_foragingrecipes}_c:&2-_p:&2-_r:&f-_l:20_m:7_fullbar:&2--------------------% &e%customplaceholders_foragingrecipes%&6/&e7'
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanted-oak-log:
+        material: LOG
+        priority: 1
+        slot: 10
+        data: 0
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Oak Log'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 1
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Oak Log'
+        - ''
+        - '&7Recipe:'
+        - '&7█&f█&7█'
+        - '&f███'
+        - '&7█&f█&7█'
+        left_click_commands: []
+        right_click_commands: []
+
+      oak-helmet:
+        material: LEATHER_HELMET
+        priority: 1
+        slot: 11
+        hide_attributes: true
+        amount: 1
+        display_name: '&fOak Armor Helmet'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Defense: &a+5'
+        - '&4&4'
+        - '&6Full Set Bonus: Forest Energy'
+        - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+        - '&7to the wearer while near trees, grass'
+        - '&7and saplings.'
+        - '&8&7'
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Enchanted Oak Log'
+        - ''
+        - '&7Recipe:'
+        - '&f███'
+        - '&f█&7█&f█'
+        - '&7███'
+        left_click_commands: []
+        right_click_commands: []
+
+      oak-chestplate:
+        material: LEATHER_CHESTPLATE
+        priority: 1
+        slot: 12
+        hide_attributes: true
+        amount: 1
+        display_name: '&fOak Armor Chestplate'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Defense: &a+8'
+        - '&4&4'
+        - '&6Full Set Bonus: Forest Energy'
+        - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+        - '&7to the wearer while near trees, grass'
+        - '&7and saplings.'
+        - '&8&7'
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Enchanted Oak Log'
+        - ''
+        - '&7Recipe:'
+        - '&f█&7█&f█'
+        - '&f███'
+        - '&f███'
+        left_click_commands: []
+        right_click_commands: []
+
+      oak-leggings:
+        material: LEATHER_LEGGINGS
+        priority: 1
+        slot: 13
+        hide_attributes: true
+        amount: 1
+        display_name: '&fOak Armor Leggings'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Defense: &a+7'
+        - '&4&4'
+        - '&6Full Set Bonus: Forest Energy'
+        - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+        - '&7to the wearer while near trees, grass'
+        - '&7and saplings.'
+        - '&8&7'
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Enchanted Oak Log'
+        - ''
+        - '&7Recipe:'
+        - '&f███'
+        - '&f█&7█&f█'
+        - '&f█&7█&f█'
+        left_click_commands: []
+        right_click_commands: []
+
+      oak-boots:
+        material: LEATHER_BOOTS
+        priority: 1
+        slot: 14
+        hide_attributes: true
+        amount: 1
+        display_name: '&fOak Armor Boots'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 2
+        lore:
+        - '&7Defense: &a+4'
+        - '&4&4'
+        - '&6Full Set Bonus: Forest Energy'
+        - '&7Gives &a+10.0 &cHealth &7and &a+50 &f✦ Speed'
+        - '&7to the wearer while near trees, grass'
+        - '&7and saplings.'
+        - '&8&7'
+        - '&f&lCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Enchanted Oak Log'
+        - ''
+        - '&7Recipe:'
+        - '&f█&7█&f█'
+        - '&f█&7█&f█'
+        - '&7███'
+        left_click_commands: []
+        right_click_commands: []
+
+      enchanted-acacia-log:
+        material: 162
+        priority: 1
+        slot: 15
+        data: 0
+        enchantments:
+        - 'SILK_TOUCH;1'
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aEnchanted Acacia Log'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 3
+        lore:
+        - '&a&lUNCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&f█ &7= &fx8 Acacia Log'
+        - ''
+        - '&7Recipe:'
+        - '&7█&f█&7█'
+        - '&f███'
+        - '&7█&f█&7█'
+        left_click_commands: []
+        right_click_commands: []
+
+
+      savanna-bow:
+        material: BOW
+        priority: 1
+        slot: 16
+        data: 0
+        hide_enchantments: true
+        amount: 1
+        display_name: '&aSavanna Bow'
+        view_requirement:
+          requirements:
+            level:
+              type: '>='
+              input: '%skills_skillLevelForaging%'
+              output: 4
+        lore:
+        - '&7Base Damage: &c9'
+        - ''
+        - '&7All damage dealt with this'
+        - '&7bow is &adoubled&7.'
+        - ''
+        - '&a&lUNCOMMON'
+        - ''
+        - '&7Ingredients:'
+        - '&7█ &7= &7Nothing'
+        - '&8█ &7= &8x8 Enchanted String'
+        - '&a█ &7= &ax8 Enchanted Acacia Log'
+        - ''
+        - '&7Recipe:'
+        - '&7█&a█&8█'
+        - '&a█&7█&8█'
+        - '&7█&a█&8█'
+        left_click_commands: []
+        right_click_commands: []
+
+      locked:
+        material: INK_SACK
+        data: 8
+        priority: 2
+        slots:
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        display_name: '&c???'
+        lore:
+        - '&7You haven''t unlocked'
+        - '&7this recipe.'
+        left_click_commands: []
+        right_click_commands: []
+ 
+
+
+      go-back:
+        material: ARROW
+        slot: 49
+        display_name: '&aGo Back'
+        lore: []
+        left_click_commands:
+        - '[openguimenu] recipe-book'
+        right_click_commands:
+        - '[openguimenu] recipe-book'

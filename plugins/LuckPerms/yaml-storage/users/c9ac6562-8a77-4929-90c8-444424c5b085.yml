@@ -1,0 +1,17 @@
+uuid: c9ac6562-8a77-4929-90c8-444424c5b085
+name: AwfulPlanet1308
+primary-group: default
+permissions:
+- collection.oak-log
+- missions.completed.break-a-log
+- missions.completed.craft-a-pickaxe
+- missions.completed.craft-a-workbench
+- missions.completed.go-through-the-portal
+- missions.none.islands
+- skyblock.menu.locked:
+    value: false
+- skyblock.menu.unlocked:
+    value: false
+- worldspawn.use
+parents:
+- default

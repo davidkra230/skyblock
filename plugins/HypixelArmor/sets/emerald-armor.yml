@@ -1,0 +1,250 @@
+#
+apply:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_yes'
+    volume: 1
+    pitch: 0
+#
+remove:
+  message:
+    enabled: false
+    text:
+      - '&7'
+  commands:
+    enabled: false
+    list:
+      - {player}
+  sound:
+    enabled: false
+    type: 'villager_no'
+    volume: 1
+    pitch: 0
+#
+set-data:
+  1:
+    type: basic
+    damage-increase: -1
+    damage-reduction: 0.30
+    health: 24
+    kb: -1
+    speed:
+      walk:
+        set: 0.25
+        default: 0.25
+      fly:
+        set: 0.20
+        default: 0.20
+    status-effects:
+#
+set-pieces:
+  helmet:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 20
+        - customplaceholders add {player} bonusdefense 20
+      remove:
+        - customplaceholders remove {player} defense 20
+        - customplaceholders remove {player} bonusdefense 20
+    name: '&9Emerald Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  chestplate:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 20
+        - customplaceholders add {player} bonusdefense 20
+      remove:
+        - customplaceholders remove {player} defense 20
+        - customplaceholders remove {player} bonusdefense 20
+    name: '&9Emerald Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  leggings:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 20
+        - customplaceholders add {player} bonusdefense 20
+      remove:
+        - customplaceholders remove {player} defense 20
+        - customplaceholders remove {player} bonusdefense 20
+    name: '&9Emerald Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+  boots:
+    commands:
+      apply:
+        - customplaceholders add {player} defense 20
+        - customplaceholders add {player} bonusdefense 20
+      remove:
+        - customplaceholders remove {player} defense 20
+        - customplaceholders remove {player} bonusdefense 20
+    name: '&9Emerald Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+    enchantments:
+    unbreakable: true
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+#
+gui:
+  name: '&8Spawn Items'
+  type: none
+  size: 27
+  1:
+    slot: 0
+    action: helmet
+    name: '&9Emerald Armor Helmet'
+    item: leather_helmet
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  2:
+    slot: 1
+    action: chestplate
+    name: '&9Emerald Armor Chestplate'
+    item: leather_chestplate
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  3:
+    slot: 2
+    action: leggings
+    name: '&9Emerald Armor Leggings'
+    item: leather_leggings
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  4:
+    slot: 3
+    action: boots
+    name: '&9Emerald Armor Boots'
+    item: leather_boots
+    data: 0
+    color: 51:255:51
+    lore:
+      - '&7Defense: &a+20'
+      - '&7&c'
+      - '&6Full Set Bonus: Tank'
+      - '&7Increases &a❇ Defense&7 by &a+80'
+      - '&7and &c❤ Health &7by &a+4.0&7.'
+      - '&8&4'
+      - '&9&lRARE'
+      - ''
+      - '&eClick to spawn!'
+    enchantments:
+    item-flags:
+      - hide_attributes
+      - hide_enchants
+    cost: 0.0
+  5:
+    slot: 22
+    action: back
+    name: '&aGo Back'
+    item: ARROW
+    data: 0
+    lore:
+    enchantments:
+    item-flags:

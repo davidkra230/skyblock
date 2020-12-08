@@ -1,0 +1,58 @@
+#
+# ██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗██████╗░██╗███╗░░██╗███████╗░█████╗░
+# ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗
+# ██████╔╝██║░░░░░███████║░╚████╔╝░█████╗░░██████╔╝██║██╔██╗██║█████╗░░██║░░██║
+# ██╔═══╝░██║░░░░░██╔══██║░░╚██╔╝░░██╔══╝░░██╔══██╗██║██║╚████║██╔══╝░░██║░░██║
+# ██║░░░░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║██║██║░╚███║██║░░░░░╚█████╔╝
+# ╚═╝░░░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░
+#                               Player Information
+#                           Developed by aglerr with <3
+#
+# Once you've purchased this resource, you will receive a special rank on our
+# official discord support server, make sure to join the server.
+# Discord: https://discord.gg/vHqQfsF
+#
+# If you found any bugs please report it on discussion page or join our discord
+# server, don't post the bug on the review section!
+# Don't forget to rate us ★★★★★
+#
+###############################################################################
+#
+# You can create unlimited items in here with PlaceholderAPI support
+# And also you can disable commands or lore, example:
+# 'commands: []' or 'lore: []'
+#
+###############################################################################
+items:
+  island:
+    material: FEATHER
+    slot: 15
+    amount: 1
+    name: '&aVisit Island'
+    lore:
+    - '&eUse /is visit %player_name%'
+    commands: []
+  trade:
+    material: EMERALD
+    slot: 16
+    amount: 1
+    name: '&aTrade'
+    lore:
+    - '&eUse /trade %player_name%'
+    commands: []
+  invite:
+    material: ROSE_BUSH
+    slot: 24
+    amount: 1
+    name: '&aInvite to island'
+    lore:
+    - '&eUse /is invite %player_name%'
+    commands: []
+  coop:
+    material: DIAMOND
+    slot: 25
+    amount: 1
+    name: '&aCo-op'
+    lore:
+    - '&eUse /is coop %player_name%'
+    commands: []

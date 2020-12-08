@@ -1,0 +1,471 @@
+{
+  "missions": [
+    {
+      "name": "Treasure Hunter",
+      "levels": {
+        "1": {
+          "crystalReward": 5,
+          "vaultReward": 1000,
+          "amount": 9999999,
+          "type": "EXPERIENCE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 10,
+          "vaultReward": 5000,
+          "amount": 9999999,
+          "type": "EXPERIENCE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "EXPERIENCE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lTreasure Hunter Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bCollect {amount} Experience",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 10
+      }
+    },
+    {
+      "name": "Competitor",
+      "levels": {
+        "1": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lCompetitor Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bGain {amount} Island Value",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 11
+      }
+    },
+    {
+      "name": "Miner",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        }
+      },
+      "item": {
+        "material": "DIAMOND_ORE",
+        "amount": 1,
+        "title": "&b&lMiner Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bDestroy {amount} Ores",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 12
+      }
+    },
+    {
+      "name": "Farmer",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE",
+            "MELON",
+            "CACTUS",
+            "PUMPKIN",
+            "SUGAR_CANE"
+          ]
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE",
+            "MELON",
+            "CACTUS",
+            "PUMPKIN",
+            "SUGAR_CANE"
+          ]
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE",
+            "MELON",
+            "CACTUS",
+            "PUMPKIN",
+            "SUGAR_CANE"
+          ]
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE",
+            "MELON",
+            "CACTUS",
+            "PUMPKIN",
+            "SUGAR_CANE"
+          ]
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE",
+            "MELON",
+            "CACTUS",
+            "PUMPKIN",
+            "SUGAR_CANE"
+          ]
+        }
+      },
+      "item": {
+        "material": "SUGAR_CANE",
+        "amount": 1,
+        "title": "&b&lFarmer Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bHarvest {amount} Crops",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 13
+      }
+    },
+    {
+      "name": "Hunter",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "BLAZE_POWDER",
+        "amount": 1,
+        "title": "&b&lHunter Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bKill {amount} Mobs",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 14
+      }
+    },
+    {
+      "name": "Fisherman",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "FISH_CATCH",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "FISHING_ROD",
+        "amount": 1,
+        "title": "&b&lFisherman Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bCatch {amount} Fish",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 15
+      }
+    },
+    {
+      "name": "Builder",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "6": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 9999999,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "COBBLESTONE",
+        "amount": 1,
+        "title": "&b&lBuilder Level {level}",
+        "lore": [
+          "&7Complete island missions to gain crystals",
+          "&7that can be spent on Boosters and Upgrades.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &bPlace {amount} Blocks",
+          "&b&l * &7Current Status: &b{status}",
+          "&b&l * &7Reward: &b{crystalsReward} Island Crystals and ${vaultReward}",
+          "",
+          "&b&l[!] &bComplete this mission for rewards."
+        ],
+        "slot": 16
+      }
+    }
+  ]
+}
